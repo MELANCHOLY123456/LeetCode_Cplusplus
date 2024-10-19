@@ -4,6 +4,7 @@ project(LeeTCode_C__)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(LeeTCode_C__ main.cpp)
+
 add_executable(01-mergeAlternately basic_of_programming/basic_realization/01-mergeAlternately.cpp)
 add_executable(02-findTheDifference basic_of_programming/basic_realization/02-findTheDifference.cpp)
 add_executable(03-strStr basic_of_programming/basic_realization/03-strStr.cpp)
