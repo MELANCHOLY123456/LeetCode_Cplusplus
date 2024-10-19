@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LeeTCode_C__",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-calPoints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-calPoints-Debug-75ca5e1440551df3e02c.json",
+					"name" : "01-calPoints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-lengthOfLastWord::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-lengthOfLastWord-Debug-576fd959bbef6cb5971f.json",
+					"name" : "01-lengthOfLastWord",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-mergeAlternately::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-mergeAlternately-Debug-8e35778ff18bbbb46d7f.json",
+					"name" : "01-mergeAlternately",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-findTheDifference::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-findTheDifference-Debug-d19d2c00366751d55de2.json",
+					"name" : "02-findTheDifference",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-toLowerCase::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-toLowerCase-Debug-316a3292207dae6f8f1a.json",
+					"name" : "02-toLowerCase",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-strStr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-strStr-Debug-5016da3adf9eb0f4f327.json",
+					"name" : "03-strStr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04-isAnagram::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-isAnagram-Debug-29b86788aef0e69cca14.json",
+					"name" : "04-isAnagram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05-repeatedSubstringPattern::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05-repeatedSubstringPattern-Debug-e08ae8ac27405ae60b1b.json",
+					"name" : "05-repeatedSubstringPattern",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-moveZeroes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-moveZeroes-Debug-eeaec6332184e41cddc0.json",
+					"name" : "06-moveZeroes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07-plusOne::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07-plusOne-Debug-3778e865ec26ea7b4bf8.json",
+					"name" : "07-plusOne",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08-arraySign::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08-arraySign-Debug-dd99c67b4d6a5795026f.json",
+					"name" : "08-arraySign",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09-canMakeArithmeticProgression::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09-canMakeArithmeticProgression-Debug-0cfd3782aedf8051d995.json",
+					"name" : "09-canMakeArithmeticProgression",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10-isMonotonic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10-isMonotonic-Debug-c18530cb65993fd4a25f.json",
+					"name" : "10-isMonotonic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11-romanToInt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11-romanToInt-Debug-dbcc9087ca10bcc43fb1.json",
+					"name" : "11-romanToInt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LeeTCode_C__::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LeeTCode_C__-Debug-ef1c089e8431680c68db.json",
+					"name" : "LeeTCode_C__",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/LeetCode_Cplusplus/cmake-build-debug",
+		"source" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/LeetCode_Cplusplus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
