@@ -21,3 +21,6 @@ add_executable(01-lengthOfLastWord basic_of_programming/built-in_functions/01-le
 add_executable(02-toLowerCase basic_of_programming/built-in_functions/02-toLowerCase.cpp)
 
 add_executable(01-calPoints basic_of_programming/imitate/01-calPoints.cpp)
+add_executable(02-judgeCircle basic_of_programming/imitate/02-judgeCircle.cpp)
+add_executable(03-tictactoe basic_of_programming/imitate/03-tictactoe.cpp)
+add_executable(04-isRobotBounded basic_of_programming/imitate/04-isRobotBounded.cpp)

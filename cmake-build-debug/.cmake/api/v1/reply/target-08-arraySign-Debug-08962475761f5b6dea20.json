@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "04-isAnagram.exe"
+			"path" : "08-arraySign.exe"
 		},
 		{
-			"path" : "04-isAnagram.pdb"
+			"path" : "08-arraySign.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "04-isAnagram::@6890427a1f51a3e7e1df",
+	"id" : "08-arraySign::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "04-isAnagram",
-	"nameOnDisk" : "04-isAnagram.exe",
+	"name" : "08-arraySign",
+	"nameOnDisk" : "08-arraySign.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "basic_of_programming/basic_realization/04-isAnagram.cpp",
+			"path" : "basic_of_programming/basic_realization/08-arraySign.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

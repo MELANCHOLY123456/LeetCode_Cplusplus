@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/LeetCode_Cplusplus/cmake-build-debug"
+			"value" : "d:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/LeetCode_Cplusplus"
+			"value" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/02-LeetCode_Cplusplus"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/LeetCode_Cplusplus"
+			"value" : "C:/Program Files (x86)/LeeTCode_C__"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/LeetCode_Cplusplus/cmake-build-debug"
+			"value" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug"
 		},
 		{
 			"name" : "LeeTCode_C___IS_TOP_LEVEL",
@@ -1303,43 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/LeetCode_Cplusplus"
-		},
-		{
-			"name" : "LeetCode_Cplusplus_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/LeetCode_Cplusplus/cmake-build-debug"
-		},
-		{
-			"name" : "LeetCode_Cplusplus_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "LeetCode_Cplusplus_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/LeetCode_Cplusplus"
+			"value" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/13-C++_learning/02-LeetCode_Cplusplus"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
