@@ -32,7 +32,19 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
 					]
 				}
 			],
@@ -64,7 +76,19 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
 					]
 				}
 			],
@@ -79,6 +103,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "01-countOdds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-countOdds-Debug-a7e42aa1ec5e1393de97.json",
+					"name" : "01-countOdds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "01-lengthOfLastWord::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01-lengthOfLastWord-Debug-eacb1ce85a2a84935906.json",
 					"name" : "01-lengthOfLastWord",
@@ -86,9 +117,30 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "01-maximumWealth::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-maximumWealth-Debug-b09bd08c16916a25a3f1.json",
+					"name" : "01-maximumWealth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "01-mergeAlternately::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01-mergeAlternately-Debug-8bca61d6f0a240ba1e53.json",
 					"name" : "01-mergeAlternately",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-average::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-average-Debug-bce110a034d7eb44a56b.json",
+					"name" : "02-average",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-diagonalSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-diagonalSum-Debug-c6e59a7ddbb2ef590496.json",
+					"name" : "02-diagonalSum",
 					"projectIndex" : 0
 				},
 				{
@@ -110,6 +162,20 @@
 					"id" : "02-toLowerCase::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02-toLowerCase-Debug-06c35e9a2e94506034ca.json",
 					"name" : "02-toLowerCase",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-lemonadeChange::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-lemonadeChange-Debug-5cfb2d39da2921cf0aa8.json",
+					"name" : "03-lemonadeChange",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-spiralOrder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-spiralOrder-Debug-6028c0640973108e205f.json",
+					"name" : "03-spiralOrder",
 					"projectIndex" : 0
 				},
 				{
@@ -142,6 +208,27 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "04-largestPerimeter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-largestPerimeter-Debug-3d2ec29fb8f7b3b66d71.json",
+					"name" : "04-largestPerimeter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04-setZeroes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-setZeroes-Debug-e8a625701fa0531b6657.json",
+					"name" : "04-setZeroes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05-checkStraightLine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05-checkStraightLine-Debug-9d880032d7124686814e.json",
+					"name" : "05-checkStraightLine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "05-repeatedSubstringPattern::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-05-repeatedSubstringPattern-Debug-eaae5e868bc29973ed4f.json",
 					"name" : "05-repeatedSubstringPattern",
@@ -149,9 +236,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "06-addBinary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-addBinary-Debug-124e479f8b31a179ba68.json",
+					"name" : "06-addBinary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "06-moveZeroes::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-06-moveZeroes-Debug-d58935d4c4f54f9f6b14.json",
 					"name" : "06-moveZeroes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07-multiply::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07-multiply-Debug-2036347c99005fc4e0ad.json",
+					"name" : "07-multiply",
 					"projectIndex" : 0
 				},
 				{
@@ -166,6 +267,13 @@
 					"id" : "08-arraySign::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-08-arraySign-Debug-08962475761f5b6dea20.json",
 					"name" : "08-arraySign",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08-myPow::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08-myPow-Debug-c680f7da1027bd4b90ef.json",
+					"name" : "08-myPow",
 					"projectIndex" : 0
 				},
 				{

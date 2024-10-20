@@ -634,6 +634,402 @@ build 04-isRobotBounded.exe: CXX_EXECUTABLE_LINKER__04-isRobotBounded_Debug CMak
   TARGET_IMPLIB = lib04-isRobotBounded.dll.a
   TARGET_PDB = 04-isRobotBounded.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-maximumWealth
+
+
+#############################################
+# Order-only phony target for 01-maximumWealth
+
+build cmake_object_order_depends_target_01-maximumWealth: phony || .
+
+build CMakeFiles/01-maximumWealth.dir/basic_of_programming/matrix/01-maximumWealth.cpp.obj: CXX_COMPILER__01-maximumWealth_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/matrix/01-maximumWealth.cpp || cmake_object_order_depends_target_01-maximumWealth
+  DEP_FILE = CMakeFiles\01-maximumWealth.dir\basic_of_programming\matrix\01-maximumWealth.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-maximumWealth.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-maximumWealth.dir\basic_of_programming\matrix
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-maximumWealth
+
+
+#############################################
+# Link the executable 01-maximumWealth.exe
+
+build 01-maximumWealth.exe: CXX_EXECUTABLE_LINKER__01-maximumWealth_Debug CMakeFiles/01-maximumWealth.dir/basic_of_programming/matrix/01-maximumWealth.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-maximumWealth.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-maximumWealth.exe
+  TARGET_IMPLIB = lib01-maximumWealth.dll.a
+  TARGET_PDB = 01-maximumWealth.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-diagonalSum
+
+
+#############################################
+# Order-only phony target for 02-diagonalSum
+
+build cmake_object_order_depends_target_02-diagonalSum: phony || .
+
+build CMakeFiles/02-diagonalSum.dir/basic_of_programming/matrix/02-diagonalSum.cpp.obj: CXX_COMPILER__02-diagonalSum_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/matrix/02-diagonalSum.cpp || cmake_object_order_depends_target_02-diagonalSum
+  DEP_FILE = CMakeFiles\02-diagonalSum.dir\basic_of_programming\matrix\02-diagonalSum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-diagonalSum.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-diagonalSum.dir\basic_of_programming\matrix
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-diagonalSum
+
+
+#############################################
+# Link the executable 02-diagonalSum.exe
+
+build 02-diagonalSum.exe: CXX_EXECUTABLE_LINKER__02-diagonalSum_Debug CMakeFiles/02-diagonalSum.dir/basic_of_programming/matrix/02-diagonalSum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-diagonalSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-diagonalSum.exe
+  TARGET_IMPLIB = lib02-diagonalSum.dll.a
+  TARGET_PDB = 02-diagonalSum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-spiralOrder
+
+
+#############################################
+# Order-only phony target for 03-spiralOrder
+
+build cmake_object_order_depends_target_03-spiralOrder: phony || .
+
+build CMakeFiles/03-spiralOrder.dir/basic_of_programming/matrix/03-spiralOrder.cpp.obj: CXX_COMPILER__03-spiralOrder_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/matrix/03-spiralOrder.cpp || cmake_object_order_depends_target_03-spiralOrder
+  DEP_FILE = CMakeFiles\03-spiralOrder.dir\basic_of_programming\matrix\03-spiralOrder.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03-spiralOrder.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-spiralOrder.dir\basic_of_programming\matrix
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-spiralOrder
+
+
+#############################################
+# Link the executable 03-spiralOrder.exe
+
+build 03-spiralOrder.exe: CXX_EXECUTABLE_LINKER__03-spiralOrder_Debug CMakeFiles/03-spiralOrder.dir/basic_of_programming/matrix/03-spiralOrder.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-spiralOrder.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-spiralOrder.exe
+  TARGET_IMPLIB = lib03-spiralOrder.dll.a
+  TARGET_PDB = 03-spiralOrder.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04-setZeroes
+
+
+#############################################
+# Order-only phony target for 04-setZeroes
+
+build cmake_object_order_depends_target_04-setZeroes: phony || .
+
+build CMakeFiles/04-setZeroes.dir/basic_of_programming/matrix/04-setZeroes.cpp.obj: CXX_COMPILER__04-setZeroes_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/matrix/04-setZeroes.cpp || cmake_object_order_depends_target_04-setZeroes
+  DEP_FILE = CMakeFiles\04-setZeroes.dir\basic_of_programming\matrix\04-setZeroes.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04-setZeroes.dir
+  OBJECT_FILE_DIR = CMakeFiles\04-setZeroes.dir\basic_of_programming\matrix
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-setZeroes
+
+
+#############################################
+# Link the executable 04-setZeroes.exe
+
+build 04-setZeroes.exe: CXX_EXECUTABLE_LINKER__04-setZeroes_Debug CMakeFiles/04-setZeroes.dir/basic_of_programming/matrix/04-setZeroes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04-setZeroes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04-setZeroes.exe
+  TARGET_IMPLIB = lib04-setZeroes.dll.a
+  TARGET_PDB = 04-setZeroes.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-countOdds
+
+
+#############################################
+# Order-only phony target for 01-countOdds
+
+build cmake_object_order_depends_target_01-countOdds: phony || .
+
+build CMakeFiles/01-countOdds.dir/basic_of_programming/math/01-countOdds.cpp.obj: CXX_COMPILER__01-countOdds_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/math/01-countOdds.cpp || cmake_object_order_depends_target_01-countOdds
+  DEP_FILE = CMakeFiles\01-countOdds.dir\basic_of_programming\math\01-countOdds.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-countOdds.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-countOdds.dir\basic_of_programming\math
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-countOdds
+
+
+#############################################
+# Link the executable 01-countOdds.exe
+
+build 01-countOdds.exe: CXX_EXECUTABLE_LINKER__01-countOdds_Debug CMakeFiles/01-countOdds.dir/basic_of_programming/math/01-countOdds.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-countOdds.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-countOdds.exe
+  TARGET_IMPLIB = lib01-countOdds.dll.a
+  TARGET_PDB = 01-countOdds.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-average
+
+
+#############################################
+# Order-only phony target for 02-average
+
+build cmake_object_order_depends_target_02-average: phony || .
+
+build CMakeFiles/02-average.dir/basic_of_programming/math/02-average.cpp.obj: CXX_COMPILER__02-average_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/math/02-average.cpp || cmake_object_order_depends_target_02-average
+  DEP_FILE = CMakeFiles\02-average.dir\basic_of_programming\math\02-average.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-average.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-average.dir\basic_of_programming\math
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-average
+
+
+#############################################
+# Link the executable 02-average.exe
+
+build 02-average.exe: CXX_EXECUTABLE_LINKER__02-average_Debug CMakeFiles/02-average.dir/basic_of_programming/math/02-average.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-average.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-average.exe
+  TARGET_IMPLIB = lib02-average.dll.a
+  TARGET_PDB = 02-average.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-lemonadeChange
+
+
+#############################################
+# Order-only phony target for 03-lemonadeChange
+
+build cmake_object_order_depends_target_03-lemonadeChange: phony || .
+
+build CMakeFiles/03-lemonadeChange.dir/basic_of_programming/math/03-lemonadeChange.cpp.obj: CXX_COMPILER__03-lemonadeChange_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/math/03-lemonadeChange.cpp || cmake_object_order_depends_target_03-lemonadeChange
+  DEP_FILE = CMakeFiles\03-lemonadeChange.dir\basic_of_programming\math\03-lemonadeChange.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03-lemonadeChange.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-lemonadeChange.dir\basic_of_programming\math
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-lemonadeChange
+
+
+#############################################
+# Link the executable 03-lemonadeChange.exe
+
+build 03-lemonadeChange.exe: CXX_EXECUTABLE_LINKER__03-lemonadeChange_Debug CMakeFiles/03-lemonadeChange.dir/basic_of_programming/math/03-lemonadeChange.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-lemonadeChange.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-lemonadeChange.exe
+  TARGET_IMPLIB = lib03-lemonadeChange.dll.a
+  TARGET_PDB = 03-lemonadeChange.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04-largestPerimeter
+
+
+#############################################
+# Order-only phony target for 04-largestPerimeter
+
+build cmake_object_order_depends_target_04-largestPerimeter: phony || .
+
+build CMakeFiles/04-largestPerimeter.dir/basic_of_programming/math/04-largestPerimeter.cpp.obj: CXX_COMPILER__04-largestPerimeter_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/math/04-largestPerimeter.cpp || cmake_object_order_depends_target_04-largestPerimeter
+  DEP_FILE = CMakeFiles\04-largestPerimeter.dir\basic_of_programming\math\04-largestPerimeter.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04-largestPerimeter.dir
+  OBJECT_FILE_DIR = CMakeFiles\04-largestPerimeter.dir\basic_of_programming\math
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-largestPerimeter
+
+
+#############################################
+# Link the executable 04-largestPerimeter.exe
+
+build 04-largestPerimeter.exe: CXX_EXECUTABLE_LINKER__04-largestPerimeter_Debug CMakeFiles/04-largestPerimeter.dir/basic_of_programming/math/04-largestPerimeter.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04-largestPerimeter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04-largestPerimeter.exe
+  TARGET_IMPLIB = lib04-largestPerimeter.dll.a
+  TARGET_PDB = 04-largestPerimeter.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05-checkStraightLine
+
+
+#############################################
+# Order-only phony target for 05-checkStraightLine
+
+build cmake_object_order_depends_target_05-checkStraightLine: phony || .
+
+build CMakeFiles/05-checkStraightLine.dir/basic_of_programming/math/05-checkStraightLine.cpp.obj: CXX_COMPILER__05-checkStraightLine_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/math/05-checkStraightLine.cpp || cmake_object_order_depends_target_05-checkStraightLine
+  DEP_FILE = CMakeFiles\05-checkStraightLine.dir\basic_of_programming\math\05-checkStraightLine.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05-checkStraightLine.dir
+  OBJECT_FILE_DIR = CMakeFiles\05-checkStraightLine.dir\basic_of_programming\math
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05-checkStraightLine
+
+
+#############################################
+# Link the executable 05-checkStraightLine.exe
+
+build 05-checkStraightLine.exe: CXX_EXECUTABLE_LINKER__05-checkStraightLine_Debug CMakeFiles/05-checkStraightLine.dir/basic_of_programming/math/05-checkStraightLine.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\05-checkStraightLine.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05-checkStraightLine.exe
+  TARGET_IMPLIB = lib05-checkStraightLine.dll.a
+  TARGET_PDB = 05-checkStraightLine.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06-addBinary
+
+
+#############################################
+# Order-only phony target for 06-addBinary
+
+build cmake_object_order_depends_target_06-addBinary: phony || .
+
+build CMakeFiles/06-addBinary.dir/basic_of_programming/math/06-addBinary.cpp.obj: CXX_COMPILER__06-addBinary_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/math/06-addBinary.cpp || cmake_object_order_depends_target_06-addBinary
+  DEP_FILE = CMakeFiles\06-addBinary.dir\basic_of_programming\math\06-addBinary.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\06-addBinary.dir
+  OBJECT_FILE_DIR = CMakeFiles\06-addBinary.dir\basic_of_programming\math
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06-addBinary
+
+
+#############################################
+# Link the executable 06-addBinary.exe
+
+build 06-addBinary.exe: CXX_EXECUTABLE_LINKER__06-addBinary_Debug CMakeFiles/06-addBinary.dir/basic_of_programming/math/06-addBinary.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\06-addBinary.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06-addBinary.exe
+  TARGET_IMPLIB = lib06-addBinary.dll.a
+  TARGET_PDB = 06-addBinary.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07-multiply
+
+
+#############################################
+# Order-only phony target for 07-multiply
+
+build cmake_object_order_depends_target_07-multiply: phony || .
+
+build CMakeFiles/07-multiply.dir/basic_of_programming/math/07-multiply.cpp.obj: CXX_COMPILER__07-multiply_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/math/07-multiply.cpp || cmake_object_order_depends_target_07-multiply
+  DEP_FILE = CMakeFiles\07-multiply.dir\basic_of_programming\math\07-multiply.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\07-multiply.dir
+  OBJECT_FILE_DIR = CMakeFiles\07-multiply.dir\basic_of_programming\math
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07-multiply
+
+
+#############################################
+# Link the executable 07-multiply.exe
+
+build 07-multiply.exe: CXX_EXECUTABLE_LINKER__07-multiply_Debug CMakeFiles/07-multiply.dir/basic_of_programming/math/07-multiply.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\07-multiply.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-multiply.exe
+  TARGET_IMPLIB = lib07-multiply.dll.a
+  TARGET_PDB = 07-multiply.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 08-myPow
+
+
+#############################################
+# Order-only phony target for 08-myPow
+
+build cmake_object_order_depends_target_08-myPow: phony || .
+
+build CMakeFiles/08-myPow.dir/basic_of_programming/math/08-myPow.cpp.obj: CXX_COMPILER__08-myPow_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/math/08-myPow.cpp || cmake_object_order_depends_target_08-myPow
+  DEP_FILE = CMakeFiles\08-myPow.dir\basic_of_programming\math\08-myPow.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\08-myPow.dir
+  OBJECT_FILE_DIR = CMakeFiles\08-myPow.dir\basic_of_programming\math
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08-myPow
+
+
+#############################################
+# Link the executable 08-myPow.exe
+
+build 08-myPow.exe: CXX_EXECUTABLE_LINKER__08-myPow_Debug CMakeFiles/08-myPow.dir/basic_of_programming/math/08-myPow.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\08-myPow.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 08-myPow.exe
+  TARGET_IMPLIB = lib08-myPow.dll.a
+  TARGET_PDB = 08-myPow.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -662,15 +1058,27 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 01-calPoints: phony 01-calPoints.exe
 
+build 01-countOdds: phony 01-countOdds.exe
+
 build 01-lengthOfLastWord: phony 01-lengthOfLastWord.exe
 
+build 01-maximumWealth: phony 01-maximumWealth.exe
+
 build 01-mergeAlternately: phony 01-mergeAlternately.exe
+
+build 02-average: phony 02-average.exe
+
+build 02-diagonalSum: phony 02-diagonalSum.exe
 
 build 02-findTheDifference: phony 02-findTheDifference.exe
 
 build 02-judgeCircle: phony 02-judgeCircle.exe
 
 build 02-toLowerCase: phony 02-toLowerCase.exe
+
+build 03-lemonadeChange: phony 03-lemonadeChange.exe
+
+build 03-spiralOrder: phony 03-spiralOrder.exe
 
 build 03-strStr: phony 03-strStr.exe
 
@@ -680,13 +1088,25 @@ build 04-isAnagram: phony 04-isAnagram.exe
 
 build 04-isRobotBounded: phony 04-isRobotBounded.exe
 
+build 04-largestPerimeter: phony 04-largestPerimeter.exe
+
+build 04-setZeroes: phony 04-setZeroes.exe
+
+build 05-checkStraightLine: phony 05-checkStraightLine.exe
+
 build 05-repeatedSubstringPattern: phony 05-repeatedSubstringPattern.exe
 
+build 06-addBinary: phony 06-addBinary.exe
+
 build 06-moveZeroes: phony 06-moveZeroes.exe
+
+build 07-multiply: phony 07-multiply.exe
 
 build 07-plusOne: phony 07-plusOne.exe
 
 build 08-arraySign: phony 08-arraySign.exe
+
+build 08-myPow: phony 08-myPow.exe
 
 build 09-canMakeArithmeticProgression: phony 09-canMakeArithmeticProgression.exe
 
@@ -704,7 +1124,7 @@ build LeeTCode_C__: phony LeeTCode_C__.exe
 #############################################
 # Folder: D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug
 
-build all: phony LeeTCode_C__.exe 01-mergeAlternately.exe 02-findTheDifference.exe 03-strStr.exe 04-isAnagram.exe 05-repeatedSubstringPattern.exe 06-moveZeroes.exe 07-plusOne.exe 08-arraySign.exe 09-canMakeArithmeticProgression.exe 10-isMonotonic.exe 11-romanToInt.exe 01-lengthOfLastWord.exe 02-toLowerCase.exe 01-calPoints.exe 02-judgeCircle.exe 03-tictactoe.exe 04-isRobotBounded.exe
+build all: phony LeeTCode_C__.exe 01-mergeAlternately.exe 02-findTheDifference.exe 03-strStr.exe 04-isAnagram.exe 05-repeatedSubstringPattern.exe 06-moveZeroes.exe 07-plusOne.exe 08-arraySign.exe 09-canMakeArithmeticProgression.exe 10-isMonotonic.exe 11-romanToInt.exe 01-lengthOfLastWord.exe 02-toLowerCase.exe 01-calPoints.exe 02-judgeCircle.exe 03-tictactoe.exe 04-isRobotBounded.exe 01-maximumWealth.exe 02-diagonalSum.exe 03-spiralOrder.exe 04-setZeroes.exe 01-countOdds.exe 02-average.exe 03-lemonadeChange.exe 04-largestPerimeter.exe 05-checkStraightLine.exe 06-addBinary.exe 07-multiply.exe 08-myPow.exe
 
 # =============================================================================
 # Built-in targets
