@@ -27,6 +27,7 @@ D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/CM
 D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/05-checkStraightLine.dir
 D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/06-addBinary.dir
 D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/07-multiply.dir
-D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/08-myPow.dir
+D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/01-mergeTwoLists.dir
+D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/02-reverseList.dir
 D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

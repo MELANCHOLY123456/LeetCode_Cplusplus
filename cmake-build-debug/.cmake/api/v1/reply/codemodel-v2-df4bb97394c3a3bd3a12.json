@@ -44,7 +44,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					]
 				}
 			],
@@ -88,7 +89,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					]
 				}
 			],
@@ -131,6 +133,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "01-mergeTwoLists::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-mergeTwoLists-Debug-5737a5f47cbca0d1a5cd.json",
+					"name" : "01-mergeTwoLists",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "02-average::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02-average-Debug-bce110a034d7eb44a56b.json",
 					"name" : "02-average",
@@ -155,6 +164,13 @@
 					"id" : "02-judgeCircle::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02-judgeCircle-Debug-20e753bda19f142cf187.json",
 					"name" : "02-judgeCircle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-reverseList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-reverseList-Debug-009198fda17bcf0f6a90.json",
+					"name" : "02-reverseList",
 					"projectIndex" : 0
 				},
 				{
@@ -267,13 +283,6 @@
 					"id" : "08-arraySign::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-08-arraySign-Debug-08962475761f5b6dea20.json",
 					"name" : "08-arraySign",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "08-myPow::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-08-myPow-Debug-c680f7da1027bd4b90ef.json",
-					"name" : "08-myPow",
 					"projectIndex" : 0
 				},
 				{

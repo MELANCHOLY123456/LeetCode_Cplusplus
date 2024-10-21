@@ -37,3 +37,6 @@ add_executable(04-largestPerimeter basic_of_programming/math/04-largestPerimeter
 add_executable(05-checkStraightLine basic_of_programming/math/05-checkStraightLine.cpp)
 add_executable(06-addBinary basic_of_programming/math/06-addBinary.cpp)
 add_executable(07-multiply basic_of_programming/math/07-multiply.cpp)
+
+add_executable(01-mergeTwoLists basic_of_programming/LinkList/01-mergeTwoLists.cpp)
+add_executable(02-reverseList basic_of_programming/LinkList/02-reverseList.cpp)

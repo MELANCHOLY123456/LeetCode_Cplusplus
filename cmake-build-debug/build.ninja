@@ -998,37 +998,70 @@ build 07-multiply.exe: CXX_EXECUTABLE_LINKER__07-multiply_Debug CMakeFiles/07-mu
   TARGET_PDB = 07-multiply.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 08-myPow
+# Object build statements for EXECUTABLE target 01-mergeTwoLists
 
 
 #############################################
-# Order-only phony target for 08-myPow
+# Order-only phony target for 01-mergeTwoLists
 
-build cmake_object_order_depends_target_08-myPow: phony || .
+build cmake_object_order_depends_target_01-mergeTwoLists: phony || .
 
-build CMakeFiles/08-myPow.dir/basic_of_programming/math/08-myPow.cpp.obj: CXX_COMPILER__08-myPow_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/math/08-myPow.cpp || cmake_object_order_depends_target_08-myPow
-  DEP_FILE = CMakeFiles\08-myPow.dir\basic_of_programming\math\08-myPow.cpp.obj.d
+build CMakeFiles/01-mergeTwoLists.dir/basic_of_programming/LinkList/01-mergeTwoLists.cpp.obj: CXX_COMPILER__01-mergeTwoLists_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/LinkList/01-mergeTwoLists.cpp || cmake_object_order_depends_target_01-mergeTwoLists
+  DEP_FILE = CMakeFiles\01-mergeTwoLists.dir\basic_of_programming\LinkList\01-mergeTwoLists.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\08-myPow.dir
-  OBJECT_FILE_DIR = CMakeFiles\08-myPow.dir\basic_of_programming\math
+  OBJECT_DIR = CMakeFiles\01-mergeTwoLists.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-mergeTwoLists.dir\basic_of_programming\LinkList
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 08-myPow
+# Link build statements for EXECUTABLE target 01-mergeTwoLists
 
 
 #############################################
-# Link the executable 08-myPow.exe
+# Link the executable 01-mergeTwoLists.exe
 
-build 08-myPow.exe: CXX_EXECUTABLE_LINKER__08-myPow_Debug CMakeFiles/08-myPow.dir/basic_of_programming/math/08-myPow.cpp.obj
+build 01-mergeTwoLists.exe: CXX_EXECUTABLE_LINKER__01-mergeTwoLists_Debug CMakeFiles/01-mergeTwoLists.dir/basic_of_programming/LinkList/01-mergeTwoLists.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\08-myPow.dir
+  OBJECT_DIR = CMakeFiles\01-mergeTwoLists.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 08-myPow.exe
-  TARGET_IMPLIB = lib08-myPow.dll.a
-  TARGET_PDB = 08-myPow.exe.dbg
+  TARGET_FILE = 01-mergeTwoLists.exe
+  TARGET_IMPLIB = lib01-mergeTwoLists.dll.a
+  TARGET_PDB = 01-mergeTwoLists.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-reverseList
+
+
+#############################################
+# Order-only phony target for 02-reverseList
+
+build cmake_object_order_depends_target_02-reverseList: phony || .
+
+build CMakeFiles/02-reverseList.dir/basic_of_programming/LinkList/02-reverseList.cpp.obj: CXX_COMPILER__02-reverseList_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/basic_of_programming/LinkList/02-reverseList.cpp || cmake_object_order_depends_target_02-reverseList
+  DEP_FILE = CMakeFiles\02-reverseList.dir\basic_of_programming\LinkList\02-reverseList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-reverseList.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-reverseList.dir\basic_of_programming\LinkList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-reverseList
+
+
+#############################################
+# Link the executable 02-reverseList.exe
+
+build 02-reverseList.exe: CXX_EXECUTABLE_LINKER__02-reverseList_Debug CMakeFiles/02-reverseList.dir/basic_of_programming/LinkList/02-reverseList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-reverseList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-reverseList.exe
+  TARGET_IMPLIB = lib02-reverseList.dll.a
+  TARGET_PDB = 02-reverseList.exe.dbg
 
 
 #############################################
@@ -1066,6 +1099,8 @@ build 01-maximumWealth: phony 01-maximumWealth.exe
 
 build 01-mergeAlternately: phony 01-mergeAlternately.exe
 
+build 01-mergeTwoLists: phony 01-mergeTwoLists.exe
+
 build 02-average: phony 02-average.exe
 
 build 02-diagonalSum: phony 02-diagonalSum.exe
@@ -1073,6 +1108,8 @@ build 02-diagonalSum: phony 02-diagonalSum.exe
 build 02-findTheDifference: phony 02-findTheDifference.exe
 
 build 02-judgeCircle: phony 02-judgeCircle.exe
+
+build 02-reverseList: phony 02-reverseList.exe
 
 build 02-toLowerCase: phony 02-toLowerCase.exe
 
@@ -1106,8 +1143,6 @@ build 07-plusOne: phony 07-plusOne.exe
 
 build 08-arraySign: phony 08-arraySign.exe
 
-build 08-myPow: phony 08-myPow.exe
-
 build 09-canMakeArithmeticProgression: phony 09-canMakeArithmeticProgression.exe
 
 build 10-isMonotonic: phony 10-isMonotonic.exe
@@ -1124,7 +1159,7 @@ build LeeTCode_C__: phony LeeTCode_C__.exe
 #############################################
 # Folder: D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug
 
-build all: phony LeeTCode_C__.exe 01-mergeAlternately.exe 02-findTheDifference.exe 03-strStr.exe 04-isAnagram.exe 05-repeatedSubstringPattern.exe 06-moveZeroes.exe 07-plusOne.exe 08-arraySign.exe 09-canMakeArithmeticProgression.exe 10-isMonotonic.exe 11-romanToInt.exe 01-lengthOfLastWord.exe 02-toLowerCase.exe 01-calPoints.exe 02-judgeCircle.exe 03-tictactoe.exe 04-isRobotBounded.exe 01-maximumWealth.exe 02-diagonalSum.exe 03-spiralOrder.exe 04-setZeroes.exe 01-countOdds.exe 02-average.exe 03-lemonadeChange.exe 04-largestPerimeter.exe 05-checkStraightLine.exe 06-addBinary.exe 07-multiply.exe 08-myPow.exe
+build all: phony LeeTCode_C__.exe 01-mergeAlternately.exe 02-findTheDifference.exe 03-strStr.exe 04-isAnagram.exe 05-repeatedSubstringPattern.exe 06-moveZeroes.exe 07-plusOne.exe 08-arraySign.exe 09-canMakeArithmeticProgression.exe 10-isMonotonic.exe 11-romanToInt.exe 01-lengthOfLastWord.exe 02-toLowerCase.exe 01-calPoints.exe 02-judgeCircle.exe 03-tictactoe.exe 04-isRobotBounded.exe 01-maximumWealth.exe 02-diagonalSum.exe 03-spiralOrder.exe 04-setZeroes.exe 01-countOdds.exe 02-average.exe 03-lemonadeChange.exe 04-largestPerimeter.exe 05-checkStraightLine.exe 06-addBinary.exe 07-multiply.exe 01-mergeTwoLists.exe 02-reverseList.exe
 
 # =============================================================================
 # Built-in targets
