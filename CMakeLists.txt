@@ -40,3 +40,11 @@ add_executable(07-multiply basic_of_programming/math/07-multiply.cpp)
 
 add_executable(01-mergeTwoLists basic_of_programming/LinkList/01-mergeTwoLists.cpp)
 add_executable(02-reverseList basic_of_programming/LinkList/02-reverseList.cpp)
+
+add_executable(01-maxVowels slidingWindow_doublePointers/01-maxVowels.cpp)
+add_executable(02-fundMaxAverage slidingWindow_doublePointers/02-fundMaxAverage.cpp)
+add_executable(03-numOfSubarrays slidingWindow_doublePointers/03-numOfSubarrays.cpp)
+add_executable(04-getAverages slidingWindow_doublePointers/04-getAverages.cpp)
+add_executable(05-minimumRecolors slidingWindow_doublePointers/05-minimumRecolors.cpp)
+add_executable(06-decrypt slidingWindow_doublePointers/06-decrypt.cpp)
+add_executable(07-maxSatisfied slidingWindow_doublePointers/07-maxSatisfied.cpp)

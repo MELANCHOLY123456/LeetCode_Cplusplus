@@ -45,7 +45,14 @@
 						27,
 						28,
 						29,
-						30
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
 					]
 				}
 			],
@@ -90,7 +97,14 @@
 						27,
 						28,
 						29,
-						30
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37
 					]
 				}
 			],
@@ -115,6 +129,13 @@
 					"id" : "01-lengthOfLastWord::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01-lengthOfLastWord-Debug-eacb1ce85a2a84935906.json",
 					"name" : "01-lengthOfLastWord",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-maxVowels::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-maxVowels-Debug-9288a000dc1059176d02.json",
+					"name" : "01-maxVowels",
 					"projectIndex" : 0
 				},
 				{
@@ -161,6 +182,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "02-fundMaxAverage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-fundMaxAverage-Debug-4a84bab6542aca6e4798.json",
+					"name" : "02-fundMaxAverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "02-judgeCircle::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02-judgeCircle-Debug-20e753bda19f142cf187.json",
 					"name" : "02-judgeCircle",
@@ -189,6 +217,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "03-numOfSubarrays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-numOfSubarrays-Debug-a2aa312f67eb1ffb693f.json",
+					"name" : "03-numOfSubarrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "03-spiralOrder::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03-spiralOrder-Debug-6028c0640973108e205f.json",
 					"name" : "03-spiralOrder",
@@ -206,6 +241,13 @@
 					"id" : "03-tictactoe::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03-tictactoe-Debug-cba613cdd74b8aa04086.json",
 					"name" : "03-tictactoe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04-getAverages::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-getAverages-Debug-c5dc2cf8bb588d785584.json",
+					"name" : "04-getAverages",
 					"projectIndex" : 0
 				},
 				{
@@ -245,6 +287,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "05-minimumRecolors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05-minimumRecolors-Debug-133da01e631d129aa126.json",
+					"name" : "05-minimumRecolors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "05-repeatedSubstringPattern::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-05-repeatedSubstringPattern-Debug-eaae5e868bc29973ed4f.json",
 					"name" : "05-repeatedSubstringPattern",
@@ -259,9 +308,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "06-decrypt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-decrypt-Debug-b09bcc5d2a9170e739a5.json",
+					"name" : "06-decrypt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "06-moveZeroes::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-06-moveZeroes-Debug-d58935d4c4f54f9f6b14.json",
 					"name" : "06-moveZeroes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07-maxSatisfied::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07-maxSatisfied-Debug-68af4a27e6aa2020a7fe.json",
+					"name" : "07-maxSatisfied",
 					"projectIndex" : 0
 				},
 				{

@@ -1063,6 +1063,237 @@ build 02-reverseList.exe: CXX_EXECUTABLE_LINKER__02-reverseList_Debug CMakeFiles
   TARGET_IMPLIB = lib02-reverseList.dll.a
   TARGET_PDB = 02-reverseList.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-maxVowels
+
+
+#############################################
+# Order-only phony target for 01-maxVowels
+
+build cmake_object_order_depends_target_01-maxVowels: phony || .
+
+build CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/01-maxVowels.cpp.obj: CXX_COMPILER__01-maxVowels_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/01-maxVowels.cpp || cmake_object_order_depends_target_01-maxVowels
+  DEP_FILE = CMakeFiles\01-maxVowels.dir\slidingWindow_doublePointers\01-maxVowels.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-maxVowels.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-maxVowels.dir\slidingWindow_doublePointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-maxVowels
+
+
+#############################################
+# Link the executable 01-maxVowels.exe
+
+build 01-maxVowels.exe: CXX_EXECUTABLE_LINKER__01-maxVowels_Debug CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/01-maxVowels.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-maxVowels.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-maxVowels.exe
+  TARGET_IMPLIB = lib01-maxVowels.dll.a
+  TARGET_PDB = 01-maxVowels.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-fundMaxAverage
+
+
+#############################################
+# Order-only phony target for 02-fundMaxAverage
+
+build cmake_object_order_depends_target_02-fundMaxAverage: phony || .
+
+build CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/02-fundMaxAverage.cpp.obj: CXX_COMPILER__02-fundMaxAverage_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/02-fundMaxAverage.cpp || cmake_object_order_depends_target_02-fundMaxAverage
+  DEP_FILE = CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\02-fundMaxAverage.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-fundMaxAverage.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-fundMaxAverage
+
+
+#############################################
+# Link the executable 02-fundMaxAverage.exe
+
+build 02-fundMaxAverage.exe: CXX_EXECUTABLE_LINKER__02-fundMaxAverage_Debug CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/02-fundMaxAverage.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-fundMaxAverage.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-fundMaxAverage.exe
+  TARGET_IMPLIB = lib02-fundMaxAverage.dll.a
+  TARGET_PDB = 02-fundMaxAverage.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-numOfSubarrays
+
+
+#############################################
+# Order-only phony target for 03-numOfSubarrays
+
+build cmake_object_order_depends_target_03-numOfSubarrays: phony || .
+
+build CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/03-numOfSubarrays.cpp.obj: CXX_COMPILER__03-numOfSubarrays_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/03-numOfSubarrays.cpp || cmake_object_order_depends_target_03-numOfSubarrays
+  DEP_FILE = CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\03-numOfSubarrays.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03-numOfSubarrays.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-numOfSubarrays
+
+
+#############################################
+# Link the executable 03-numOfSubarrays.exe
+
+build 03-numOfSubarrays.exe: CXX_EXECUTABLE_LINKER__03-numOfSubarrays_Debug CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/03-numOfSubarrays.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-numOfSubarrays.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-numOfSubarrays.exe
+  TARGET_IMPLIB = lib03-numOfSubarrays.dll.a
+  TARGET_PDB = 03-numOfSubarrays.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04-getAverages
+
+
+#############################################
+# Order-only phony target for 04-getAverages
+
+build cmake_object_order_depends_target_04-getAverages: phony || .
+
+build CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/04-getAverages.cpp.obj: CXX_COMPILER__04-getAverages_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/04-getAverages.cpp || cmake_object_order_depends_target_04-getAverages
+  DEP_FILE = CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\04-getAverages.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04-getAverages.dir
+  OBJECT_FILE_DIR = CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-getAverages
+
+
+#############################################
+# Link the executable 04-getAverages.exe
+
+build 04-getAverages.exe: CXX_EXECUTABLE_LINKER__04-getAverages_Debug CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/04-getAverages.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04-getAverages.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04-getAverages.exe
+  TARGET_IMPLIB = lib04-getAverages.dll.a
+  TARGET_PDB = 04-getAverages.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05-minimumRecolors
+
+
+#############################################
+# Order-only phony target for 05-minimumRecolors
+
+build cmake_object_order_depends_target_05-minimumRecolors: phony || .
+
+build CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/05-minimumRecolors.cpp.obj: CXX_COMPILER__05-minimumRecolors_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/05-minimumRecolors.cpp || cmake_object_order_depends_target_05-minimumRecolors
+  DEP_FILE = CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\05-minimumRecolors.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05-minimumRecolors.dir
+  OBJECT_FILE_DIR = CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05-minimumRecolors
+
+
+#############################################
+# Link the executable 05-minimumRecolors.exe
+
+build 05-minimumRecolors.exe: CXX_EXECUTABLE_LINKER__05-minimumRecolors_Debug CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/05-minimumRecolors.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\05-minimumRecolors.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05-minimumRecolors.exe
+  TARGET_IMPLIB = lib05-minimumRecolors.dll.a
+  TARGET_PDB = 05-minimumRecolors.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06-decrypt
+
+
+#############################################
+# Order-only phony target for 06-decrypt
+
+build cmake_object_order_depends_target_06-decrypt: phony || .
+
+build CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/06-decrypt.cpp.obj: CXX_COMPILER__06-decrypt_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/06-decrypt.cpp || cmake_object_order_depends_target_06-decrypt
+  DEP_FILE = CMakeFiles\06-decrypt.dir\slidingWindow_doublePointers\06-decrypt.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\06-decrypt.dir
+  OBJECT_FILE_DIR = CMakeFiles\06-decrypt.dir\slidingWindow_doublePointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06-decrypt
+
+
+#############################################
+# Link the executable 06-decrypt.exe
+
+build 06-decrypt.exe: CXX_EXECUTABLE_LINKER__06-decrypt_Debug CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/06-decrypt.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\06-decrypt.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 06-decrypt.exe
+  TARGET_IMPLIB = lib06-decrypt.dll.a
+  TARGET_PDB = 06-decrypt.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07-maxSatisfied
+
+
+#############################################
+# Order-only phony target for 07-maxSatisfied
+
+build cmake_object_order_depends_target_07-maxSatisfied: phony || .
+
+build CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/07-maxSatisfied.cpp.obj: CXX_COMPILER__07-maxSatisfied_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/07-maxSatisfied.cpp || cmake_object_order_depends_target_07-maxSatisfied
+  DEP_FILE = CMakeFiles\07-maxSatisfied.dir\slidingWindow_doublePointers\07-maxSatisfied.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\07-maxSatisfied.dir
+  OBJECT_FILE_DIR = CMakeFiles\07-maxSatisfied.dir\slidingWindow_doublePointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07-maxSatisfied
+
+
+#############################################
+# Link the executable 07-maxSatisfied.exe
+
+build 07-maxSatisfied.exe: CXX_EXECUTABLE_LINKER__07-maxSatisfied_Debug CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/07-maxSatisfied.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\07-maxSatisfied.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 07-maxSatisfied.exe
+  TARGET_IMPLIB = lib07-maxSatisfied.dll.a
+  TARGET_PDB = 07-maxSatisfied.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1095,6 +1326,8 @@ build 01-countOdds: phony 01-countOdds.exe
 
 build 01-lengthOfLastWord: phony 01-lengthOfLastWord.exe
 
+build 01-maxVowels: phony 01-maxVowels.exe
+
 build 01-maximumWealth: phony 01-maximumWealth.exe
 
 build 01-mergeAlternately: phony 01-mergeAlternately.exe
@@ -1107,6 +1340,8 @@ build 02-diagonalSum: phony 02-diagonalSum.exe
 
 build 02-findTheDifference: phony 02-findTheDifference.exe
 
+build 02-fundMaxAverage: phony 02-fundMaxAverage.exe
+
 build 02-judgeCircle: phony 02-judgeCircle.exe
 
 build 02-reverseList: phony 02-reverseList.exe
@@ -1115,11 +1350,15 @@ build 02-toLowerCase: phony 02-toLowerCase.exe
 
 build 03-lemonadeChange: phony 03-lemonadeChange.exe
 
+build 03-numOfSubarrays: phony 03-numOfSubarrays.exe
+
 build 03-spiralOrder: phony 03-spiralOrder.exe
 
 build 03-strStr: phony 03-strStr.exe
 
 build 03-tictactoe: phony 03-tictactoe.exe
+
+build 04-getAverages: phony 04-getAverages.exe
 
 build 04-isAnagram: phony 04-isAnagram.exe
 
@@ -1131,11 +1370,17 @@ build 04-setZeroes: phony 04-setZeroes.exe
 
 build 05-checkStraightLine: phony 05-checkStraightLine.exe
 
+build 05-minimumRecolors: phony 05-minimumRecolors.exe
+
 build 05-repeatedSubstringPattern: phony 05-repeatedSubstringPattern.exe
 
 build 06-addBinary: phony 06-addBinary.exe
 
+build 06-decrypt: phony 06-decrypt.exe
+
 build 06-moveZeroes: phony 06-moveZeroes.exe
+
+build 07-maxSatisfied: phony 07-maxSatisfied.exe
 
 build 07-multiply: phony 07-multiply.exe
 
@@ -1159,7 +1404,7 @@ build LeeTCode_C__: phony LeeTCode_C__.exe
 #############################################
 # Folder: D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug
 
-build all: phony LeeTCode_C__.exe 01-mergeAlternately.exe 02-findTheDifference.exe 03-strStr.exe 04-isAnagram.exe 05-repeatedSubstringPattern.exe 06-moveZeroes.exe 07-plusOne.exe 08-arraySign.exe 09-canMakeArithmeticProgression.exe 10-isMonotonic.exe 11-romanToInt.exe 01-lengthOfLastWord.exe 02-toLowerCase.exe 01-calPoints.exe 02-judgeCircle.exe 03-tictactoe.exe 04-isRobotBounded.exe 01-maximumWealth.exe 02-diagonalSum.exe 03-spiralOrder.exe 04-setZeroes.exe 01-countOdds.exe 02-average.exe 03-lemonadeChange.exe 04-largestPerimeter.exe 05-checkStraightLine.exe 06-addBinary.exe 07-multiply.exe 01-mergeTwoLists.exe 02-reverseList.exe
+build all: phony LeeTCode_C__.exe 01-mergeAlternately.exe 02-findTheDifference.exe 03-strStr.exe 04-isAnagram.exe 05-repeatedSubstringPattern.exe 06-moveZeroes.exe 07-plusOne.exe 08-arraySign.exe 09-canMakeArithmeticProgression.exe 10-isMonotonic.exe 11-romanToInt.exe 01-lengthOfLastWord.exe 02-toLowerCase.exe 01-calPoints.exe 02-judgeCircle.exe 03-tictactoe.exe 04-isRobotBounded.exe 01-maximumWealth.exe 02-diagonalSum.exe 03-spiralOrder.exe 04-setZeroes.exe 01-countOdds.exe 02-average.exe 03-lemonadeChange.exe 04-largestPerimeter.exe 05-checkStraightLine.exe 06-addBinary.exe 07-multiply.exe 01-mergeTwoLists.exe 02-reverseList.exe 01-maxVowels.exe 02-fundMaxAverage.exe 03-numOfSubarrays.exe 04-getAverages.exe 05-minimumRecolors.exe 06-decrypt.exe 07-maxSatisfied.exe
 
 # =============================================================================
 # Built-in targets
