@@ -1,4 +1,4 @@
-# Install script for directory: D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus
+# Install script for directory: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
