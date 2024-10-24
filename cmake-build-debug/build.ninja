@@ -1294,6 +1294,39 @@ build 07-maxSatisfied.exe: CXX_EXECUTABLE_LINKER__07-maxSatisfied_Debug CMakeFil
   TARGET_IMPLIB = lib07-maxSatisfied.dll.a
   TARGET_PDB = 07-maxSatisfied.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 08-hasAllCodes
+
+
+#############################################
+# Order-only phony target for 08-hasAllCodes
+
+build cmake_object_order_depends_target_08-hasAllCodes: phony || .
+
+build CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/08-hasAllCodes.cpp.obj: CXX_COMPILER__08-hasAllCodes_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/08-hasAllCodes.cpp || cmake_object_order_depends_target_08-hasAllCodes
+  DEP_FILE = CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\08-hasAllCodes.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\08-hasAllCodes.dir
+  OBJECT_FILE_DIR = CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08-hasAllCodes
+
+
+#############################################
+# Link the executable 08-hasAllCodes.exe
+
+build 08-hasAllCodes.exe: CXX_EXECUTABLE_LINKER__08-hasAllCodes_Debug CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/08-hasAllCodes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\08-hasAllCodes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 08-hasAllCodes.exe
+  TARGET_IMPLIB = lib08-hasAllCodes.dll.a
+  TARGET_PDB = 08-hasAllCodes.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1388,6 +1421,8 @@ build 07-plusOne: phony 07-plusOne.exe
 
 build 08-arraySign: phony 08-arraySign.exe
 
+build 08-hasAllCodes: phony 08-hasAllCodes.exe
+
 build 09-canMakeArithmeticProgression: phony 09-canMakeArithmeticProgression.exe
 
 build 10-isMonotonic: phony 10-isMonotonic.exe
@@ -1404,7 +1439,7 @@ build LeeTCode_C__: phony LeeTCode_C__.exe
 #############################################
 # Folder: D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug
 
-build all: phony LeeTCode_C__.exe 01-mergeAlternately.exe 02-findTheDifference.exe 03-strStr.exe 04-isAnagram.exe 05-repeatedSubstringPattern.exe 06-moveZeroes.exe 07-plusOne.exe 08-arraySign.exe 09-canMakeArithmeticProgression.exe 10-isMonotonic.exe 11-romanToInt.exe 01-lengthOfLastWord.exe 02-toLowerCase.exe 01-calPoints.exe 02-judgeCircle.exe 03-tictactoe.exe 04-isRobotBounded.exe 01-maximumWealth.exe 02-diagonalSum.exe 03-spiralOrder.exe 04-setZeroes.exe 01-countOdds.exe 02-average.exe 03-lemonadeChange.exe 04-largestPerimeter.exe 05-checkStraightLine.exe 06-addBinary.exe 07-multiply.exe 01-mergeTwoLists.exe 02-reverseList.exe 01-maxVowels.exe 02-fundMaxAverage.exe 03-numOfSubarrays.exe 04-getAverages.exe 05-minimumRecolors.exe 06-decrypt.exe 07-maxSatisfied.exe
+build all: phony LeeTCode_C__.exe 01-mergeAlternately.exe 02-findTheDifference.exe 03-strStr.exe 04-isAnagram.exe 05-repeatedSubstringPattern.exe 06-moveZeroes.exe 07-plusOne.exe 08-arraySign.exe 09-canMakeArithmeticProgression.exe 10-isMonotonic.exe 11-romanToInt.exe 01-lengthOfLastWord.exe 02-toLowerCase.exe 01-calPoints.exe 02-judgeCircle.exe 03-tictactoe.exe 04-isRobotBounded.exe 01-maximumWealth.exe 02-diagonalSum.exe 03-spiralOrder.exe 04-setZeroes.exe 01-countOdds.exe 02-average.exe 03-lemonadeChange.exe 04-largestPerimeter.exe 05-checkStraightLine.exe 06-addBinary.exe 07-multiply.exe 01-mergeTwoLists.exe 02-reverseList.exe 01-maxVowels.exe 02-fundMaxAverage.exe 03-numOfSubarrays.exe 04-getAverages.exe 05-minimumRecolors.exe 06-decrypt.exe 07-maxSatisfied.exe 08-hasAllCodes.exe
 
 # =============================================================================
 # Built-in targets

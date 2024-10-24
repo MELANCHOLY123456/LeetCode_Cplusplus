@@ -52,7 +52,8 @@
 						34,
 						35,
 						36,
-						37
+						37,
+						38
 					]
 				}
 			],
@@ -104,7 +105,8 @@
 						34,
 						35,
 						36,
-						37
+						37,
+						38
 					]
 				}
 			],
@@ -346,6 +348,13 @@
 					"id" : "08-arraySign::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-08-arraySign-Debug-08962475761f5b6dea20.json",
 					"name" : "08-arraySign",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08-hasAllCodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08-hasAllCodes-Debug-a0518ea6ebbad0ca323e.json",
+					"name" : "08-hasAllCodes",
 					"projectIndex" : 0
 				},
 				{
