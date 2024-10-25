@@ -68,28 +68,28 @@ include CMakeFiles/05-minimumRecolors.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/05-minimumRecolors.dir/flags.make
 
-CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj: CMakeFiles/05-minimumRecolors.dir/flags.make
-CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp
-CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj: CMakeFiles/05-minimumRecolors.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj -MF CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\05-minimumRecolors.cpp.obj.d -o CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\05-minimumRecolors.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\05-minimumRecolors.cpp
+CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj: CMakeFiles/05-minimumRecolors.dir/flags.make
+CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp
+CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj: CMakeFiles/05-minimumRecolors.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj -MF CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\definite-length_slidingWindow\05-minimumRecolors.cpp.obj.d -o CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\definite-length_slidingWindow\05-minimumRecolors.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\05-minimumRecolors.cpp
 
-CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\05-minimumRecolors.cpp > CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\05-minimumRecolors.cpp.i
+CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\05-minimumRecolors.cpp > CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\definite-length_slidingWindow\05-minimumRecolors.cpp.i
 
-CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\05-minimumRecolors.cpp -o CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\05-minimumRecolors.cpp.s
+CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\05-minimumRecolors.cpp -o CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\definite-length_slidingWindow\05-minimumRecolors.cpp.s
 
 # Object files for target 05-minimumRecolors
 05__minimumRecolors_OBJECTS = \
-"CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj"
+"CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj"
 
 # External object files for target 05-minimumRecolors
 05__minimumRecolors_EXTERNAL_OBJECTS =
 
-05-minimumRecolors.exe: CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj
+05-minimumRecolors.exe: CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj
 05-minimumRecolors.exe: CMakeFiles/05-minimumRecolors.dir/build.make
 05-minimumRecolors.exe: CMakeFiles/05-minimumRecolors.dir/linkLibs.rsp
 05-minimumRecolors.exe: CMakeFiles/05-minimumRecolors.dir/objects1.rsp

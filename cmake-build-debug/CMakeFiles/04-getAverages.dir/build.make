@@ -68,28 +68,28 @@ include CMakeFiles/04-getAverages.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/04-getAverages.dir/flags.make
 
-CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj: CMakeFiles/04-getAverages.dir/flags.make
-CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp
-CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj: CMakeFiles/04-getAverages.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj -MF CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\04-getAverages.cpp.obj.d -o CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\04-getAverages.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\04-getAverages.cpp
+CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj: CMakeFiles/04-getAverages.dir/flags.make
+CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp
+CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj: CMakeFiles/04-getAverages.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj -MF CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\definite-length_slidingWindow\04-getAverages.cpp.obj.d -o CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\definite-length_slidingWindow\04-getAverages.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\04-getAverages.cpp
 
-CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\04-getAverages.cpp > CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\04-getAverages.cpp.i
+CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\04-getAverages.cpp > CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\definite-length_slidingWindow\04-getAverages.cpp.i
 
-CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\04-getAverages.cpp -o CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\04-getAverages.cpp.s
+CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\04-getAverages.cpp -o CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\definite-length_slidingWindow\04-getAverages.cpp.s
 
 # Object files for target 04-getAverages
 04__getAverages_OBJECTS = \
-"CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj"
+"CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj"
 
 # External object files for target 04-getAverages
 04__getAverages_EXTERNAL_OBJECTS =
 
-04-getAverages.exe: CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj
+04-getAverages.exe: CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj
 04-getAverages.exe: CMakeFiles/04-getAverages.dir/build.make
 04-getAverages.exe: CMakeFiles/04-getAverages.dir/linkLibs.rsp
 04-getAverages.exe: CMakeFiles/04-getAverages.dir/objects1.rsp

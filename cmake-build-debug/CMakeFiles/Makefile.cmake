@@ -91,4 +91,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/09-maxSum.dir/DependInfo.cmake"
   "CMakeFiles/10-maximumSubarraySum.dir/DependInfo.cmake"
   "CMakeFiles/11-maxScore.dir/DependInfo.cmake"
+  "CMakeFiles/12-maxFreq.dir/DependInfo.cmake"
+  "CMakeFiles/01-lengthOfLongestSubstring.dir/DependInfo.cmake"
+  "CMakeFiles/02-maximumLengthSubstring.dir/DependInfo.cmake"
   )

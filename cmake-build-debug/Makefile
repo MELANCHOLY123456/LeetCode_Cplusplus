@@ -661,6 +661,45 @@ LeeTCode_C__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-maxScore.dir\build.make CMakeFiles/11-maxScore.dir/build
 .PHONY : 11-maxScore/fast
 
+#=============================================================================
+# Target rules for targets named 12-maxFreq
+
+# Build rule for target.
+12-maxFreq: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12-maxFreq
+.PHONY : 12-maxFreq
+
+# fast build rule for target.
+12-maxFreq/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-maxFreq.dir\build.make CMakeFiles/12-maxFreq.dir/build
+.PHONY : 12-maxFreq/fast
+
+#=============================================================================
+# Target rules for targets named 01-lengthOfLongestSubstring
+
+# Build rule for target.
+01-lengthOfLongestSubstring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-lengthOfLongestSubstring
+.PHONY : 01-lengthOfLongestSubstring
+
+# fast build rule for target.
+01-lengthOfLongestSubstring/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-lengthOfLongestSubstring.dir\build.make CMakeFiles/01-lengthOfLongestSubstring.dir/build
+.PHONY : 01-lengthOfLongestSubstring/fast
+
+#=============================================================================
+# Target rules for targets named 02-maximumLengthSubstring
+
+# Build rule for target.
+02-maximumLengthSubstring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02-maximumLengthSubstring
+.PHONY : 02-maximumLengthSubstring
+
+# fast build rule for target.
+02-maximumLengthSubstring/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumLengthSubstring.dir\build.make CMakeFiles/02-maximumLengthSubstring.dir/build
+.PHONY : 02-maximumLengthSubstring/fast
+
 basic_of_programming/LinkList/01-mergeTwoLists.obj: basic_of_programming/LinkList/01-mergeTwoLists.cpp.obj
 .PHONY : basic_of_programming/LinkList/01-mergeTwoLists.obj
 
@@ -1405,269 +1444,341 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeeTCode_C__.dir\build.make CMakeFiles/LeeTCode_C__.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.obj: slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-maxVowels.dir\build.make CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-maxVowels.dir\build.make CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.i: slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.i
+slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.i: slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-maxVowels.dir\build.make CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-maxVowels.dir\build.make CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.s: slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.s
+slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.s: slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-maxVowels.dir\build.make CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-maxVowels.dir\build.make CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.obj: slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-fundMaxAverage.dir\build.make CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-fundMaxAverage.dir\build.make CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.i: slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.i
+slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.i: slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-fundMaxAverage.dir\build.make CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-fundMaxAverage.dir\build.make CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.s: slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.s
+slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.s: slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-fundMaxAverage.dir\build.make CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-fundMaxAverage.dir\build.make CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.obj: slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-numOfSubarrays.dir\build.make CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-numOfSubarrays.dir\build.make CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.i: slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.i
+slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.i: slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-numOfSubarrays.dir\build.make CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-numOfSubarrays.dir\build.make CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.s: slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.s
+slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.s: slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-numOfSubarrays.dir\build.make CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-numOfSubarrays.dir\build.make CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.obj: slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-getAverages.dir\build.make CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-getAverages.dir\build.make CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.i: slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.i
+slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.i: slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-getAverages.dir\build.make CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-getAverages.dir\build.make CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.s: slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.s
+slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.s: slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-getAverages.dir\build.make CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-getAverages.dir\build.make CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.obj: slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-minimumRecolors.dir\build.make CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-minimumRecolors.dir\build.make CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.i: slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.i
+slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.i: slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-minimumRecolors.dir\build.make CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-minimumRecolors.dir\build.make CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.s: slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.s
+slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.s: slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-minimumRecolors.dir\build.make CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-minimumRecolors.dir\build.make CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.obj: slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-decrypt.dir\build.make CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-decrypt.dir\build.make CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.i: slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.i
+slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.i: slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-decrypt.dir\build.make CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-decrypt.dir\build.make CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.s: slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.s
+slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.s: slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-decrypt.dir\build.make CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-decrypt.dir\build.make CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.obj: slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maxSatisfied.dir\build.make CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maxSatisfied.dir\build.make CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.i: slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.i
+slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.i: slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maxSatisfied.dir\build.make CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maxSatisfied.dir\build.make CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.s: slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.s
+slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.s: slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maxSatisfied.dir\build.make CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maxSatisfied.dir\build.make CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.obj: slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-hasAllCodes.dir\build.make CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-hasAllCodes.dir\build.make CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.i: slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.i
+slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.i: slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-hasAllCodes.dir\build.make CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-hasAllCodes.dir\build.make CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.s: slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.s
+slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.s: slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-hasAllCodes.dir\build.make CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-hasAllCodes.dir\build.make CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.obj: slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maxSum.dir\build.make CMakeFiles/09-maxSum.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maxSum.dir\build.make CMakeFiles/09-maxSum.dir/slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.i: slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.i
+slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.i: slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maxSum.dir\build.make CMakeFiles/09-maxSum.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maxSum.dir\build.make CMakeFiles/09-maxSum.dir/slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.s: slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.s
+slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.s: slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maxSum.dir\build.make CMakeFiles/09-maxSum.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maxSum.dir\build.make CMakeFiles/09-maxSum.dir/slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.obj: slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maximumSubarraySum.dir\build.make CMakeFiles/10-maximumSubarraySum.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maximumSubarraySum.dir\build.make CMakeFiles/10-maximumSubarraySum.dir/slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.i: slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.i
+slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.i: slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maximumSubarraySum.dir\build.make CMakeFiles/10-maximumSubarraySum.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maximumSubarraySum.dir\build.make CMakeFiles/10-maximumSubarraySum.dir/slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.s: slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.s
+slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.s: slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maximumSubarraySum.dir\build.make CMakeFiles/10-maximumSubarraySum.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maximumSubarraySum.dir\build.make CMakeFiles/10-maximumSubarraySum.dir/slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.s
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.obj: slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.obj: slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.obj
 
 # target to build an object file
-slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-maxScore.dir\build.make CMakeFiles/11-maxScore.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.obj
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.obj
+slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-maxScore.dir\build.make CMakeFiles/11-maxScore.dir/slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.obj
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.i: slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.i
+slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.i: slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.i
 
 # target to preprocess a source file
-slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-maxScore.dir\build.make CMakeFiles/11-maxScore.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.i
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.i
+slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-maxScore.dir\build.make CMakeFiles/11-maxScore.dir/slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.i
 
-slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.s: slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.s
+slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.s: slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.s
 
 # target to generate assembly for a file
-slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-maxScore.dir\build.make CMakeFiles/11-maxScore.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.s
-.PHONY : slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.cpp.s
+slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-maxScore.dir\build.make CMakeFiles/11-maxScore.dir/slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.s
+
+slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.obj: slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.obj
+
+# target to build an object file
+slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-maxFreq.dir\build.make CMakeFiles/12-maxFreq.dir/slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.obj
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.obj
+
+slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.i: slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-maxFreq.dir\build.make CMakeFiles/12-maxFreq.dir/slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.i
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.i
+
+slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.s: slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-maxFreq.dir\build.make CMakeFiles/12-maxFreq.dir/slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.s
+.PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.s
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-lengthOfLongestSubstring.dir\build.make CMakeFiles/01-lengthOfLongestSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-lengthOfLongestSubstring.dir\build.make CMakeFiles/01-lengthOfLongestSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-lengthOfLongestSubstring.dir\build.make CMakeFiles/01-lengthOfLongestSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.s
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumLengthSubstring.dir\build.make CMakeFiles/02-maximumLengthSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumLengthSubstring.dir\build.make CMakeFiles/02-maximumLengthSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumLengthSubstring.dir\build.make CMakeFiles/02-maximumLengthSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.s
 
 # Help Target
 help:
@@ -1680,6 +1791,7 @@ help:
 	@echo ... 01-calPoints
 	@echo ... 01-countOdds
 	@echo ... 01-lengthOfLastWord
+	@echo ... 01-lengthOfLongestSubstring
 	@echo ... 01-maxVowels
 	@echo ... 01-maximumWealth
 	@echo ... 01-mergeAlternately
@@ -1689,6 +1801,7 @@ help:
 	@echo ... 02-findTheDifference
 	@echo ... 02-fundMaxAverage
 	@echo ... 02-judgeCircle
+	@echo ... 02-maximumLengthSubstring
 	@echo ... 02-reverseList
 	@echo ... 02-toLowerCase
 	@echo ... 03-lemonadeChange
@@ -1718,6 +1831,7 @@ help:
 	@echo ... 10-maximumSubarraySum
 	@echo ... 11-maxScore
 	@echo ... 11-romanToInt
+	@echo ... 12-maxFreq
 	@echo ... LeeTCode_C__
 	@echo ... basic_of_programming/LinkList/01-mergeTwoLists.obj
 	@echo ... basic_of_programming/LinkList/01-mergeTwoLists.i
@@ -1812,39 +1926,48 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/01-maxVowels.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/05-minimumRecolors.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/06-decrypt.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/07-maxSatisfied.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/09-maxSum.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/10-maximumSubarraySum.s
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.obj
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.i
-	@echo ... slidingWindow_doublePointers/fixed-length_slidingWindow/11-maxScore.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.s
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.obj
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.i
+	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.s
 .PHONY : help
 
 

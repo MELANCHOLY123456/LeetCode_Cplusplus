@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "08-hasAllCodes.exe"
   "08-hasAllCodes.exe.manifest"
   "08-hasAllCodes.pdb"
-  "CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj"
-  "CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj.d"
+  "CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj"
+  "CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj.d"
   "lib08-hasAllCodes.dll.a"
 )
 

@@ -68,28 +68,28 @@ include CMakeFiles/08-hasAllCodes.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/08-hasAllCodes.dir/flags.make
 
-CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj: CMakeFiles/08-hasAllCodes.dir/flags.make
-CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp
-CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj: CMakeFiles/08-hasAllCodes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj -MF CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\08-hasAllCodes.cpp.obj.d -o CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\08-hasAllCodes.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\08-hasAllCodes.cpp
+CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj: CMakeFiles/08-hasAllCodes.dir/flags.make
+CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp
+CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj: CMakeFiles/08-hasAllCodes.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj -MF CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\definite-length_slidingWindow\08-hasAllCodes.cpp.obj.d -o CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\definite-length_slidingWindow\08-hasAllCodes.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\08-hasAllCodes.cpp
 
-CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\08-hasAllCodes.cpp > CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\08-hasAllCodes.cpp.i
+CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\08-hasAllCodes.cpp > CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\definite-length_slidingWindow\08-hasAllCodes.cpp.i
 
-CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\08-hasAllCodes.cpp -o CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\08-hasAllCodes.cpp.s
+CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\08-hasAllCodes.cpp -o CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\definite-length_slidingWindow\08-hasAllCodes.cpp.s
 
 # Object files for target 08-hasAllCodes
 08__hasAllCodes_OBJECTS = \
-"CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj"
+"CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj"
 
 # External object files for target 08-hasAllCodes
 08__hasAllCodes_EXTERNAL_OBJECTS =
 
-08-hasAllCodes.exe: CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/08-hasAllCodes.cpp.obj
+08-hasAllCodes.exe: CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj
 08-hasAllCodes.exe: CMakeFiles/08-hasAllCodes.dir/build.make
 08-hasAllCodes.exe: CMakeFiles/08-hasAllCodes.dir/linkLibs.rsp
 08-hasAllCodes.exe: CMakeFiles/08-hasAllCodes.dir/objects1.rsp

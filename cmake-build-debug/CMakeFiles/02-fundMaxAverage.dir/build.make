@@ -68,28 +68,28 @@ include CMakeFiles/02-fundMaxAverage.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/02-fundMaxAverage.dir/flags.make
 
-CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj: CMakeFiles/02-fundMaxAverage.dir/flags.make
-CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp
-CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj: CMakeFiles/02-fundMaxAverage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj -MF CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\02-fundMaxAverage.cpp.obj.d -o CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\02-fundMaxAverage.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\02-fundMaxAverage.cpp
+CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj: CMakeFiles/02-fundMaxAverage.dir/flags.make
+CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp
+CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj: CMakeFiles/02-fundMaxAverage.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj -MF CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\definite-length_slidingWindow\02-fundMaxAverage.cpp.obj.d -o CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\definite-length_slidingWindow\02-fundMaxAverage.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\02-fundMaxAverage.cpp
 
-CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\02-fundMaxAverage.cpp > CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\02-fundMaxAverage.cpp.i
+CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\02-fundMaxAverage.cpp > CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\definite-length_slidingWindow\02-fundMaxAverage.cpp.i
 
-CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\02-fundMaxAverage.cpp -o CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\02-fundMaxAverage.cpp.s
+CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\02-fundMaxAverage.cpp -o CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\definite-length_slidingWindow\02-fundMaxAverage.cpp.s
 
 # Object files for target 02-fundMaxAverage
 02__fundMaxAverage_OBJECTS = \
-"CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj"
+"CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj"
 
 # External object files for target 02-fundMaxAverage
 02__fundMaxAverage_EXTERNAL_OBJECTS =
 
-02-fundMaxAverage.exe: CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/02-fundMaxAverage.cpp.obj
+02-fundMaxAverage.exe: CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj
 02-fundMaxAverage.exe: CMakeFiles/02-fundMaxAverage.dir/build.make
 02-fundMaxAverage.exe: CMakeFiles/02-fundMaxAverage.dir/linkLibs.rsp
 02-fundMaxAverage.exe: CMakeFiles/02-fundMaxAverage.dir/objects1.rsp

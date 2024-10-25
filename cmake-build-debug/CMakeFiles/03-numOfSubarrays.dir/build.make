@@ -68,28 +68,28 @@ include CMakeFiles/03-numOfSubarrays.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/03-numOfSubarrays.dir/flags.make
 
-CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj: CMakeFiles/03-numOfSubarrays.dir/flags.make
-CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp
-CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj: CMakeFiles/03-numOfSubarrays.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj -MF CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\03-numOfSubarrays.cpp.obj.d -o CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\03-numOfSubarrays.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\03-numOfSubarrays.cpp
+CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj: CMakeFiles/03-numOfSubarrays.dir/flags.make
+CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp
+CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj: CMakeFiles/03-numOfSubarrays.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj -MF CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\definite-length_slidingWindow\03-numOfSubarrays.cpp.obj.d -o CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\definite-length_slidingWindow\03-numOfSubarrays.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\03-numOfSubarrays.cpp
 
-CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\03-numOfSubarrays.cpp > CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\03-numOfSubarrays.cpp.i
+CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\03-numOfSubarrays.cpp > CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\definite-length_slidingWindow\03-numOfSubarrays.cpp.i
 
-CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\fixed-length_slidingWindow\03-numOfSubarrays.cpp -o CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\fixed-length_slidingWindow\03-numOfSubarrays.cpp.s
+CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\slidingWindow_doublePointers\definite-length_slidingWindow\03-numOfSubarrays.cpp -o CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\definite-length_slidingWindow\03-numOfSubarrays.cpp.s
 
 # Object files for target 03-numOfSubarrays
 03__numOfSubarrays_OBJECTS = \
-"CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj"
+"CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj"
 
 # External object files for target 03-numOfSubarrays
 03__numOfSubarrays_EXTERNAL_OBJECTS =
 
-03-numOfSubarrays.exe: CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/03-numOfSubarrays.cpp.obj
+03-numOfSubarrays.exe: CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj
 03-numOfSubarrays.exe: CMakeFiles/03-numOfSubarrays.dir/build.make
 03-numOfSubarrays.exe: CMakeFiles/03-numOfSubarrays.dir/linkLibs.rsp
 03-numOfSubarrays.exe: CMakeFiles/03-numOfSubarrays.dir/objects1.rsp

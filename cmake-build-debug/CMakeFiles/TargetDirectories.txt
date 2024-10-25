@@ -40,5 +40,8 @@ D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/cmake-build-debug
 D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/09-maxSum.dir
 D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/10-maximumSubarraySum.dir
 D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/11-maxScore.dir
+D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/12-maxFreq.dir
+D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/01-lengthOfLongestSubstring.dir
+D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/02-maximumLengthSubstring.dir
 D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp" "CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj" "gcc" "CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/fixed-length_slidingWindow/04-getAverages.cpp.obj.d"
+  "D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp" "CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj" "gcc" "CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
