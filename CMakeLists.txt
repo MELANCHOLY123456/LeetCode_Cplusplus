@@ -56,4 +56,7 @@ add_executable(12-maxFreq slidingWindow_doublePointers/definite-length_slidingWi
 
 add_executable(01-lengthOfLongestSubstring slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp)
 add_executable(02-maximumLengthSubstring slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp)
+add_executable(03-longestSubarray slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp)
 
+add_executable(maxAreaOfIsland_695 graph/DFS/web-graph/maxAreaOfIsland_695.cpp)
+add_executable(01-numIslands graph/DFS/01-numIslands.cpp)

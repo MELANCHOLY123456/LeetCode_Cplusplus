@@ -1072,11 +1072,11 @@ build 02-reverseList.exe: CXX_EXECUTABLE_LINKER__02-reverseList_Debug CMakeFiles
 
 build cmake_object_order_depends_target_01-maxVowels: phony || .
 
-build CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/01-maxVowels.cpp.obj: CXX_COMPILER__01-maxVowels_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/01-maxVowels.cpp || cmake_object_order_depends_target_01-maxVowels
-  DEP_FILE = CMakeFiles\01-maxVowels.dir\slidingWindow_doublePointers\01-maxVowels.cpp.obj.d
+build CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.obj: CXX_COMPILER__01-maxVowels_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp || cmake_object_order_depends_target_01-maxVowels
+  DEP_FILE = CMakeFiles\01-maxVowels.dir\slidingWindow_doublePointers\definite-length_slidingWindow\01-maxVowels.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\01-maxVowels.dir
-  OBJECT_FILE_DIR = CMakeFiles\01-maxVowels.dir\slidingWindow_doublePointers
+  OBJECT_FILE_DIR = CMakeFiles\01-maxVowels.dir\slidingWindow_doublePointers\definite-length_slidingWindow
 
 
 # =============================================================================
@@ -1086,7 +1086,7 @@ build CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/01-maxVowels.cpp.
 #############################################
 # Link the executable 01-maxVowels.exe
 
-build 01-maxVowels.exe: CXX_EXECUTABLE_LINKER__01-maxVowels_Debug CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/01-maxVowels.cpp.obj
+build 01-maxVowels.exe: CXX_EXECUTABLE_LINKER__01-maxVowels_Debug CMakeFiles/01-maxVowels.dir/slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\01-maxVowels.dir
@@ -1105,11 +1105,11 @@ build 01-maxVowels.exe: CXX_EXECUTABLE_LINKER__01-maxVowels_Debug CMakeFiles/01-
 
 build cmake_object_order_depends_target_02-fundMaxAverage: phony || .
 
-build CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/02-fundMaxAverage.cpp.obj: CXX_COMPILER__02-fundMaxAverage_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/02-fundMaxAverage.cpp || cmake_object_order_depends_target_02-fundMaxAverage
-  DEP_FILE = CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\02-fundMaxAverage.cpp.obj.d
+build CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj: CXX_COMPILER__02-fundMaxAverage_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp || cmake_object_order_depends_target_02-fundMaxAverage
+  DEP_FILE = CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\definite-length_slidingWindow\02-fundMaxAverage.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\02-fundMaxAverage.dir
-  OBJECT_FILE_DIR = CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers
+  OBJECT_FILE_DIR = CMakeFiles\02-fundMaxAverage.dir\slidingWindow_doublePointers\definite-length_slidingWindow
 
 
 # =============================================================================
@@ -1119,7 +1119,7 @@ build CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/02-fundMaxAv
 #############################################
 # Link the executable 02-fundMaxAverage.exe
 
-build 02-fundMaxAverage.exe: CXX_EXECUTABLE_LINKER__02-fundMaxAverage_Debug CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/02-fundMaxAverage.cpp.obj
+build 02-fundMaxAverage.exe: CXX_EXECUTABLE_LINKER__02-fundMaxAverage_Debug CMakeFiles/02-fundMaxAverage.dir/slidingWindow_doublePointers/definite-length_slidingWindow/02-fundMaxAverage.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\02-fundMaxAverage.dir
@@ -1138,11 +1138,11 @@ build 02-fundMaxAverage.exe: CXX_EXECUTABLE_LINKER__02-fundMaxAverage_Debug CMak
 
 build cmake_object_order_depends_target_03-numOfSubarrays: phony || .
 
-build CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/03-numOfSubarrays.cpp.obj: CXX_COMPILER__03-numOfSubarrays_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/03-numOfSubarrays.cpp || cmake_object_order_depends_target_03-numOfSubarrays
-  DEP_FILE = CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\03-numOfSubarrays.cpp.obj.d
+build CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj: CXX_COMPILER__03-numOfSubarrays_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp || cmake_object_order_depends_target_03-numOfSubarrays
+  DEP_FILE = CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\definite-length_slidingWindow\03-numOfSubarrays.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\03-numOfSubarrays.dir
-  OBJECT_FILE_DIR = CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers
+  OBJECT_FILE_DIR = CMakeFiles\03-numOfSubarrays.dir\slidingWindow_doublePointers\definite-length_slidingWindow
 
 
 # =============================================================================
@@ -1152,7 +1152,7 @@ build CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/03-numOfSuba
 #############################################
 # Link the executable 03-numOfSubarrays.exe
 
-build 03-numOfSubarrays.exe: CXX_EXECUTABLE_LINKER__03-numOfSubarrays_Debug CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/03-numOfSubarrays.cpp.obj
+build 03-numOfSubarrays.exe: CXX_EXECUTABLE_LINKER__03-numOfSubarrays_Debug CMakeFiles/03-numOfSubarrays.dir/slidingWindow_doublePointers/definite-length_slidingWindow/03-numOfSubarrays.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\03-numOfSubarrays.dir
@@ -1171,11 +1171,11 @@ build 03-numOfSubarrays.exe: CXX_EXECUTABLE_LINKER__03-numOfSubarrays_Debug CMak
 
 build cmake_object_order_depends_target_04-getAverages: phony || .
 
-build CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/04-getAverages.cpp.obj: CXX_COMPILER__04-getAverages_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/04-getAverages.cpp || cmake_object_order_depends_target_04-getAverages
-  DEP_FILE = CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\04-getAverages.cpp.obj.d
+build CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj: CXX_COMPILER__04-getAverages_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp || cmake_object_order_depends_target_04-getAverages
+  DEP_FILE = CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\definite-length_slidingWindow\04-getAverages.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\04-getAverages.dir
-  OBJECT_FILE_DIR = CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers
+  OBJECT_FILE_DIR = CMakeFiles\04-getAverages.dir\slidingWindow_doublePointers\definite-length_slidingWindow
 
 
 # =============================================================================
@@ -1185,7 +1185,7 @@ build CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/04-getAverages.
 #############################################
 # Link the executable 04-getAverages.exe
 
-build 04-getAverages.exe: CXX_EXECUTABLE_LINKER__04-getAverages_Debug CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/04-getAverages.cpp.obj
+build 04-getAverages.exe: CXX_EXECUTABLE_LINKER__04-getAverages_Debug CMakeFiles/04-getAverages.dir/slidingWindow_doublePointers/definite-length_slidingWindow/04-getAverages.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\04-getAverages.dir
@@ -1204,11 +1204,11 @@ build 04-getAverages.exe: CXX_EXECUTABLE_LINKER__04-getAverages_Debug CMakeFiles
 
 build cmake_object_order_depends_target_05-minimumRecolors: phony || .
 
-build CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/05-minimumRecolors.cpp.obj: CXX_COMPILER__05-minimumRecolors_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/05-minimumRecolors.cpp || cmake_object_order_depends_target_05-minimumRecolors
-  DEP_FILE = CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\05-minimumRecolors.cpp.obj.d
+build CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj: CXX_COMPILER__05-minimumRecolors_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp || cmake_object_order_depends_target_05-minimumRecolors
+  DEP_FILE = CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\definite-length_slidingWindow\05-minimumRecolors.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\05-minimumRecolors.dir
-  OBJECT_FILE_DIR = CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers
+  OBJECT_FILE_DIR = CMakeFiles\05-minimumRecolors.dir\slidingWindow_doublePointers\definite-length_slidingWindow
 
 
 # =============================================================================
@@ -1218,7 +1218,7 @@ build CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/05-minimumR
 #############################################
 # Link the executable 05-minimumRecolors.exe
 
-build 05-minimumRecolors.exe: CXX_EXECUTABLE_LINKER__05-minimumRecolors_Debug CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/05-minimumRecolors.cpp.obj
+build 05-minimumRecolors.exe: CXX_EXECUTABLE_LINKER__05-minimumRecolors_Debug CMakeFiles/05-minimumRecolors.dir/slidingWindow_doublePointers/definite-length_slidingWindow/05-minimumRecolors.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\05-minimumRecolors.dir
@@ -1237,11 +1237,11 @@ build 05-minimumRecolors.exe: CXX_EXECUTABLE_LINKER__05-minimumRecolors_Debug CM
 
 build cmake_object_order_depends_target_06-decrypt: phony || .
 
-build CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/06-decrypt.cpp.obj: CXX_COMPILER__06-decrypt_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/06-decrypt.cpp || cmake_object_order_depends_target_06-decrypt
-  DEP_FILE = CMakeFiles\06-decrypt.dir\slidingWindow_doublePointers\06-decrypt.cpp.obj.d
+build CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.obj: CXX_COMPILER__06-decrypt_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp || cmake_object_order_depends_target_06-decrypt
+  DEP_FILE = CMakeFiles\06-decrypt.dir\slidingWindow_doublePointers\definite-length_slidingWindow\06-decrypt.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\06-decrypt.dir
-  OBJECT_FILE_DIR = CMakeFiles\06-decrypt.dir\slidingWindow_doublePointers
+  OBJECT_FILE_DIR = CMakeFiles\06-decrypt.dir\slidingWindow_doublePointers\definite-length_slidingWindow
 
 
 # =============================================================================
@@ -1251,7 +1251,7 @@ build CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/06-decrypt.cpp.obj:
 #############################################
 # Link the executable 06-decrypt.exe
 
-build 06-decrypt.exe: CXX_EXECUTABLE_LINKER__06-decrypt_Debug CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/06-decrypt.cpp.obj
+build 06-decrypt.exe: CXX_EXECUTABLE_LINKER__06-decrypt_Debug CMakeFiles/06-decrypt.dir/slidingWindow_doublePointers/definite-length_slidingWindow/06-decrypt.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\06-decrypt.dir
@@ -1270,11 +1270,11 @@ build 06-decrypt.exe: CXX_EXECUTABLE_LINKER__06-decrypt_Debug CMakeFiles/06-decr
 
 build cmake_object_order_depends_target_07-maxSatisfied: phony || .
 
-build CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/07-maxSatisfied.cpp.obj: CXX_COMPILER__07-maxSatisfied_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/07-maxSatisfied.cpp || cmake_object_order_depends_target_07-maxSatisfied
-  DEP_FILE = CMakeFiles\07-maxSatisfied.dir\slidingWindow_doublePointers\07-maxSatisfied.cpp.obj.d
+build CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.obj: CXX_COMPILER__07-maxSatisfied_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp || cmake_object_order_depends_target_07-maxSatisfied
+  DEP_FILE = CMakeFiles\07-maxSatisfied.dir\slidingWindow_doublePointers\definite-length_slidingWindow\07-maxSatisfied.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\07-maxSatisfied.dir
-  OBJECT_FILE_DIR = CMakeFiles\07-maxSatisfied.dir\slidingWindow_doublePointers
+  OBJECT_FILE_DIR = CMakeFiles\07-maxSatisfied.dir\slidingWindow_doublePointers\definite-length_slidingWindow
 
 
 # =============================================================================
@@ -1284,7 +1284,7 @@ build CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/07-maxSatisfie
 #############################################
 # Link the executable 07-maxSatisfied.exe
 
-build 07-maxSatisfied.exe: CXX_EXECUTABLE_LINKER__07-maxSatisfied_Debug CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/07-maxSatisfied.cpp.obj
+build 07-maxSatisfied.exe: CXX_EXECUTABLE_LINKER__07-maxSatisfied_Debug CMakeFiles/07-maxSatisfied.dir/slidingWindow_doublePointers/definite-length_slidingWindow/07-maxSatisfied.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\07-maxSatisfied.dir
@@ -1303,11 +1303,11 @@ build 07-maxSatisfied.exe: CXX_EXECUTABLE_LINKER__07-maxSatisfied_Debug CMakeFil
 
 build cmake_object_order_depends_target_08-hasAllCodes: phony || .
 
-build CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/08-hasAllCodes.cpp.obj: CXX_COMPILER__08-hasAllCodes_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/08-hasAllCodes.cpp || cmake_object_order_depends_target_08-hasAllCodes
-  DEP_FILE = CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\08-hasAllCodes.cpp.obj.d
+build CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj: CXX_COMPILER__08-hasAllCodes_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp || cmake_object_order_depends_target_08-hasAllCodes
+  DEP_FILE = CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\definite-length_slidingWindow\08-hasAllCodes.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\08-hasAllCodes.dir
-  OBJECT_FILE_DIR = CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers
+  OBJECT_FILE_DIR = CMakeFiles\08-hasAllCodes.dir\slidingWindow_doublePointers\definite-length_slidingWindow
 
 
 # =============================================================================
@@ -1317,7 +1317,7 @@ build CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/08-hasAllCodes.
 #############################################
 # Link the executable 08-hasAllCodes.exe
 
-build 08-hasAllCodes.exe: CXX_EXECUTABLE_LINKER__08-hasAllCodes_Debug CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/08-hasAllCodes.cpp.obj
+build 08-hasAllCodes.exe: CXX_EXECUTABLE_LINKER__08-hasAllCodes_Debug CMakeFiles/08-hasAllCodes.dir/slidingWindow_doublePointers/definite-length_slidingWindow/08-hasAllCodes.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\08-hasAllCodes.dir
@@ -1326,6 +1326,336 @@ build 08-hasAllCodes.exe: CXX_EXECUTABLE_LINKER__08-hasAllCodes_Debug CMakeFiles
   TARGET_FILE = 08-hasAllCodes.exe
   TARGET_IMPLIB = lib08-hasAllCodes.dll.a
   TARGET_PDB = 08-hasAllCodes.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 09-maxSum
+
+
+#############################################
+# Order-only phony target for 09-maxSum
+
+build cmake_object_order_depends_target_09-maxSum: phony || .
+
+build CMakeFiles/09-maxSum.dir/slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.obj: CXX_COMPILER__09-maxSum_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp || cmake_object_order_depends_target_09-maxSum
+  DEP_FILE = CMakeFiles\09-maxSum.dir\slidingWindow_doublePointers\definite-length_slidingWindow\09-maxSum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\09-maxSum.dir
+  OBJECT_FILE_DIR = CMakeFiles\09-maxSum.dir\slidingWindow_doublePointers\definite-length_slidingWindow
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 09-maxSum
+
+
+#############################################
+# Link the executable 09-maxSum.exe
+
+build 09-maxSum.exe: CXX_EXECUTABLE_LINKER__09-maxSum_Debug CMakeFiles/09-maxSum.dir/slidingWindow_doublePointers/definite-length_slidingWindow/09-maxSum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\09-maxSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 09-maxSum.exe
+  TARGET_IMPLIB = lib09-maxSum.dll.a
+  TARGET_PDB = 09-maxSum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10-maximumSubarraySum
+
+
+#############################################
+# Order-only phony target for 10-maximumSubarraySum
+
+build cmake_object_order_depends_target_10-maximumSubarraySum: phony || .
+
+build CMakeFiles/10-maximumSubarraySum.dir/slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.obj: CXX_COMPILER__10-maximumSubarraySum_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp || cmake_object_order_depends_target_10-maximumSubarraySum
+  DEP_FILE = CMakeFiles\10-maximumSubarraySum.dir\slidingWindow_doublePointers\definite-length_slidingWindow\10-maximumSubarraySum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\10-maximumSubarraySum.dir
+  OBJECT_FILE_DIR = CMakeFiles\10-maximumSubarraySum.dir\slidingWindow_doublePointers\definite-length_slidingWindow
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10-maximumSubarraySum
+
+
+#############################################
+# Link the executable 10-maximumSubarraySum.exe
+
+build 10-maximumSubarraySum.exe: CXX_EXECUTABLE_LINKER__10-maximumSubarraySum_Debug CMakeFiles/10-maximumSubarraySum.dir/slidingWindow_doublePointers/definite-length_slidingWindow/10-maximumSubarraySum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10-maximumSubarraySum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 10-maximumSubarraySum.exe
+  TARGET_IMPLIB = lib10-maximumSubarraySum.dll.a
+  TARGET_PDB = 10-maximumSubarraySum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11-maxScore
+
+
+#############################################
+# Order-only phony target for 11-maxScore
+
+build cmake_object_order_depends_target_11-maxScore: phony || .
+
+build CMakeFiles/11-maxScore.dir/slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.obj: CXX_COMPILER__11-maxScore_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp || cmake_object_order_depends_target_11-maxScore
+  DEP_FILE = CMakeFiles\11-maxScore.dir\slidingWindow_doublePointers\definite-length_slidingWindow\11-maxScore.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\11-maxScore.dir
+  OBJECT_FILE_DIR = CMakeFiles\11-maxScore.dir\slidingWindow_doublePointers\definite-length_slidingWindow
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11-maxScore
+
+
+#############################################
+# Link the executable 11-maxScore.exe
+
+build 11-maxScore.exe: CXX_EXECUTABLE_LINKER__11-maxScore_Debug CMakeFiles/11-maxScore.dir/slidingWindow_doublePointers/definite-length_slidingWindow/11-maxScore.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11-maxScore.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11-maxScore.exe
+  TARGET_IMPLIB = lib11-maxScore.dll.a
+  TARGET_PDB = 11-maxScore.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 12-maxFreq
+
+
+#############################################
+# Order-only phony target for 12-maxFreq
+
+build cmake_object_order_depends_target_12-maxFreq: phony || .
+
+build CMakeFiles/12-maxFreq.dir/slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.obj: CXX_COMPILER__12-maxFreq_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp || cmake_object_order_depends_target_12-maxFreq
+  DEP_FILE = CMakeFiles\12-maxFreq.dir\slidingWindow_doublePointers\definite-length_slidingWindow\12-maxFreq.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\12-maxFreq.dir
+  OBJECT_FILE_DIR = CMakeFiles\12-maxFreq.dir\slidingWindow_doublePointers\definite-length_slidingWindow
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 12-maxFreq
+
+
+#############################################
+# Link the executable 12-maxFreq.exe
+
+build 12-maxFreq.exe: CXX_EXECUTABLE_LINKER__12-maxFreq_Debug CMakeFiles/12-maxFreq.dir/slidingWindow_doublePointers/definite-length_slidingWindow/12-maxFreq.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\12-maxFreq.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 12-maxFreq.exe
+  TARGET_IMPLIB = lib12-maxFreq.dll.a
+  TARGET_PDB = 12-maxFreq.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-lengthOfLongestSubstring
+
+
+#############################################
+# Order-only phony target for 01-lengthOfLongestSubstring
+
+build cmake_object_order_depends_target_01-lengthOfLongestSubstring: phony || .
+
+build CMakeFiles/01-lengthOfLongestSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.obj: CXX_COMPILER__01-lengthOfLongestSubstring_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp || cmake_object_order_depends_target_01-lengthOfLongestSubstring
+  DEP_FILE = CMakeFiles\01-lengthOfLongestSubstring.dir\slidingWindow_doublePointers\indefinite-length_slidingWindow\01-lengthOfLongestSubstring.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-lengthOfLongestSubstring.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-lengthOfLongestSubstring.dir\slidingWindow_doublePointers\indefinite-length_slidingWindow
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-lengthOfLongestSubstring
+
+
+#############################################
+# Link the executable 01-lengthOfLongestSubstring.exe
+
+build 01-lengthOfLongestSubstring.exe: CXX_EXECUTABLE_LINKER__01-lengthOfLongestSubstring_Debug CMakeFiles/01-lengthOfLongestSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/01-lengthOfLongestSubstring.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-lengthOfLongestSubstring.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-lengthOfLongestSubstring.exe
+  TARGET_IMPLIB = lib01-lengthOfLongestSubstring.dll.a
+  TARGET_PDB = 01-lengthOfLongestSubstring.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-maximumLengthSubstring
+
+
+#############################################
+# Order-only phony target for 02-maximumLengthSubstring
+
+build cmake_object_order_depends_target_02-maximumLengthSubstring: phony || .
+
+build CMakeFiles/02-maximumLengthSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.obj: CXX_COMPILER__02-maximumLengthSubstring_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp || cmake_object_order_depends_target_02-maximumLengthSubstring
+  DEP_FILE = CMakeFiles\02-maximumLengthSubstring.dir\slidingWindow_doublePointers\indefinite-length_slidingWindow\02-maximumLengthSubstring.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-maximumLengthSubstring.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-maximumLengthSubstring.dir\slidingWindow_doublePointers\indefinite-length_slidingWindow
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-maximumLengthSubstring
+
+
+#############################################
+# Link the executable 02-maximumLengthSubstring.exe
+
+build 02-maximumLengthSubstring.exe: CXX_EXECUTABLE_LINKER__02-maximumLengthSubstring_Debug CMakeFiles/02-maximumLengthSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-maximumLengthSubstring.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-maximumLengthSubstring.exe
+  TARGET_IMPLIB = lib02-maximumLengthSubstring.dll.a
+  TARGET_PDB = 02-maximumLengthSubstring.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-longestSubarray
+
+
+#############################################
+# Order-only phony target for 03-longestSubarray
+
+build cmake_object_order_depends_target_03-longestSubarray: phony || .
+
+build CMakeFiles/03-longestSubarray.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.obj: CXX_COMPILER__03-longestSubarray_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp || cmake_object_order_depends_target_03-longestSubarray
+  DEP_FILE = CMakeFiles\03-longestSubarray.dir\slidingWindow_doublePointers\indefinite-length_slidingWindow\03-longestSubarray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03-longestSubarray.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-longestSubarray.dir\slidingWindow_doublePointers\indefinite-length_slidingWindow
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-longestSubarray
+
+
+#############################################
+# Link the executable 03-longestSubarray.exe
+
+build 03-longestSubarray.exe: CXX_EXECUTABLE_LINKER__03-longestSubarray_Debug CMakeFiles/03-longestSubarray.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-longestSubarray.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-longestSubarray.exe
+  TARGET_IMPLIB = lib03-longestSubarray.dll.a
+  TARGET_PDB = 03-longestSubarray.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target maxAreaOfIsland_695
+
+
+#############################################
+# Order-only phony target for maxAreaOfIsland_695
+
+build cmake_object_order_depends_target_maxAreaOfIsland_695: phony || .
+
+build CMakeFiles/maxAreaOfIsland_695.dir/graph/DFS/web-graph/maxAreaOfIsland_695.cpp.obj: CXX_COMPILER__maxAreaOfIsland_695_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/graph/DFS/web-graph/maxAreaOfIsland_695.cpp || cmake_object_order_depends_target_maxAreaOfIsland_695
+  DEP_FILE = CMakeFiles\maxAreaOfIsland_695.dir\graph\DFS\web-graph\maxAreaOfIsland_695.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\maxAreaOfIsland_695.dir
+  OBJECT_FILE_DIR = CMakeFiles\maxAreaOfIsland_695.dir\graph\DFS\web-graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maxAreaOfIsland_695
+
+
+#############################################
+# Link the executable maxAreaOfIsland_695.exe
+
+build maxAreaOfIsland_695.exe: CXX_EXECUTABLE_LINKER__maxAreaOfIsland_695_Debug CMakeFiles/maxAreaOfIsland_695.dir/graph/DFS/web-graph/maxAreaOfIsland_695.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\maxAreaOfIsland_695.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = maxAreaOfIsland_695.exe
+  TARGET_IMPLIB = libmaxAreaOfIsland_695.dll.a
+  TARGET_PDB = maxAreaOfIsland_695.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target largestIsland_827
+
+
+#############################################
+# Order-only phony target for largestIsland_827
+
+build cmake_object_order_depends_target_largestIsland_827: phony || .
+
+build CMakeFiles/largestIsland_827.dir/graph/DFS/web-graph/largestIsland.cpp.obj: CXX_COMPILER__largestIsland_827_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/graph/DFS/web-graph/largestIsland.cpp || cmake_object_order_depends_target_largestIsland_827
+  DEP_FILE = CMakeFiles\largestIsland_827.dir\graph\DFS\web-graph\largestIsland.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\largestIsland_827.dir
+  OBJECT_FILE_DIR = CMakeFiles\largestIsland_827.dir\graph\DFS\web-graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target largestIsland_827
+
+
+#############################################
+# Link the executable largestIsland_827.exe
+
+build largestIsland_827.exe: CXX_EXECUTABLE_LINKER__largestIsland_827_Debug CMakeFiles/largestIsland_827.dir/graph/DFS/web-graph/largestIsland.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\largestIsland_827.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = largestIsland_827.exe
+  TARGET_IMPLIB = liblargestIsland_827.dll.a
+  TARGET_PDB = largestIsland_827.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-numIslands
+
+
+#############################################
+# Order-only phony target for 01-numIslands
+
+build cmake_object_order_depends_target_01-numIslands: phony || .
+
+build CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj: CXX_COMPILER__01-numIslands_unscanned_Debug D$:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/graph/DFS/01-numIslands.cpp || cmake_object_order_depends_target_01-numIslands
+  DEP_FILE = CMakeFiles\01-numIslands.dir\graph\DFS\01-numIslands.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-numIslands.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-numIslands.dir\graph\DFS
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-numIslands
+
+
+#############################################
+# Link the executable 01-numIslands.exe
+
+build 01-numIslands.exe: CXX_EXECUTABLE_LINKER__01-numIslands_Debug CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-numIslands.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-numIslands.exe
+  TARGET_IMPLIB = lib01-numIslands.dll.a
+  TARGET_PDB = 01-numIslands.exe.dbg
 
 
 #############################################
@@ -1359,6 +1689,8 @@ build 01-countOdds: phony 01-countOdds.exe
 
 build 01-lengthOfLastWord: phony 01-lengthOfLastWord.exe
 
+build 01-lengthOfLongestSubstring: phony 01-lengthOfLongestSubstring.exe
+
 build 01-maxVowels: phony 01-maxVowels.exe
 
 build 01-maximumWealth: phony 01-maximumWealth.exe
@@ -1366,6 +1698,8 @@ build 01-maximumWealth: phony 01-maximumWealth.exe
 build 01-mergeAlternately: phony 01-mergeAlternately.exe
 
 build 01-mergeTwoLists: phony 01-mergeTwoLists.exe
+
+build 01-numIslands: phony 01-numIslands.exe
 
 build 02-average: phony 02-average.exe
 
@@ -1377,11 +1711,15 @@ build 02-fundMaxAverage: phony 02-fundMaxAverage.exe
 
 build 02-judgeCircle: phony 02-judgeCircle.exe
 
+build 02-maximumLengthSubstring: phony 02-maximumLengthSubstring.exe
+
 build 02-reverseList: phony 02-reverseList.exe
 
 build 02-toLowerCase: phony 02-toLowerCase.exe
 
 build 03-lemonadeChange: phony 03-lemonadeChange.exe
+
+build 03-longestSubarray: phony 03-longestSubarray.exe
 
 build 03-numOfSubarrays: phony 03-numOfSubarrays.exe
 
@@ -1425,11 +1763,23 @@ build 08-hasAllCodes: phony 08-hasAllCodes.exe
 
 build 09-canMakeArithmeticProgression: phony 09-canMakeArithmeticProgression.exe
 
+build 09-maxSum: phony 09-maxSum.exe
+
 build 10-isMonotonic: phony 10-isMonotonic.exe
+
+build 10-maximumSubarraySum: phony 10-maximumSubarraySum.exe
+
+build 11-maxScore: phony 11-maxScore.exe
 
 build 11-romanToInt: phony 11-romanToInt.exe
 
+build 12-maxFreq: phony 12-maxFreq.exe
+
 build LeeTCode_C__: phony LeeTCode_C__.exe
+
+build largestIsland_827: phony largestIsland_827.exe
+
+build maxAreaOfIsland_695: phony maxAreaOfIsland_695.exe
 
 # =============================================================================
 # Folder targets.
@@ -1439,7 +1789,7 @@ build LeeTCode_C__: phony LeeTCode_C__.exe
 #############################################
 # Folder: D:/我的学习资源/13-C++_learning/02-LeetCode_Cplusplus/cmake-build-debug
 
-build all: phony LeeTCode_C__.exe 01-mergeAlternately.exe 02-findTheDifference.exe 03-strStr.exe 04-isAnagram.exe 05-repeatedSubstringPattern.exe 06-moveZeroes.exe 07-plusOne.exe 08-arraySign.exe 09-canMakeArithmeticProgression.exe 10-isMonotonic.exe 11-romanToInt.exe 01-lengthOfLastWord.exe 02-toLowerCase.exe 01-calPoints.exe 02-judgeCircle.exe 03-tictactoe.exe 04-isRobotBounded.exe 01-maximumWealth.exe 02-diagonalSum.exe 03-spiralOrder.exe 04-setZeroes.exe 01-countOdds.exe 02-average.exe 03-lemonadeChange.exe 04-largestPerimeter.exe 05-checkStraightLine.exe 06-addBinary.exe 07-multiply.exe 01-mergeTwoLists.exe 02-reverseList.exe 01-maxVowels.exe 02-fundMaxAverage.exe 03-numOfSubarrays.exe 04-getAverages.exe 05-minimumRecolors.exe 06-decrypt.exe 07-maxSatisfied.exe 08-hasAllCodes.exe
+build all: phony LeeTCode_C__.exe 01-mergeAlternately.exe 02-findTheDifference.exe 03-strStr.exe 04-isAnagram.exe 05-repeatedSubstringPattern.exe 06-moveZeroes.exe 07-plusOne.exe 08-arraySign.exe 09-canMakeArithmeticProgression.exe 10-isMonotonic.exe 11-romanToInt.exe 01-lengthOfLastWord.exe 02-toLowerCase.exe 01-calPoints.exe 02-judgeCircle.exe 03-tictactoe.exe 04-isRobotBounded.exe 01-maximumWealth.exe 02-diagonalSum.exe 03-spiralOrder.exe 04-setZeroes.exe 01-countOdds.exe 02-average.exe 03-lemonadeChange.exe 04-largestPerimeter.exe 05-checkStraightLine.exe 06-addBinary.exe 07-multiply.exe 01-mergeTwoLists.exe 02-reverseList.exe 01-maxVowels.exe 02-fundMaxAverage.exe 03-numOfSubarrays.exe 04-getAverages.exe 05-minimumRecolors.exe 06-decrypt.exe 07-maxSatisfied.exe 08-hasAllCodes.exe 09-maxSum.exe 10-maximumSubarraySum.exe 11-maxScore.exe 12-maxFreq.exe 01-lengthOfLongestSubstring.exe 02-maximumLengthSubstring.exe 03-longestSubarray.exe maxAreaOfIsland_695.exe largestIsland_827.exe 01-numIslands.exe
 
 # =============================================================================
 # Built-in targets
