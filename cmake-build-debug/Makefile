@@ -700,6 +700,84 @@ LeeTCode_C__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumLengthSubstring.dir\build.make CMakeFiles/02-maximumLengthSubstring.dir/build
 .PHONY : 02-maximumLengthSubstring/fast
 
+#=============================================================================
+# Target rules for targets named 03-longestSubarray
+
+# Build rule for target.
+03-longestSubarray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 03-longestSubarray
+.PHONY : 03-longestSubarray
+
+# fast build rule for target.
+03-longestSubarray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-longestSubarray.dir\build.make CMakeFiles/03-longestSubarray.dir/build
+.PHONY : 03-longestSubarray/fast
+
+#=============================================================================
+# Target rules for targets named 04-equalSubstring
+
+# Build rule for target.
+04-equalSubstring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 04-equalSubstring
+.PHONY : 04-equalSubstring
+
+# fast build rule for target.
+04-equalSubstring/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-equalSubstring.dir\build.make CMakeFiles/04-equalSubstring.dir/build
+.PHONY : 04-equalSubstring/fast
+
+#=============================================================================
+# Target rules for targets named 05-longestSemiRepetitiveSubstring
+
+# Build rule for target.
+05-longestSemiRepetitiveSubstring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 05-longestSemiRepetitiveSubstring
+.PHONY : 05-longestSemiRepetitiveSubstring
+
+# fast build rule for target.
+05-longestSemiRepetitiveSubstring/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-longestSemiRepetitiveSubstring.dir\build.make CMakeFiles/05-longestSemiRepetitiveSubstring.dir/build
+.PHONY : 05-longestSemiRepetitiveSubstring/fast
+
+#=============================================================================
+# Target rules for targets named 01-numIslands
+
+# Build rule for target.
+01-numIslands: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-numIslands
+.PHONY : 01-numIslands
+
+# fast build rule for target.
+01-numIslands/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/build
+.PHONY : 01-numIslands/fast
+
+#=============================================================================
+# Target rules for targets named 01-dailyTemperatures
+
+# Build rule for target.
+01-dailyTemperatures: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-dailyTemperatures
+.PHONY : 01-dailyTemperatures
+
+# fast build rule for target.
+01-dailyTemperatures/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-dailyTemperatures.dir\build.make CMakeFiles/01-dailyTemperatures.dir/build
+.PHONY : 01-dailyTemperatures/fast
+
+#=============================================================================
+# Target rules for targets named 02-finalPrices
+
+# Build rule for target.
+02-finalPrices: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02-finalPrices
+.PHONY : 02-finalPrices
+
+# fast build rule for target.
+02-finalPrices/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-finalPrices.dir\build.make CMakeFiles/02-finalPrices.dir/build
+.PHONY : 02-finalPrices/fast
+
 basic_of_programming/LinkList/01-mergeTwoLists.obj: basic_of_programming/LinkList/01-mergeTwoLists.cpp.obj
 .PHONY : basic_of_programming/LinkList/01-mergeTwoLists.obj
 
@@ -1420,6 +1498,30 @@ basic_of_programming/matrix/04-setZeroes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-setZeroes.dir\build.make CMakeFiles/04-setZeroes.dir/basic_of_programming/matrix/04-setZeroes.cpp.s
 .PHONY : basic_of_programming/matrix/04-setZeroes.cpp.s
 
+graph/DFS/01-numIslands.obj: graph/DFS/01-numIslands.cpp.obj
+.PHONY : graph/DFS/01-numIslands.obj
+
+# target to build an object file
+graph/DFS/01-numIslands.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj
+.PHONY : graph/DFS/01-numIslands.cpp.obj
+
+graph/DFS/01-numIslands.i: graph/DFS/01-numIslands.cpp.i
+.PHONY : graph/DFS/01-numIslands.i
+
+# target to preprocess a source file
+graph/DFS/01-numIslands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.i
+.PHONY : graph/DFS/01-numIslands.cpp.i
+
+graph/DFS/01-numIslands.s: graph/DFS/01-numIslands.cpp.s
+.PHONY : graph/DFS/01-numIslands.s
+
+# target to generate assembly for a file
+graph/DFS/01-numIslands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.s
+.PHONY : graph/DFS/01-numIslands.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1443,6 +1545,54 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LeeTCode_C__.dir\build.make CMakeFiles/LeeTCode_C__.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+monotonic_stack/01-dailyTemperatures.obj: monotonic_stack/01-dailyTemperatures.cpp.obj
+.PHONY : monotonic_stack/01-dailyTemperatures.obj
+
+# target to build an object file
+monotonic_stack/01-dailyTemperatures.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-dailyTemperatures.dir\build.make CMakeFiles/01-dailyTemperatures.dir/monotonic_stack/01-dailyTemperatures.cpp.obj
+.PHONY : monotonic_stack/01-dailyTemperatures.cpp.obj
+
+monotonic_stack/01-dailyTemperatures.i: monotonic_stack/01-dailyTemperatures.cpp.i
+.PHONY : monotonic_stack/01-dailyTemperatures.i
+
+# target to preprocess a source file
+monotonic_stack/01-dailyTemperatures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-dailyTemperatures.dir\build.make CMakeFiles/01-dailyTemperatures.dir/monotonic_stack/01-dailyTemperatures.cpp.i
+.PHONY : monotonic_stack/01-dailyTemperatures.cpp.i
+
+monotonic_stack/01-dailyTemperatures.s: monotonic_stack/01-dailyTemperatures.cpp.s
+.PHONY : monotonic_stack/01-dailyTemperatures.s
+
+# target to generate assembly for a file
+monotonic_stack/01-dailyTemperatures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-dailyTemperatures.dir\build.make CMakeFiles/01-dailyTemperatures.dir/monotonic_stack/01-dailyTemperatures.cpp.s
+.PHONY : monotonic_stack/01-dailyTemperatures.cpp.s
+
+monotonic_stack/02-finalPrices.obj: monotonic_stack/02-finalPrices.cpp.obj
+.PHONY : monotonic_stack/02-finalPrices.obj
+
+# target to build an object file
+monotonic_stack/02-finalPrices.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-finalPrices.dir\build.make CMakeFiles/02-finalPrices.dir/monotonic_stack/02-finalPrices.cpp.obj
+.PHONY : monotonic_stack/02-finalPrices.cpp.obj
+
+monotonic_stack/02-finalPrices.i: monotonic_stack/02-finalPrices.cpp.i
+.PHONY : monotonic_stack/02-finalPrices.i
+
+# target to preprocess a source file
+monotonic_stack/02-finalPrices.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-finalPrices.dir\build.make CMakeFiles/02-finalPrices.dir/monotonic_stack/02-finalPrices.cpp.i
+.PHONY : monotonic_stack/02-finalPrices.cpp.i
+
+monotonic_stack/02-finalPrices.s: monotonic_stack/02-finalPrices.cpp.s
+.PHONY : monotonic_stack/02-finalPrices.s
+
+# target to generate assembly for a file
+monotonic_stack/02-finalPrices.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-finalPrices.dir\build.make CMakeFiles/02-finalPrices.dir/monotonic_stack/02-finalPrices.cpp.s
+.PHONY : monotonic_stack/02-finalPrices.cpp.s
 
 slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.obj: slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.cpp.obj
 .PHONY : slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.obj
@@ -1780,6 +1930,78 @@ slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSub
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumLengthSubstring.dir\build.make CMakeFiles/02-maximumLengthSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.s
 .PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.cpp.s
 
+slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-longestSubarray.dir\build.make CMakeFiles/03-longestSubarray.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-longestSubarray.dir\build.make CMakeFiles/03-longestSubarray.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-longestSubarray.dir\build.make CMakeFiles/03-longestSubarray.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp.s
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-equalSubstring.dir\build.make CMakeFiles/04-equalSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-equalSubstring.dir\build.make CMakeFiles/04-equalSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-equalSubstring.dir\build.make CMakeFiles/04-equalSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp.s
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-longestSemiRepetitiveSubstring.dir\build.make CMakeFiles/05-longestSemiRepetitiveSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-longestSemiRepetitiveSubstring.dir\build.make CMakeFiles/05-longestSemiRepetitiveSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-longestSemiRepetitiveSubstring.dir\build.make CMakeFiles/05-longestSemiRepetitiveSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1790,14 +2012,17 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 01-calPoints
 	@echo ... 01-countOdds
+	@echo ... 01-dailyTemperatures
 	@echo ... 01-lengthOfLastWord
 	@echo ... 01-lengthOfLongestSubstring
 	@echo ... 01-maxVowels
 	@echo ... 01-maximumWealth
 	@echo ... 01-mergeAlternately
 	@echo ... 01-mergeTwoLists
+	@echo ... 01-numIslands
 	@echo ... 02-average
 	@echo ... 02-diagonalSum
+	@echo ... 02-finalPrices
 	@echo ... 02-findTheDifference
 	@echo ... 02-fundMaxAverage
 	@echo ... 02-judgeCircle
@@ -1805,16 +2030,19 @@ help:
 	@echo ... 02-reverseList
 	@echo ... 02-toLowerCase
 	@echo ... 03-lemonadeChange
+	@echo ... 03-longestSubarray
 	@echo ... 03-numOfSubarrays
 	@echo ... 03-spiralOrder
 	@echo ... 03-strStr
 	@echo ... 03-tictactoe
+	@echo ... 04-equalSubstring
 	@echo ... 04-getAverages
 	@echo ... 04-isAnagram
 	@echo ... 04-isRobotBounded
 	@echo ... 04-largestPerimeter
 	@echo ... 04-setZeroes
 	@echo ... 05-checkStraightLine
+	@echo ... 05-longestSemiRepetitiveSubstring
 	@echo ... 05-minimumRecolors
 	@echo ... 05-repeatedSubstringPattern
 	@echo ... 06-addBinary
@@ -1923,9 +2151,18 @@ help:
 	@echo ... basic_of_programming/matrix/04-setZeroes.obj
 	@echo ... basic_of_programming/matrix/04-setZeroes.i
 	@echo ... basic_of_programming/matrix/04-setZeroes.s
+	@echo ... graph/DFS/01-numIslands.obj
+	@echo ... graph/DFS/01-numIslands.i
+	@echo ... graph/DFS/01-numIslands.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... monotonic_stack/01-dailyTemperatures.obj
+	@echo ... monotonic_stack/01-dailyTemperatures.i
+	@echo ... monotonic_stack/01-dailyTemperatures.s
+	@echo ... monotonic_stack/02-finalPrices.obj
+	@echo ... monotonic_stack/02-finalPrices.i
+	@echo ... monotonic_stack/02-finalPrices.s
 	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.obj
 	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.i
 	@echo ... slidingWindow_doublePointers/definite-length_slidingWindow/01-maxVowels.s
@@ -1968,6 +2205,15 @@ help:
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.obj
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.i
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/02-maximumLengthSubstring.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.s
 .PHONY : help
 
 
