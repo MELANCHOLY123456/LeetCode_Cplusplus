@@ -59,6 +59,11 @@ add_executable(02-maximumLengthSubstring slidingWindow_doublePointers/indefinite
 add_executable(03-longestSubarray slidingWindow_doublePointers/indefinite-length_slidingWindow/03-longestSubarray.cpp)
 add_executable(04-equalSubstring slidingWindow_doublePointers/indefinite-length_slidingWindow/04-equalSubstring.cpp)
 add_executable(05-longestSemiRepetitiveSubstring slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp)
+add_executable(06-totalFruit slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp)
+add_executable(07-maximumUniqueSubarray slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp)
+add_executable(08-maxSubarrayLength slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp)
+add_executable(09-maximumBeauty slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp)
+add_executable(10-maxConsecutiveAnswers slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp)
 
 add_executable(01-numIslands graph/DFS/01-numIslands.cpp)
 

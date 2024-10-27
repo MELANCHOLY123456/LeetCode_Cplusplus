@@ -740,6 +740,71 @@ LeeTCode_C__/fast:
 .PHONY : 05-longestSemiRepetitiveSubstring/fast
 
 #=============================================================================
+# Target rules for targets named 06-totalFruit
+
+# Build rule for target.
+06-totalFruit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 06-totalFruit
+.PHONY : 06-totalFruit
+
+# fast build rule for target.
+06-totalFruit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-totalFruit.dir\build.make CMakeFiles/06-totalFruit.dir/build
+.PHONY : 06-totalFruit/fast
+
+#=============================================================================
+# Target rules for targets named 07-maximumUniqueSubarray
+
+# Build rule for target.
+07-maximumUniqueSubarray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 07-maximumUniqueSubarray
+.PHONY : 07-maximumUniqueSubarray
+
+# fast build rule for target.
+07-maximumUniqueSubarray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maximumUniqueSubarray.dir\build.make CMakeFiles/07-maximumUniqueSubarray.dir/build
+.PHONY : 07-maximumUniqueSubarray/fast
+
+#=============================================================================
+# Target rules for targets named 08-maxSubarrayLength
+
+# Build rule for target.
+08-maxSubarrayLength: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 08-maxSubarrayLength
+.PHONY : 08-maxSubarrayLength
+
+# fast build rule for target.
+08-maxSubarrayLength/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-maxSubarrayLength.dir\build.make CMakeFiles/08-maxSubarrayLength.dir/build
+.PHONY : 08-maxSubarrayLength/fast
+
+#=============================================================================
+# Target rules for targets named 09-maximumBeauty
+
+# Build rule for target.
+09-maximumBeauty: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 09-maximumBeauty
+.PHONY : 09-maximumBeauty
+
+# fast build rule for target.
+09-maximumBeauty/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maximumBeauty.dir\build.make CMakeFiles/09-maximumBeauty.dir/build
+.PHONY : 09-maximumBeauty/fast
+
+#=============================================================================
+# Target rules for targets named 10-maxConsecutiveAnswers
+
+# Build rule for target.
+10-maxConsecutiveAnswers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-maxConsecutiveAnswers
+.PHONY : 10-maxConsecutiveAnswers
+
+# fast build rule for target.
+10-maxConsecutiveAnswers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maxConsecutiveAnswers.dir\build.make CMakeFiles/10-maxConsecutiveAnswers.dir/build
+.PHONY : 10-maxConsecutiveAnswers/fast
+
+#=============================================================================
 # Target rules for targets named 01-numIslands
 
 # Build rule for target.
@@ -2002,6 +2067,126 @@ slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepet
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-longestSemiRepetitiveSubstring.dir\build.make CMakeFiles/05-longestSemiRepetitiveSubstring.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.s
 .PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.cpp.s
 
+slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-totalFruit.dir\build.make CMakeFiles/06-totalFruit.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-totalFruit.dir\build.make CMakeFiles/06-totalFruit.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-totalFruit.dir\build.make CMakeFiles/06-totalFruit.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.cpp.s
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maximumUniqueSubarray.dir\build.make CMakeFiles/07-maximumUniqueSubarray.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maximumUniqueSubarray.dir\build.make CMakeFiles/07-maximumUniqueSubarray.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maximumUniqueSubarray.dir\build.make CMakeFiles/07-maximumUniqueSubarray.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.cpp.s
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-maxSubarrayLength.dir\build.make CMakeFiles/08-maxSubarrayLength.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-maxSubarrayLength.dir\build.make CMakeFiles/08-maxSubarrayLength.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-maxSubarrayLength.dir\build.make CMakeFiles/08-maxSubarrayLength.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp.s
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maximumBeauty.dir\build.make CMakeFiles/09-maximumBeauty.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maximumBeauty.dir\build.make CMakeFiles/09-maximumBeauty.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maximumBeauty.dir\build.make CMakeFiles/09-maximumBeauty.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp.s
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maxConsecutiveAnswers.dir\build.make CMakeFiles/10-maxConsecutiveAnswers.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maxConsecutiveAnswers.dir\build.make CMakeFiles/10-maxConsecutiveAnswers.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maxConsecutiveAnswers.dir\build.make CMakeFiles/10-maxConsecutiveAnswers.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2048,14 +2233,19 @@ help:
 	@echo ... 06-addBinary
 	@echo ... 06-decrypt
 	@echo ... 06-moveZeroes
+	@echo ... 06-totalFruit
 	@echo ... 07-maxSatisfied
+	@echo ... 07-maximumUniqueSubarray
 	@echo ... 07-multiply
 	@echo ... 07-plusOne
 	@echo ... 08-arraySign
 	@echo ... 08-hasAllCodes
+	@echo ... 08-maxSubarrayLength
 	@echo ... 09-canMakeArithmeticProgression
 	@echo ... 09-maxSum
+	@echo ... 09-maximumBeauty
 	@echo ... 10-isMonotonic
+	@echo ... 10-maxConsecutiveAnswers
 	@echo ... 10-maximumSubarraySum
 	@echo ... 11-maxScore
 	@echo ... 11-romanToInt
@@ -2214,6 +2404,21 @@ help:
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.obj
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.i
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/05-longestSemiRepetitiveSubstring.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/06-totalFruit.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/07-maximumUniqueSubarray.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.s
 .PHONY : help
 
 
