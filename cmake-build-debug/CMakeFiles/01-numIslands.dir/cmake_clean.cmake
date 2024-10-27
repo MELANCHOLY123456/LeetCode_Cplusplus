@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "01-numIslands.exe"
   "01-numIslands.exe.manifest"
   "01-numIslands.pdb"
-  "CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj"
-  "CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj.d"
+  "CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj"
+  "CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj.d"
   "lib01-numIslands.dll.a"
 )
 

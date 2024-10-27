@@ -3,7 +3,8 @@ project(LeeTCode_C__)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(LeeTCode_C__ main.cpp)
+add_executable(LeeTCode_C__ main.cpp
+)
 
 add_executable(01-mergeAlternately basic_of_programming/basic_realization/01-mergeAlternately.cpp)
 add_executable(02-findTheDifference basic_of_programming/basic_realization/02-findTheDifference.cpp)
@@ -64,8 +65,14 @@ add_executable(07-maximumUniqueSubarray slidingWindow_doublePointers/indefinite-
 add_executable(08-maxSubarrayLength slidingWindow_doublePointers/indefinite-length_slidingWindow/08-maxSubarrayLength.cpp)
 add_executable(09-maximumBeauty slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp)
 add_executable(10-maxConsecutiveAnswers slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp)
+add_executable(11-longestOnes slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp)
 
-add_executable(01-numIslands graph/DFS/01-numIslands.cpp)
+add_executable(01-numIslands web_graph/DFS/01-numIslands.cpp)
 
 add_executable(01-dailyTemperatures monotonic_stack/01-dailyTemperatures.cpp)
 add_executable(02-finalPrices monotonic_stack/02-finalPrices.cpp)
+
+add_executable(01-findCircleNum graph_theoretic_algorithm/01-findCircleNum.cpp)
+add_executable(02-validPath graph_theoretic_algorithm/02-validPath.cpp)
+add_executable(03-allPathsSourceTarget graph_theoretic_algorithm/03-allPathsSourceTarget.cpp)
+
