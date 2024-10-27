@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/graph/DFS/01-numIslands.cpp" "CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj" "gcc" "CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj.d"
+  "D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/web_graph/DFS/01-numIslands.cpp" "CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj" "gcc" "CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

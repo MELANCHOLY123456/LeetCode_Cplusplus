@@ -805,6 +805,19 @@ LeeTCode_C__/fast:
 .PHONY : 10-maxConsecutiveAnswers/fast
 
 #=============================================================================
+# Target rules for targets named 11-longestOnes
+
+# Build rule for target.
+11-longestOnes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 11-longestOnes
+.PHONY : 11-longestOnes
+
+# fast build rule for target.
+11-longestOnes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-longestOnes.dir\build.make CMakeFiles/11-longestOnes.dir/build
+.PHONY : 11-longestOnes/fast
+
+#=============================================================================
 # Target rules for targets named 01-numIslands
 
 # Build rule for target.
@@ -842,6 +855,71 @@ LeeTCode_C__/fast:
 02-finalPrices/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-finalPrices.dir\build.make CMakeFiles/02-finalPrices.dir/build
 .PHONY : 02-finalPrices/fast
+
+#=============================================================================
+# Target rules for targets named 01-findCircleNum
+
+# Build rule for target.
+01-findCircleNum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-findCircleNum
+.PHONY : 01-findCircleNum
+
+# fast build rule for target.
+01-findCircleNum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/build
+.PHONY : 01-findCircleNum/fast
+
+#=============================================================================
+# Target rules for targets named 02-validPath
+
+# Build rule for target.
+02-validPath: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02-validPath
+.PHONY : 02-validPath
+
+# fast build rule for target.
+02-validPath/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-validPath.dir\build.make CMakeFiles/02-validPath.dir/build
+.PHONY : 02-validPath/fast
+
+#=============================================================================
+# Target rules for targets named 03-allPathsSourceTarget
+
+# Build rule for target.
+03-allPathsSourceTarget: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 03-allPathsSourceTarget
+.PHONY : 03-allPathsSourceTarget
+
+# fast build rule for target.
+03-allPathsSourceTarget/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-allPathsSourceTarget.dir\build.make CMakeFiles/03-allPathsSourceTarget.dir/build
+.PHONY : 03-allPathsSourceTarget/fast
+
+#=============================================================================
+# Target rules for targets named 04-canVisitAllRooms
+
+# Build rule for target.
+04-canVisitAllRooms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 04-canVisitAllRooms
+.PHONY : 04-canVisitAllRooms
+
+# fast build rule for target.
+04-canVisitAllRooms/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/build
+.PHONY : 04-canVisitAllRooms/fast
+
+#=============================================================================
+# Target rules for targets named 05-countPairs
+
+# Build rule for target.
+05-countPairs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 05-countPairs
+.PHONY : 05-countPairs
+
+# fast build rule for target.
+05-countPairs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/build
+.PHONY : 05-countPairs/fast
 
 basic_of_programming/LinkList/01-mergeTwoLists.obj: basic_of_programming/LinkList/01-mergeTwoLists.cpp.obj
 .PHONY : basic_of_programming/LinkList/01-mergeTwoLists.obj
@@ -1563,29 +1641,125 @@ basic_of_programming/matrix/04-setZeroes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-setZeroes.dir\build.make CMakeFiles/04-setZeroes.dir/basic_of_programming/matrix/04-setZeroes.cpp.s
 .PHONY : basic_of_programming/matrix/04-setZeroes.cpp.s
 
-graph/DFS/01-numIslands.obj: graph/DFS/01-numIslands.cpp.obj
-.PHONY : graph/DFS/01-numIslands.obj
+graph_theoretic_algorithm/01-findCircleNum.obj: graph_theoretic_algorithm/01-findCircleNum.cpp.obj
+.PHONY : graph_theoretic_algorithm/01-findCircleNum.obj
 
 # target to build an object file
-graph/DFS/01-numIslands.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj
-.PHONY : graph/DFS/01-numIslands.cpp.obj
+graph_theoretic_algorithm/01-findCircleNum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/graph_theoretic_algorithm/01-findCircleNum.cpp.obj
+.PHONY : graph_theoretic_algorithm/01-findCircleNum.cpp.obj
 
-graph/DFS/01-numIslands.i: graph/DFS/01-numIslands.cpp.i
-.PHONY : graph/DFS/01-numIslands.i
+graph_theoretic_algorithm/01-findCircleNum.i: graph_theoretic_algorithm/01-findCircleNum.cpp.i
+.PHONY : graph_theoretic_algorithm/01-findCircleNum.i
 
 # target to preprocess a source file
-graph/DFS/01-numIslands.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.i
-.PHONY : graph/DFS/01-numIslands.cpp.i
+graph_theoretic_algorithm/01-findCircleNum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/graph_theoretic_algorithm/01-findCircleNum.cpp.i
+.PHONY : graph_theoretic_algorithm/01-findCircleNum.cpp.i
 
-graph/DFS/01-numIslands.s: graph/DFS/01-numIslands.cpp.s
-.PHONY : graph/DFS/01-numIslands.s
+graph_theoretic_algorithm/01-findCircleNum.s: graph_theoretic_algorithm/01-findCircleNum.cpp.s
+.PHONY : graph_theoretic_algorithm/01-findCircleNum.s
 
 # target to generate assembly for a file
-graph/DFS/01-numIslands.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.s
-.PHONY : graph/DFS/01-numIslands.cpp.s
+graph_theoretic_algorithm/01-findCircleNum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/graph_theoretic_algorithm/01-findCircleNum.cpp.s
+.PHONY : graph_theoretic_algorithm/01-findCircleNum.cpp.s
+
+graph_theoretic_algorithm/02-validPath.obj: graph_theoretic_algorithm/02-validPath.cpp.obj
+.PHONY : graph_theoretic_algorithm/02-validPath.obj
+
+# target to build an object file
+graph_theoretic_algorithm/02-validPath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-validPath.dir\build.make CMakeFiles/02-validPath.dir/graph_theoretic_algorithm/02-validPath.cpp.obj
+.PHONY : graph_theoretic_algorithm/02-validPath.cpp.obj
+
+graph_theoretic_algorithm/02-validPath.i: graph_theoretic_algorithm/02-validPath.cpp.i
+.PHONY : graph_theoretic_algorithm/02-validPath.i
+
+# target to preprocess a source file
+graph_theoretic_algorithm/02-validPath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-validPath.dir\build.make CMakeFiles/02-validPath.dir/graph_theoretic_algorithm/02-validPath.cpp.i
+.PHONY : graph_theoretic_algorithm/02-validPath.cpp.i
+
+graph_theoretic_algorithm/02-validPath.s: graph_theoretic_algorithm/02-validPath.cpp.s
+.PHONY : graph_theoretic_algorithm/02-validPath.s
+
+# target to generate assembly for a file
+graph_theoretic_algorithm/02-validPath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-validPath.dir\build.make CMakeFiles/02-validPath.dir/graph_theoretic_algorithm/02-validPath.cpp.s
+.PHONY : graph_theoretic_algorithm/02-validPath.cpp.s
+
+graph_theoretic_algorithm/03-allPathsSourceTarget.obj: graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.obj
+.PHONY : graph_theoretic_algorithm/03-allPathsSourceTarget.obj
+
+# target to build an object file
+graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-allPathsSourceTarget.dir\build.make CMakeFiles/03-allPathsSourceTarget.dir/graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.obj
+.PHONY : graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.obj
+
+graph_theoretic_algorithm/03-allPathsSourceTarget.i: graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.i
+.PHONY : graph_theoretic_algorithm/03-allPathsSourceTarget.i
+
+# target to preprocess a source file
+graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-allPathsSourceTarget.dir\build.make CMakeFiles/03-allPathsSourceTarget.dir/graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.i
+.PHONY : graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.i
+
+graph_theoretic_algorithm/03-allPathsSourceTarget.s: graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.s
+.PHONY : graph_theoretic_algorithm/03-allPathsSourceTarget.s
+
+# target to generate assembly for a file
+graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-allPathsSourceTarget.dir\build.make CMakeFiles/03-allPathsSourceTarget.dir/graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.s
+.PHONY : graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.s
+
+graph_theoretic_algorithm/04-canVisitAllRooms.obj: graph_theoretic_algorithm/04-canVisitAllRooms.cpp.obj
+.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.obj
+
+# target to build an object file
+graph_theoretic_algorithm/04-canVisitAllRooms.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/graph_theoretic_algorithm/04-canVisitAllRooms.cpp.obj
+.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.cpp.obj
+
+graph_theoretic_algorithm/04-canVisitAllRooms.i: graph_theoretic_algorithm/04-canVisitAllRooms.cpp.i
+.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.i
+
+# target to preprocess a source file
+graph_theoretic_algorithm/04-canVisitAllRooms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/graph_theoretic_algorithm/04-canVisitAllRooms.cpp.i
+.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.cpp.i
+
+graph_theoretic_algorithm/04-canVisitAllRooms.s: graph_theoretic_algorithm/04-canVisitAllRooms.cpp.s
+.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.s
+
+# target to generate assembly for a file
+graph_theoretic_algorithm/04-canVisitAllRooms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/graph_theoretic_algorithm/04-canVisitAllRooms.cpp.s
+.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.cpp.s
+
+graph_theoretic_algorithm/05-countPairs.obj: graph_theoretic_algorithm/05-countPairs.cpp.obj
+.PHONY : graph_theoretic_algorithm/05-countPairs.obj
+
+# target to build an object file
+graph_theoretic_algorithm/05-countPairs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/graph_theoretic_algorithm/05-countPairs.cpp.obj
+.PHONY : graph_theoretic_algorithm/05-countPairs.cpp.obj
+
+graph_theoretic_algorithm/05-countPairs.i: graph_theoretic_algorithm/05-countPairs.cpp.i
+.PHONY : graph_theoretic_algorithm/05-countPairs.i
+
+# target to preprocess a source file
+graph_theoretic_algorithm/05-countPairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/graph_theoretic_algorithm/05-countPairs.cpp.i
+.PHONY : graph_theoretic_algorithm/05-countPairs.cpp.i
+
+graph_theoretic_algorithm/05-countPairs.s: graph_theoretic_algorithm/05-countPairs.cpp.s
+.PHONY : graph_theoretic_algorithm/05-countPairs.s
+
+# target to generate assembly for a file
+graph_theoretic_algorithm/05-countPairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/graph_theoretic_algorithm/05-countPairs.cpp.s
+.PHONY : graph_theoretic_algorithm/05-countPairs.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -2187,6 +2361,54 @@ slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAn
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maxConsecutiveAnswers.dir\build.make CMakeFiles/10-maxConsecutiveAnswers.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.s
 .PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp.s
 
+slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-longestOnes.dir\build.make CMakeFiles/11-longestOnes.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-longestOnes.dir\build.make CMakeFiles/11-longestOnes.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-longestOnes.dir\build.make CMakeFiles/11-longestOnes.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.s
+
+web_graph/DFS/01-numIslands.obj: web_graph/DFS/01-numIslands.cpp.obj
+.PHONY : web_graph/DFS/01-numIslands.obj
+
+# target to build an object file
+web_graph/DFS/01-numIslands.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj
+.PHONY : web_graph/DFS/01-numIslands.cpp.obj
+
+web_graph/DFS/01-numIslands.i: web_graph/DFS/01-numIslands.cpp.i
+.PHONY : web_graph/DFS/01-numIslands.i
+
+# target to preprocess a source file
+web_graph/DFS/01-numIslands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.i
+.PHONY : web_graph/DFS/01-numIslands.cpp.i
+
+web_graph/DFS/01-numIslands.s: web_graph/DFS/01-numIslands.cpp.s
+.PHONY : web_graph/DFS/01-numIslands.s
+
+# target to generate assembly for a file
+web_graph/DFS/01-numIslands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.s
+.PHONY : web_graph/DFS/01-numIslands.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2198,6 +2420,7 @@ help:
 	@echo ... 01-calPoints
 	@echo ... 01-countOdds
 	@echo ... 01-dailyTemperatures
+	@echo ... 01-findCircleNum
 	@echo ... 01-lengthOfLastWord
 	@echo ... 01-lengthOfLongestSubstring
 	@echo ... 01-maxVowels
@@ -2214,12 +2437,15 @@ help:
 	@echo ... 02-maximumLengthSubstring
 	@echo ... 02-reverseList
 	@echo ... 02-toLowerCase
+	@echo ... 02-validPath
+	@echo ... 03-allPathsSourceTarget
 	@echo ... 03-lemonadeChange
 	@echo ... 03-longestSubarray
 	@echo ... 03-numOfSubarrays
 	@echo ... 03-spiralOrder
 	@echo ... 03-strStr
 	@echo ... 03-tictactoe
+	@echo ... 04-canVisitAllRooms
 	@echo ... 04-equalSubstring
 	@echo ... 04-getAverages
 	@echo ... 04-isAnagram
@@ -2227,6 +2453,7 @@ help:
 	@echo ... 04-largestPerimeter
 	@echo ... 04-setZeroes
 	@echo ... 05-checkStraightLine
+	@echo ... 05-countPairs
 	@echo ... 05-longestSemiRepetitiveSubstring
 	@echo ... 05-minimumRecolors
 	@echo ... 05-repeatedSubstringPattern
@@ -2247,6 +2474,7 @@ help:
 	@echo ... 10-isMonotonic
 	@echo ... 10-maxConsecutiveAnswers
 	@echo ... 10-maximumSubarraySum
+	@echo ... 11-longestOnes
 	@echo ... 11-maxScore
 	@echo ... 11-romanToInt
 	@echo ... 12-maxFreq
@@ -2341,9 +2569,21 @@ help:
 	@echo ... basic_of_programming/matrix/04-setZeroes.obj
 	@echo ... basic_of_programming/matrix/04-setZeroes.i
 	@echo ... basic_of_programming/matrix/04-setZeroes.s
-	@echo ... graph/DFS/01-numIslands.obj
-	@echo ... graph/DFS/01-numIslands.i
-	@echo ... graph/DFS/01-numIslands.s
+	@echo ... graph_theoretic_algorithm/01-findCircleNum.obj
+	@echo ... graph_theoretic_algorithm/01-findCircleNum.i
+	@echo ... graph_theoretic_algorithm/01-findCircleNum.s
+	@echo ... graph_theoretic_algorithm/02-validPath.obj
+	@echo ... graph_theoretic_algorithm/02-validPath.i
+	@echo ... graph_theoretic_algorithm/02-validPath.s
+	@echo ... graph_theoretic_algorithm/03-allPathsSourceTarget.obj
+	@echo ... graph_theoretic_algorithm/03-allPathsSourceTarget.i
+	@echo ... graph_theoretic_algorithm/03-allPathsSourceTarget.s
+	@echo ... graph_theoretic_algorithm/04-canVisitAllRooms.obj
+	@echo ... graph_theoretic_algorithm/04-canVisitAllRooms.i
+	@echo ... graph_theoretic_algorithm/04-canVisitAllRooms.s
+	@echo ... graph_theoretic_algorithm/05-countPairs.obj
+	@echo ... graph_theoretic_algorithm/05-countPairs.i
+	@echo ... graph_theoretic_algorithm/05-countPairs.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -2419,6 +2659,12 @@ help:
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.obj
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.i
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.s
+	@echo ... web_graph/DFS/01-numIslands.obj
+	@echo ... web_graph/DFS/01-numIslands.i
+	@echo ... web_graph/DFS/01-numIslands.s
 .PHONY : help
 
 

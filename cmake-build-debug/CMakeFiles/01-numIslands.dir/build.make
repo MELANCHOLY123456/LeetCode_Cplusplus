@@ -68,28 +68,28 @@ include CMakeFiles/01-numIslands.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/01-numIslands.dir/flags.make
 
-CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj: CMakeFiles/01-numIslands.dir/flags.make
-CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/graph/DFS/01-numIslands.cpp
-CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj: CMakeFiles/01-numIslands.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj -MF CMakeFiles\01-numIslands.dir\graph\DFS\01-numIslands.cpp.obj.d -o CMakeFiles\01-numIslands.dir\graph\DFS\01-numIslands.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\graph\DFS\01-numIslands.cpp
+CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj: CMakeFiles/01-numIslands.dir/flags.make
+CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj: D:/07-我的学习资源/08-C++_Learning/01-LeetCode_Cplusplus/web_graph/DFS/01-numIslands.cpp
+CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj: CMakeFiles/01-numIslands.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj -MF CMakeFiles\01-numIslands.dir\web_graph\DFS\01-numIslands.cpp.obj.d -o CMakeFiles\01-numIslands.dir\web_graph\DFS\01-numIslands.cpp.obj -c D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\web_graph\DFS\01-numIslands.cpp
 
-CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\graph\DFS\01-numIslands.cpp > CMakeFiles\01-numIslands.dir\graph\DFS\01-numIslands.cpp.i
+CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\web_graph\DFS\01-numIslands.cpp > CMakeFiles\01-numIslands.dir\web_graph\DFS\01-numIslands.cpp.i
 
-CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\graph\DFS\01-numIslands.cpp -o CMakeFiles\01-numIslands.dir\graph\DFS\01-numIslands.cpp.s
+CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\web_graph\DFS\01-numIslands.cpp -o CMakeFiles\01-numIslands.dir\web_graph\DFS\01-numIslands.cpp.s
 
 # Object files for target 01-numIslands
 01__numIslands_OBJECTS = \
-"CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj"
+"CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj"
 
 # External object files for target 01-numIslands
 01__numIslands_EXTERNAL_OBJECTS =
 
-01-numIslands.exe: CMakeFiles/01-numIslands.dir/graph/DFS/01-numIslands.cpp.obj
+01-numIslands.exe: CMakeFiles/01-numIslands.dir/web_graph/DFS/01-numIslands.cpp.obj
 01-numIslands.exe: CMakeFiles/01-numIslands.dir/build.make
 01-numIslands.exe: CMakeFiles/01-numIslands.dir/linkLibs.rsp
 01-numIslands.exe: CMakeFiles/01-numIslands.dir/objects1.rsp
