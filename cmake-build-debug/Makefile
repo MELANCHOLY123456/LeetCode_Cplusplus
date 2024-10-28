@@ -895,32 +895,6 @@ LeeTCode_C__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-allPathsSourceTarget.dir\build.make CMakeFiles/03-allPathsSourceTarget.dir/build
 .PHONY : 03-allPathsSourceTarget/fast
 
-#=============================================================================
-# Target rules for targets named 04-canVisitAllRooms
-
-# Build rule for target.
-04-canVisitAllRooms: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 04-canVisitAllRooms
-.PHONY : 04-canVisitAllRooms
-
-# fast build rule for target.
-04-canVisitAllRooms/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/build
-.PHONY : 04-canVisitAllRooms/fast
-
-#=============================================================================
-# Target rules for targets named 05-countPairs
-
-# Build rule for target.
-05-countPairs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 05-countPairs
-.PHONY : 05-countPairs
-
-# fast build rule for target.
-05-countPairs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/build
-.PHONY : 05-countPairs/fast
-
 basic_of_programming/LinkList/01-mergeTwoLists.obj: basic_of_programming/LinkList/01-mergeTwoLists.cpp.obj
 .PHONY : basic_of_programming/LinkList/01-mergeTwoLists.obj
 
@@ -1713,54 +1687,6 @@ graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-allPathsSourceTarget.dir\build.make CMakeFiles/03-allPathsSourceTarget.dir/graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.s
 .PHONY : graph_theoretic_algorithm/03-allPathsSourceTarget.cpp.s
 
-graph_theoretic_algorithm/04-canVisitAllRooms.obj: graph_theoretic_algorithm/04-canVisitAllRooms.cpp.obj
-.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.obj
-
-# target to build an object file
-graph_theoretic_algorithm/04-canVisitAllRooms.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/graph_theoretic_algorithm/04-canVisitAllRooms.cpp.obj
-.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.cpp.obj
-
-graph_theoretic_algorithm/04-canVisitAllRooms.i: graph_theoretic_algorithm/04-canVisitAllRooms.cpp.i
-.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.i
-
-# target to preprocess a source file
-graph_theoretic_algorithm/04-canVisitAllRooms.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/graph_theoretic_algorithm/04-canVisitAllRooms.cpp.i
-.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.cpp.i
-
-graph_theoretic_algorithm/04-canVisitAllRooms.s: graph_theoretic_algorithm/04-canVisitAllRooms.cpp.s
-.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.s
-
-# target to generate assembly for a file
-graph_theoretic_algorithm/04-canVisitAllRooms.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/graph_theoretic_algorithm/04-canVisitAllRooms.cpp.s
-.PHONY : graph_theoretic_algorithm/04-canVisitAllRooms.cpp.s
-
-graph_theoretic_algorithm/05-countPairs.obj: graph_theoretic_algorithm/05-countPairs.cpp.obj
-.PHONY : graph_theoretic_algorithm/05-countPairs.obj
-
-# target to build an object file
-graph_theoretic_algorithm/05-countPairs.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/graph_theoretic_algorithm/05-countPairs.cpp.obj
-.PHONY : graph_theoretic_algorithm/05-countPairs.cpp.obj
-
-graph_theoretic_algorithm/05-countPairs.i: graph_theoretic_algorithm/05-countPairs.cpp.i
-.PHONY : graph_theoretic_algorithm/05-countPairs.i
-
-# target to preprocess a source file
-graph_theoretic_algorithm/05-countPairs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/graph_theoretic_algorithm/05-countPairs.cpp.i
-.PHONY : graph_theoretic_algorithm/05-countPairs.cpp.i
-
-graph_theoretic_algorithm/05-countPairs.s: graph_theoretic_algorithm/05-countPairs.cpp.s
-.PHONY : graph_theoretic_algorithm/05-countPairs.s
-
-# target to generate assembly for a file
-graph_theoretic_algorithm/05-countPairs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/graph_theoretic_algorithm/05-countPairs.cpp.s
-.PHONY : graph_theoretic_algorithm/05-countPairs.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -2445,7 +2371,6 @@ help:
 	@echo ... 03-spiralOrder
 	@echo ... 03-strStr
 	@echo ... 03-tictactoe
-	@echo ... 04-canVisitAllRooms
 	@echo ... 04-equalSubstring
 	@echo ... 04-getAverages
 	@echo ... 04-isAnagram
@@ -2453,7 +2378,6 @@ help:
 	@echo ... 04-largestPerimeter
 	@echo ... 04-setZeroes
 	@echo ... 05-checkStraightLine
-	@echo ... 05-countPairs
 	@echo ... 05-longestSemiRepetitiveSubstring
 	@echo ... 05-minimumRecolors
 	@echo ... 05-repeatedSubstringPattern
@@ -2578,12 +2502,6 @@ help:
 	@echo ... graph_theoretic_algorithm/03-allPathsSourceTarget.obj
 	@echo ... graph_theoretic_algorithm/03-allPathsSourceTarget.i
 	@echo ... graph_theoretic_algorithm/03-allPathsSourceTarget.s
-	@echo ... graph_theoretic_algorithm/04-canVisitAllRooms.obj
-	@echo ... graph_theoretic_algorithm/04-canVisitAllRooms.i
-	@echo ... graph_theoretic_algorithm/04-canVisitAllRooms.s
-	@echo ... graph_theoretic_algorithm/05-countPairs.obj
-	@echo ... graph_theoretic_algorithm/05-countPairs.i
-	@echo ... graph_theoretic_algorithm/05-countPairs.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
