@@ -6,7 +6,7 @@
 
 class Solution {
 public:
-    bool dfs(const int source, const int destination, std::vector<std::vector<int> > &adj, std::vector<bool> &visited) {
+    static bool dfs(const int source, const int destination, std::vector<std::vector<int> > &adj, std::vector<bool> &visited) {
         if (source == destination) {
             return true;
         }
@@ -19,7 +19,7 @@ public:
         return false;
     }
 
-    bool validPath(const int n, std::vector<std::vector<int> > &edges, const int source, const int destination) {
+    static bool validPath(const int n, std::vector<std::vector<int> > &edges, const int source, const int destination) {
         std::vector<std::vector<int> > adj(n);
         for (auto &edge: edges) {
             int x = edge[0], y = edge[1];

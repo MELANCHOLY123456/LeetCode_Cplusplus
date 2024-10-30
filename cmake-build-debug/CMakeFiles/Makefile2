@@ -122,6 +122,9 @@ all: CMakeFiles/02-finalPrices.dir/all
 all: CMakeFiles/01-findCircleNum.dir/all
 all: CMakeFiles/02-validPath.dir/all
 all: CMakeFiles/03-allPathsSourceTarget.dir/all
+all: CMakeFiles/04-canVisitAllRooms.dir/all
+all: CMakeFiles/05-countPairs.dir/all
+all: CMakeFiles/06-makeConnected.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -189,6 +192,9 @@ clean: CMakeFiles/02-finalPrices.dir/clean
 clean: CMakeFiles/01-findCircleNum.dir/clean
 clean: CMakeFiles/02-validPath.dir/clean
 clean: CMakeFiles/03-allPathsSourceTarget.dir/clean
+clean: CMakeFiles/04-canVisitAllRooms.dir/clean
+clean: CMakeFiles/05-countPairs.dir/clean
+clean: CMakeFiles/06-makeConnected.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -224,7 +230,7 @@ CMakeFiles/LeeTCode_C__.dir/clean:
 CMakeFiles/01-mergeAlternately.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-mergeAlternately.dir\build.make CMakeFiles/01-mergeAlternately.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-mergeAlternately.dir\build.make CMakeFiles/01-mergeAlternately.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target 01-mergeAlternately"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 01-mergeAlternately"
 .PHONY : CMakeFiles/01-mergeAlternately.dir/all
 
 # Build rule for subdir invocation for target.
@@ -250,12 +256,12 @@ CMakeFiles/01-mergeAlternately.dir/clean:
 CMakeFiles/02-findTheDifference.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-findTheDifference.dir\build.make CMakeFiles/02-findTheDifference.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-findTheDifference.dir\build.make CMakeFiles/02-findTheDifference.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target 02-findTheDifference"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=23 "Built target 02-findTheDifference"
 .PHONY : CMakeFiles/02-findTheDifference.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/02-findTheDifference.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/02-findTheDifference.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/02-findTheDifference.dir/rule
@@ -276,12 +282,12 @@ CMakeFiles/02-findTheDifference.dir/clean:
 CMakeFiles/03-strStr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-strStr.dir\build.make CMakeFiles/03-strStr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-strStr.dir\build.make CMakeFiles/03-strStr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target 03-strStr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=42 "Built target 03-strStr"
 .PHONY : CMakeFiles/03-strStr.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/03-strStr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/03-strStr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/03-strStr.dir/rule
@@ -302,7 +308,7 @@ CMakeFiles/03-strStr.dir/clean:
 CMakeFiles/04-isAnagram.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-isAnagram.dir\build.make CMakeFiles/04-isAnagram.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-isAnagram.dir\build.make CMakeFiles/04-isAnagram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=51 "Built target 04-isAnagram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=50 "Built target 04-isAnagram"
 .PHONY : CMakeFiles/04-isAnagram.dir/all
 
 # Build rule for subdir invocation for target.
@@ -354,12 +360,12 @@ CMakeFiles/05-repeatedSubstringPattern.dir/clean:
 CMakeFiles/06-moveZeroes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-moveZeroes.dir\build.make CMakeFiles/06-moveZeroes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-moveZeroes.dir\build.make CMakeFiles/06-moveZeroes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target 06-moveZeroes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=69 "Built target 06-moveZeroes"
 .PHONY : CMakeFiles/06-moveZeroes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/06-moveZeroes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/06-moveZeroes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/06-moveZeroes.dir/rule
@@ -380,7 +386,7 @@ CMakeFiles/06-moveZeroes.dir/clean:
 CMakeFiles/07-plusOne.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-plusOne.dir\build.make CMakeFiles/07-plusOne.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-plusOne.dir\build.make CMakeFiles/07-plusOne.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=76 "Built target 07-plusOne"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=77 "Built target 07-plusOne"
 .PHONY : CMakeFiles/07-plusOne.dir/all
 
 # Build rule for subdir invocation for target.
@@ -406,7 +412,7 @@ CMakeFiles/07-plusOne.dir/clean:
 CMakeFiles/08-arraySign.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-arraySign.dir\build.make CMakeFiles/08-arraySign.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-arraySign.dir\build.make CMakeFiles/08-arraySign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target 08-arraySign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=78,79 "Built target 08-arraySign"
 .PHONY : CMakeFiles/08-arraySign.dir/all
 
 # Build rule for subdir invocation for target.
@@ -432,7 +438,7 @@ CMakeFiles/08-arraySign.dir/clean:
 CMakeFiles/09-canMakeArithmeticProgression.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-canMakeArithmeticProgression.dir\build.make CMakeFiles/09-canMakeArithmeticProgression.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-canMakeArithmeticProgression.dir\build.make CMakeFiles/09-canMakeArithmeticProgression.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=82,83 "Built target 09-canMakeArithmeticProgression"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target 09-canMakeArithmeticProgression"
 .PHONY : CMakeFiles/09-canMakeArithmeticProgression.dir/all
 
 # Build rule for subdir invocation for target.
@@ -458,12 +464,12 @@ CMakeFiles/09-canMakeArithmeticProgression.dir/clean:
 CMakeFiles/10-isMonotonic.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-isMonotonic.dir\build.make CMakeFiles/10-isMonotonic.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-isMonotonic.dir\build.make CMakeFiles/10-isMonotonic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target 10-isMonotonic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=88 "Built target 10-isMonotonic"
 .PHONY : CMakeFiles/10-isMonotonic.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10-isMonotonic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10-isMonotonic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/10-isMonotonic.dir/rule
@@ -510,12 +516,12 @@ CMakeFiles/11-romanToInt.dir/clean:
 CMakeFiles/01-lengthOfLastWord.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-lengthOfLastWord.dir\build.make CMakeFiles/01-lengthOfLastWord.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-lengthOfLastWord.dir\build.make CMakeFiles/01-lengthOfLastWord.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 01-lengthOfLastWord"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=7 "Built target 01-lengthOfLastWord"
 .PHONY : CMakeFiles/01-lengthOfLastWord.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/01-lengthOfLastWord.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/01-lengthOfLastWord.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/01-lengthOfLastWord.dir/rule
@@ -536,12 +542,12 @@ CMakeFiles/01-lengthOfLastWord.dir/clean:
 CMakeFiles/02-toLowerCase.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-toLowerCase.dir\build.make CMakeFiles/02-toLowerCase.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-toLowerCase.dir\build.make CMakeFiles/02-toLowerCase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target 02-toLowerCase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=31 "Built target 02-toLowerCase"
 .PHONY : CMakeFiles/02-toLowerCase.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/02-toLowerCase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/02-toLowerCase.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/02-toLowerCase.dir/rule
@@ -588,12 +594,12 @@ CMakeFiles/01-calPoints.dir/clean:
 CMakeFiles/02-judgeCircle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-judgeCircle.dir\build.make CMakeFiles/02-judgeCircle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-judgeCircle.dir\build.make CMakeFiles/02-judgeCircle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target 02-judgeCircle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=26 "Built target 02-judgeCircle"
 .PHONY : CMakeFiles/02-judgeCircle.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/02-judgeCircle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/02-judgeCircle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/02-judgeCircle.dir/rule
@@ -614,12 +620,12 @@ CMakeFiles/02-judgeCircle.dir/clean:
 CMakeFiles/03-tictactoe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-tictactoe.dir\build.make CMakeFiles/03-tictactoe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-tictactoe.dir\build.make CMakeFiles/03-tictactoe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=46 "Built target 03-tictactoe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target 03-tictactoe"
 .PHONY : CMakeFiles/03-tictactoe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/03-tictactoe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/03-tictactoe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/03-tictactoe.dir/rule
@@ -640,7 +646,7 @@ CMakeFiles/03-tictactoe.dir/clean:
 CMakeFiles/04-isRobotBounded.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-isRobotBounded.dir\build.make CMakeFiles/04-isRobotBounded.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-isRobotBounded.dir\build.make CMakeFiles/04-isRobotBounded.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target 04-isRobotBounded"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target 04-isRobotBounded"
 .PHONY : CMakeFiles/04-isRobotBounded.dir/all
 
 # Build rule for subdir invocation for target.
@@ -666,12 +672,12 @@ CMakeFiles/04-isRobotBounded.dir/clean:
 CMakeFiles/01-maximumWealth.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-maximumWealth.dir\build.make CMakeFiles/01-maximumWealth.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-maximumWealth.dir\build.make CMakeFiles/01-maximumWealth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target 01-maximumWealth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=12 "Built target 01-maximumWealth"
 .PHONY : CMakeFiles/01-maximumWealth.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/01-maximumWealth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/01-maximumWealth.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/01-maximumWealth.dir/rule
@@ -692,7 +698,7 @@ CMakeFiles/01-maximumWealth.dir/clean:
 CMakeFiles/02-diagonalSum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-diagonalSum.dir\build.make CMakeFiles/02-diagonalSum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-diagonalSum.dir\build.make CMakeFiles/02-diagonalSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=21 "Built target 02-diagonalSum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=20 "Built target 02-diagonalSum"
 .PHONY : CMakeFiles/02-diagonalSum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -718,7 +724,7 @@ CMakeFiles/02-diagonalSum.dir/clean:
 CMakeFiles/03-spiralOrder.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-spiralOrder.dir\build.make CMakeFiles/03-spiralOrder.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-spiralOrder.dir\build.make CMakeFiles/03-spiralOrder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target 03-spiralOrder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target 03-spiralOrder"
 .PHONY : CMakeFiles/03-spiralOrder.dir/all
 
 # Build rule for subdir invocation for target.
@@ -744,12 +750,12 @@ CMakeFiles/03-spiralOrder.dir/clean:
 CMakeFiles/04-setZeroes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-setZeroes.dir\build.make CMakeFiles/04-setZeroes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-setZeroes.dir\build.make CMakeFiles/04-setZeroes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=56 "Built target 04-setZeroes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target 04-setZeroes"
 .PHONY : CMakeFiles/04-setZeroes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/04-setZeroes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/04-setZeroes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/04-setZeroes.dir/rule
@@ -796,7 +802,7 @@ CMakeFiles/01-countOdds.dir/clean:
 CMakeFiles/02-average.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-average.dir\build.make CMakeFiles/02-average.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-average.dir\build.make CMakeFiles/02-average.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 02-average"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target 02-average"
 .PHONY : CMakeFiles/02-average.dir/all
 
 # Build rule for subdir invocation for target.
@@ -822,7 +828,7 @@ CMakeFiles/02-average.dir/clean:
 CMakeFiles/03-lemonadeChange.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-lemonadeChange.dir\build.make CMakeFiles/03-lemonadeChange.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-lemonadeChange.dir\build.make CMakeFiles/03-lemonadeChange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target 03-lemonadeChange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target 03-lemonadeChange"
 .PHONY : CMakeFiles/03-lemonadeChange.dir/all
 
 # Build rule for subdir invocation for target.
@@ -848,12 +854,12 @@ CMakeFiles/03-lemonadeChange.dir/clean:
 CMakeFiles/04-largestPerimeter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-largestPerimeter.dir\build.make CMakeFiles/04-largestPerimeter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-largestPerimeter.dir\build.make CMakeFiles/04-largestPerimeter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target 04-largestPerimeter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=53 "Built target 04-largestPerimeter"
 .PHONY : CMakeFiles/04-largestPerimeter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/04-largestPerimeter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/04-largestPerimeter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/04-largestPerimeter.dir/rule
@@ -874,7 +880,7 @@ CMakeFiles/04-largestPerimeter.dir/clean:
 CMakeFiles/05-checkStraightLine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-checkStraightLine.dir\build.make CMakeFiles/05-checkStraightLine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-checkStraightLine.dir\build.make CMakeFiles/05-checkStraightLine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target 05-checkStraightLine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=56,57 "Built target 05-checkStraightLine"
 .PHONY : CMakeFiles/05-checkStraightLine.dir/all
 
 # Build rule for subdir invocation for target.
@@ -926,7 +932,7 @@ CMakeFiles/06-addBinary.dir/clean:
 CMakeFiles/07-multiply.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-multiply.dir\build.make CMakeFiles/07-multiply.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-multiply.dir\build.make CMakeFiles/07-multiply.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=74,75 "Built target 07-multiply"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target 07-multiply"
 .PHONY : CMakeFiles/07-multiply.dir/all
 
 # Build rule for subdir invocation for target.
@@ -952,7 +958,7 @@ CMakeFiles/07-multiply.dir/clean:
 CMakeFiles/01-mergeTwoLists.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-mergeTwoLists.dir\build.make CMakeFiles/01-mergeTwoLists.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-mergeTwoLists.dir\build.make CMakeFiles/01-mergeTwoLists.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=16 "Built target 01-mergeTwoLists"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=15 "Built target 01-mergeTwoLists"
 .PHONY : CMakeFiles/01-mergeTwoLists.dir/all
 
 # Build rule for subdir invocation for target.
@@ -978,12 +984,12 @@ CMakeFiles/01-mergeTwoLists.dir/clean:
 CMakeFiles/02-reverseList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-reverseList.dir\build.make CMakeFiles/02-reverseList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-reverseList.dir\build.make CMakeFiles/02-reverseList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=31 "Built target 02-reverseList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target 02-reverseList"
 .PHONY : CMakeFiles/02-reverseList.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/02-reverseList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/02-reverseList.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/02-reverseList.dir/rule
@@ -1004,12 +1010,12 @@ CMakeFiles/02-reverseList.dir/clean:
 CMakeFiles/01-maxVowels.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-maxVowels.dir\build.make CMakeFiles/01-maxVowels.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-maxVowels.dir\build.make CMakeFiles/01-maxVowels.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=11 "Built target 01-maxVowels"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target 01-maxVowels"
 .PHONY : CMakeFiles/01-maxVowels.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/01-maxVowels.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/01-maxVowels.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/01-maxVowels.dir/rule
@@ -1030,12 +1036,12 @@ CMakeFiles/01-maxVowels.dir/clean:
 CMakeFiles/02-fundMaxAverage.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-fundMaxAverage.dir\build.make CMakeFiles/02-fundMaxAverage.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-fundMaxAverage.dir\build.make CMakeFiles/02-fundMaxAverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=26 "Built target 02-fundMaxAverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target 02-fundMaxAverage"
 .PHONY : CMakeFiles/02-fundMaxAverage.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/02-fundMaxAverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/02-fundMaxAverage.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/02-fundMaxAverage.dir/rule
@@ -1056,7 +1062,7 @@ CMakeFiles/02-fundMaxAverage.dir/clean:
 CMakeFiles/03-numOfSubarrays.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-numOfSubarrays.dir\build.make CMakeFiles/03-numOfSubarrays.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-numOfSubarrays.dir\build.make CMakeFiles/03-numOfSubarrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=41 "Built target 03-numOfSubarrays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=39 "Built target 03-numOfSubarrays"
 .PHONY : CMakeFiles/03-numOfSubarrays.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1082,7 +1088,7 @@ CMakeFiles/03-numOfSubarrays.dir/clean:
 CMakeFiles/04-getAverages.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-getAverages.dir\build.make CMakeFiles/04-getAverages.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-getAverages.dir\build.make CMakeFiles/04-getAverages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target 04-getAverages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target 04-getAverages"
 .PHONY : CMakeFiles/04-getAverages.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1160,12 +1166,12 @@ CMakeFiles/06-decrypt.dir/clean:
 CMakeFiles/07-maxSatisfied.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maxSatisfied.dir\build.make CMakeFiles/07-maxSatisfied.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maxSatisfied.dir\build.make CMakeFiles/07-maxSatisfied.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=71 "Built target 07-maxSatisfied"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=72,73 "Built target 07-maxSatisfied"
 .PHONY : CMakeFiles/07-maxSatisfied.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/07-maxSatisfied.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/07-maxSatisfied.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/07-maxSatisfied.dir/rule
@@ -1186,12 +1192,12 @@ CMakeFiles/07-maxSatisfied.dir/clean:
 CMakeFiles/08-hasAllCodes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-hasAllCodes.dir\build.make CMakeFiles/08-hasAllCodes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-hasAllCodes.dir\build.make CMakeFiles/08-hasAllCodes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target 08-hasAllCodes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=80 "Built target 08-hasAllCodes"
 .PHONY : CMakeFiles/08-hasAllCodes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/08-hasAllCodes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/08-hasAllCodes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/08-hasAllCodes.dir/rule
@@ -1212,12 +1218,12 @@ CMakeFiles/08-hasAllCodes.dir/clean:
 CMakeFiles/09-maxSum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maxSum.dir\build.make CMakeFiles/09-maxSum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maxSum.dir\build.make CMakeFiles/09-maxSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=84,85 "Built target 09-maxSum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=85 "Built target 09-maxSum"
 .PHONY : CMakeFiles/09-maxSum.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/09-maxSum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/09-maxSum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/09-maxSum.dir/rule
@@ -1238,12 +1244,12 @@ CMakeFiles/09-maxSum.dir/clean:
 CMakeFiles/10-maximumSubarraySum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maximumSubarraySum.dir\build.make CMakeFiles/10-maximumSubarraySum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-maximumSubarraySum.dir\build.make CMakeFiles/10-maximumSubarraySum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=91 "Built target 10-maximumSubarraySum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=91,92 "Built target 10-maximumSubarraySum"
 .PHONY : CMakeFiles/10-maximumSubarraySum.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/10-maximumSubarraySum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/10-maximumSubarraySum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/10-maximumSubarraySum.dir/rule
@@ -1316,7 +1322,7 @@ CMakeFiles/12-maxFreq.dir/clean:
 CMakeFiles/01-lengthOfLongestSubstring.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-lengthOfLongestSubstring.dir\build.make CMakeFiles/01-lengthOfLongestSubstring.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-lengthOfLongestSubstring.dir\build.make CMakeFiles/01-lengthOfLongestSubstring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 01-lengthOfLongestSubstring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target 01-lengthOfLongestSubstring"
 .PHONY : CMakeFiles/01-lengthOfLongestSubstring.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1342,7 +1348,7 @@ CMakeFiles/01-lengthOfLongestSubstring.dir/clean:
 CMakeFiles/02-maximumLengthSubstring.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumLengthSubstring.dir\build.make CMakeFiles/02-maximumLengthSubstring.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumLengthSubstring.dir\build.make CMakeFiles/02-maximumLengthSubstring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target 02-maximumLengthSubstring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target 02-maximumLengthSubstring"
 .PHONY : CMakeFiles/02-maximumLengthSubstring.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1368,7 +1374,7 @@ CMakeFiles/02-maximumLengthSubstring.dir/clean:
 CMakeFiles/03-longestSubarray.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-longestSubarray.dir\build.make CMakeFiles/03-longestSubarray.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-longestSubarray.dir\build.make CMakeFiles/03-longestSubarray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target 03-longestSubarray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target 03-longestSubarray"
 .PHONY : CMakeFiles/03-longestSubarray.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1394,12 +1400,12 @@ CMakeFiles/03-longestSubarray.dir/clean:
 CMakeFiles/04-equalSubstring.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-equalSubstring.dir\build.make CMakeFiles/04-equalSubstring.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-equalSubstring.dir\build.make CMakeFiles/04-equalSubstring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target 04-equalSubstring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=47 "Built target 04-equalSubstring"
 .PHONY : CMakeFiles/04-equalSubstring.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/04-equalSubstring.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/04-equalSubstring.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/04-equalSubstring.dir/rule
@@ -1446,7 +1452,7 @@ CMakeFiles/05-longestSemiRepetitiveSubstring.dir/clean:
 CMakeFiles/06-totalFruit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-totalFruit.dir\build.make CMakeFiles/06-totalFruit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-totalFruit.dir\build.make CMakeFiles/06-totalFruit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target 06-totalFruit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=70,71 "Built target 06-totalFruit"
 .PHONY : CMakeFiles/06-totalFruit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1472,12 +1478,12 @@ CMakeFiles/06-totalFruit.dir/clean:
 CMakeFiles/07-maximumUniqueSubarray.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maximumUniqueSubarray.dir\build.make CMakeFiles/07-maximumUniqueSubarray.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-maximumUniqueSubarray.dir\build.make CMakeFiles/07-maximumUniqueSubarray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=72,73 "Built target 07-maximumUniqueSubarray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=74 "Built target 07-maximumUniqueSubarray"
 .PHONY : CMakeFiles/07-maximumUniqueSubarray.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/07-maximumUniqueSubarray.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/07-maximumUniqueSubarray.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/07-maximumUniqueSubarray.dir/rule
@@ -1498,12 +1504,12 @@ CMakeFiles/07-maximumUniqueSubarray.dir/clean:
 CMakeFiles/08-maxSubarrayLength.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-maxSubarrayLength.dir\build.make CMakeFiles/08-maxSubarrayLength.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-maxSubarrayLength.dir\build.make CMakeFiles/08-maxSubarrayLength.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=81 "Built target 08-maxSubarrayLength"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target 08-maxSubarrayLength"
 .PHONY : CMakeFiles/08-maxSubarrayLength.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/08-maxSubarrayLength.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/08-maxSubarrayLength.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/08-maxSubarrayLength.dir/rule
@@ -1524,12 +1530,12 @@ CMakeFiles/08-maxSubarrayLength.dir/clean:
 CMakeFiles/09-maximumBeauty.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maximumBeauty.dir\build.make CMakeFiles/09-maximumBeauty.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-maximumBeauty.dir\build.make CMakeFiles/09-maximumBeauty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=86 "Built target 09-maximumBeauty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=86,87 "Built target 09-maximumBeauty"
 .PHONY : CMakeFiles/09-maximumBeauty.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/09-maximumBeauty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/09-maximumBeauty.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/09-maximumBeauty.dir/rule
@@ -1576,12 +1582,12 @@ CMakeFiles/10-maxConsecutiveAnswers.dir/clean:
 CMakeFiles/11-longestOnes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-longestOnes.dir\build.make CMakeFiles/11-longestOnes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-longestOnes.dir\build.make CMakeFiles/11-longestOnes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=92,93 "Built target 11-longestOnes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=93 "Built target 11-longestOnes"
 .PHONY : CMakeFiles/11-longestOnes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/11-longestOnes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/11-longestOnes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/11-longestOnes.dir/rule
@@ -1602,7 +1608,7 @@ CMakeFiles/11-longestOnes.dir/clean:
 CMakeFiles/01-numIslands.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-numIslands.dir\build.make CMakeFiles/01-numIslands.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 01-numIslands"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target 01-numIslands"
 .PHONY : CMakeFiles/01-numIslands.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1628,12 +1634,12 @@ CMakeFiles/01-numIslands.dir/clean:
 CMakeFiles/01-dailyTemperatures.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-dailyTemperatures.dir\build.make CMakeFiles/01-dailyTemperatures.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-dailyTemperatures.dir\build.make CMakeFiles/01-dailyTemperatures.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target 01-dailyTemperatures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=4 "Built target 01-dailyTemperatures"
 .PHONY : CMakeFiles/01-dailyTemperatures.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/01-dailyTemperatures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/01-dailyTemperatures.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/01-dailyTemperatures.dir/rule
@@ -1654,7 +1660,7 @@ CMakeFiles/01-dailyTemperatures.dir/clean:
 CMakeFiles/02-finalPrices.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-finalPrices.dir\build.make CMakeFiles/02-finalPrices.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-finalPrices.dir\build.make CMakeFiles/02-finalPrices.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target 02-finalPrices"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 02-finalPrices"
 .PHONY : CMakeFiles/02-finalPrices.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1680,12 +1686,12 @@ CMakeFiles/02-finalPrices.dir/clean:
 CMakeFiles/01-findCircleNum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=6 "Built target 01-findCircleNum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 01-findCircleNum"
 .PHONY : CMakeFiles/01-findCircleNum.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/01-findCircleNum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/01-findCircleNum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/01-findCircleNum.dir/rule
@@ -1706,7 +1712,7 @@ CMakeFiles/01-findCircleNum.dir/clean:
 CMakeFiles/02-validPath.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-validPath.dir\build.make CMakeFiles/02-validPath.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-validPath.dir\build.make CMakeFiles/02-validPath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target 02-validPath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target 02-validPath"
 .PHONY : CMakeFiles/02-validPath.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1732,7 +1738,7 @@ CMakeFiles/02-validPath.dir/clean:
 CMakeFiles/03-allPathsSourceTarget.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-allPathsSourceTarget.dir\build.make CMakeFiles/03-allPathsSourceTarget.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-allPathsSourceTarget.dir\build.make CMakeFiles/03-allPathsSourceTarget.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=36 "Built target 03-allPathsSourceTarget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=34 "Built target 03-allPathsSourceTarget"
 .PHONY : CMakeFiles/03-allPathsSourceTarget.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1750,6 +1756,84 @@ CMakeFiles/03-allPathsSourceTarget.dir/rule: cmake_check_build_system
 CMakeFiles/03-allPathsSourceTarget.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-allPathsSourceTarget.dir\build.make CMakeFiles/03-allPathsSourceTarget.dir/clean
 .PHONY : CMakeFiles/03-allPathsSourceTarget.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/04-canVisitAllRooms.dir
+
+# All Build rule for target.
+CMakeFiles/04-canVisitAllRooms.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target 04-canVisitAllRooms"
+.PHONY : CMakeFiles/04-canVisitAllRooms.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/04-canVisitAllRooms.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/04-canVisitAllRooms.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/04-canVisitAllRooms.dir/rule
+
+# Convenience name for target.
+04-canVisitAllRooms: CMakeFiles/04-canVisitAllRooms.dir/rule
+.PHONY : 04-canVisitAllRooms
+
+# clean rule for target.
+CMakeFiles/04-canVisitAllRooms.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-canVisitAllRooms.dir\build.make CMakeFiles/04-canVisitAllRooms.dir/clean
+.PHONY : CMakeFiles/04-canVisitAllRooms.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/05-countPairs.dir
+
+# All Build rule for target.
+CMakeFiles/05-countPairs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=58 "Built target 05-countPairs"
+.PHONY : CMakeFiles/05-countPairs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/05-countPairs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/05-countPairs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/05-countPairs.dir/rule
+
+# Convenience name for target.
+05-countPairs: CMakeFiles/05-countPairs.dir/rule
+.PHONY : 05-countPairs
+
+# clean rule for target.
+CMakeFiles/05-countPairs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05-countPairs.dir\build.make CMakeFiles/05-countPairs.dir/clean
+.PHONY : CMakeFiles/05-countPairs.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/06-makeConnected.dir
+
+# All Build rule for target.
+CMakeFiles/06-makeConnected.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-makeConnected.dir\build.make CMakeFiles/06-makeConnected.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-makeConnected.dir\build.make CMakeFiles/06-makeConnected.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target 06-makeConnected"
+.PHONY : CMakeFiles/06-makeConnected.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/06-makeConnected.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/06-makeConnected.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/06-makeConnected.dir/rule
+
+# Convenience name for target.
+06-makeConnected: CMakeFiles/06-makeConnected.dir/rule
+.PHONY : 06-makeConnected
+
+# clean rule for target.
+CMakeFiles/06-makeConnected.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-makeConnected.dir\build.make CMakeFiles/06-makeConnected.dir/clean
+.PHONY : CMakeFiles/06-makeConnected.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

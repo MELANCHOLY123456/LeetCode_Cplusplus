@@ -75,4 +75,6 @@ add_executable(02-finalPrices monotonic_stack/02-finalPrices.cpp)
 add_executable(01-findCircleNum graph_theoretic_algorithm/01-findCircleNum.cpp)
 add_executable(02-validPath graph_theoretic_algorithm/02-validPath.cpp)
 add_executable(03-allPathsSourceTarget graph_theoretic_algorithm/03-allPathsSourceTarget.cpp)
-
+add_executable(04-canVisitAllRooms graph_theoretic_algorithm/04-canVisitAllRooms.cpp)
+add_executable(05-countPairs graph_theoretic_algorithm/05-countPairs.cpp)
+add_executable(06-makeConnected graph_theoretic_algorithm/06-makeConnected.cpp)
