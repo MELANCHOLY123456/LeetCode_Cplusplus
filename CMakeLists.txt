@@ -78,3 +78,5 @@ add_executable(03-allPathsSourceTarget graph_theoretic_algorithm/03-allPathsSour
 add_executable(04-canVisitAllRooms graph_theoretic_algorithm/04-canVisitAllRooms.cpp)
 add_executable(05-countPairs graph_theoretic_algorithm/05-countPairs.cpp)
 add_executable(06-makeConnected graph_theoretic_algorithm/06-makeConnected.cpp)
+add_executable(07-minScore graph_theoretic_algorithm/07-minScore.cpp)
+add_executable(08-countCompleteComponents graph_theoretic_algorithm/08-countCompleteComponents.cpp)

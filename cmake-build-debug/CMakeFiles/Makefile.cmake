@@ -112,4 +112,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/04-canVisitAllRooms.dir/DependInfo.cmake"
   "CMakeFiles/05-countPairs.dir/DependInfo.cmake"
   "CMakeFiles/06-makeConnected.dir/DependInfo.cmake"
+  "CMakeFiles/07-minScore.dir/DependInfo.cmake"
+  "CMakeFiles/08-countCompleteComponents.dir/DependInfo.cmake"
   )

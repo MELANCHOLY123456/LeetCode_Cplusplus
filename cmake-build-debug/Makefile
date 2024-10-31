@@ -934,6 +934,32 @@ LeeTCode_C__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-makeConnected.dir\build.make CMakeFiles/06-makeConnected.dir/build
 .PHONY : 06-makeConnected/fast
 
+#=============================================================================
+# Target rules for targets named 07-minScore
+
+# Build rule for target.
+07-minScore: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 07-minScore
+.PHONY : 07-minScore
+
+# fast build rule for target.
+07-minScore/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-minScore.dir\build.make CMakeFiles/07-minScore.dir/build
+.PHONY : 07-minScore/fast
+
+#=============================================================================
+# Target rules for targets named 08-countCompleteComponents
+
+# Build rule for target.
+08-countCompleteComponents: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 08-countCompleteComponents
+.PHONY : 08-countCompleteComponents
+
+# fast build rule for target.
+08-countCompleteComponents/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-countCompleteComponents.dir\build.make CMakeFiles/08-countCompleteComponents.dir/build
+.PHONY : 08-countCompleteComponents/fast
+
 basic_of_programming/LinkList/01-mergeTwoLists.obj: basic_of_programming/LinkList/01-mergeTwoLists.cpp.obj
 .PHONY : basic_of_programming/LinkList/01-mergeTwoLists.obj
 
@@ -1798,6 +1824,54 @@ graph_theoretic_algorithm/06-makeConnected.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\06-makeConnected.dir\build.make CMakeFiles/06-makeConnected.dir/graph_theoretic_algorithm/06-makeConnected.cpp.s
 .PHONY : graph_theoretic_algorithm/06-makeConnected.cpp.s
 
+graph_theoretic_algorithm/07-minScore.obj: graph_theoretic_algorithm/07-minScore.cpp.obj
+.PHONY : graph_theoretic_algorithm/07-minScore.obj
+
+# target to build an object file
+graph_theoretic_algorithm/07-minScore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-minScore.dir\build.make CMakeFiles/07-minScore.dir/graph_theoretic_algorithm/07-minScore.cpp.obj
+.PHONY : graph_theoretic_algorithm/07-minScore.cpp.obj
+
+graph_theoretic_algorithm/07-minScore.i: graph_theoretic_algorithm/07-minScore.cpp.i
+.PHONY : graph_theoretic_algorithm/07-minScore.i
+
+# target to preprocess a source file
+graph_theoretic_algorithm/07-minScore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-minScore.dir\build.make CMakeFiles/07-minScore.dir/graph_theoretic_algorithm/07-minScore.cpp.i
+.PHONY : graph_theoretic_algorithm/07-minScore.cpp.i
+
+graph_theoretic_algorithm/07-minScore.s: graph_theoretic_algorithm/07-minScore.cpp.s
+.PHONY : graph_theoretic_algorithm/07-minScore.s
+
+# target to generate assembly for a file
+graph_theoretic_algorithm/07-minScore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07-minScore.dir\build.make CMakeFiles/07-minScore.dir/graph_theoretic_algorithm/07-minScore.cpp.s
+.PHONY : graph_theoretic_algorithm/07-minScore.cpp.s
+
+graph_theoretic_algorithm/08-countCompleteComponents.obj: graph_theoretic_algorithm/08-countCompleteComponents.cpp.obj
+.PHONY : graph_theoretic_algorithm/08-countCompleteComponents.obj
+
+# target to build an object file
+graph_theoretic_algorithm/08-countCompleteComponents.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-countCompleteComponents.dir\build.make CMakeFiles/08-countCompleteComponents.dir/graph_theoretic_algorithm/08-countCompleteComponents.cpp.obj
+.PHONY : graph_theoretic_algorithm/08-countCompleteComponents.cpp.obj
+
+graph_theoretic_algorithm/08-countCompleteComponents.i: graph_theoretic_algorithm/08-countCompleteComponents.cpp.i
+.PHONY : graph_theoretic_algorithm/08-countCompleteComponents.i
+
+# target to preprocess a source file
+graph_theoretic_algorithm/08-countCompleteComponents.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-countCompleteComponents.dir\build.make CMakeFiles/08-countCompleteComponents.dir/graph_theoretic_algorithm/08-countCompleteComponents.cpp.i
+.PHONY : graph_theoretic_algorithm/08-countCompleteComponents.cpp.i
+
+graph_theoretic_algorithm/08-countCompleteComponents.s: graph_theoretic_algorithm/08-countCompleteComponents.cpp.s
+.PHONY : graph_theoretic_algorithm/08-countCompleteComponents.s
+
+# target to generate assembly for a file
+graph_theoretic_algorithm/08-countCompleteComponents.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-countCompleteComponents.dir\build.make CMakeFiles/08-countCompleteComponents.dir/graph_theoretic_algorithm/08-countCompleteComponents.cpp.s
+.PHONY : graph_theoretic_algorithm/08-countCompleteComponents.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -2501,9 +2575,11 @@ help:
 	@echo ... 06-totalFruit
 	@echo ... 07-maxSatisfied
 	@echo ... 07-maximumUniqueSubarray
+	@echo ... 07-minScore
 	@echo ... 07-multiply
 	@echo ... 07-plusOne
 	@echo ... 08-arraySign
+	@echo ... 08-countCompleteComponents
 	@echo ... 08-hasAllCodes
 	@echo ... 08-maxSubarrayLength
 	@echo ... 09-canMakeArithmeticProgression
@@ -2625,6 +2701,12 @@ help:
 	@echo ... graph_theoretic_algorithm/06-makeConnected.obj
 	@echo ... graph_theoretic_algorithm/06-makeConnected.i
 	@echo ... graph_theoretic_algorithm/06-makeConnected.s
+	@echo ... graph_theoretic_algorithm/07-minScore.obj
+	@echo ... graph_theoretic_algorithm/07-minScore.i
+	@echo ... graph_theoretic_algorithm/07-minScore.s
+	@echo ... graph_theoretic_algorithm/08-countCompleteComponents.obj
+	@echo ... graph_theoretic_algorithm/08-countCompleteComponents.i
+	@echo ... graph_theoretic_algorithm/08-countCompleteComponents.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
