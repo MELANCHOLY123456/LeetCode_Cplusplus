@@ -3,8 +3,7 @@ project(LeeTCode_C__)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(LeeTCode_C__ main.cpp
-)
+add_executable(LeeTCode_C__ main.cpp)
 
 add_executable(01-mergeAlternately basic_of_programming/basic_realization/01-mergeAlternately.cpp)
 add_executable(02-findTheDifference basic_of_programming/basic_realization/02-findTheDifference.cpp)
@@ -80,3 +79,11 @@ add_executable(05-countPairs graph_theoretic_algorithm/05-countPairs.cpp)
 add_executable(06-makeConnected graph_theoretic_algorithm/06-makeConnected.cpp)
 add_executable(07-minScore graph_theoretic_algorithm/07-minScore.cpp)
 add_executable(08-countCompleteComponents graph_theoretic_algorithm/08-countCompleteComponents.cpp)
+
+add_executable(01-climbStairs_70 DP/elementary/climb-stairs/01-climbStairs_70.cpp)
+add_executable(02-minCostClimbingStairs_746 DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp)
+add_executable(03-combinationSum4_377 DP/elementary/climb-stairs/03-combinationSum4_377.cpp)
+add_executable(04-countGoodStrings_2466 DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp)
+
+add_executable(01-rob_198 DP/elementary/rob/01-rob_198.cpp)
+add_executable(02-deleteAndEarn_740 DP/elementary/rob/02-deleteAndEarn_740.cpp)
