@@ -960,6 +960,241 @@ LeeTCode_C__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-countCompleteComponents.dir\build.make CMakeFiles/08-countCompleteComponents.dir/build
 .PHONY : 08-countCompleteComponents/fast
 
+#=============================================================================
+# Target rules for targets named 09-getAncestors_2192
+
+# Build rule for target.
+09-getAncestors_2192: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 09-getAncestors_2192
+.PHONY : 09-getAncestors_2192
+
+# fast build rule for target.
+09-getAncestors_2192/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-getAncestors_2192.dir\build.make CMakeFiles/09-getAncestors_2192.dir/build
+.PHONY : 09-getAncestors_2192/fast
+
+#=============================================================================
+# Target rules for targets named 01-climbStairs_70
+
+# Build rule for target.
+01-climbStairs_70: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-climbStairs_70
+.PHONY : 01-climbStairs_70
+
+# fast build rule for target.
+01-climbStairs_70/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-climbStairs_70.dir\build.make CMakeFiles/01-climbStairs_70.dir/build
+.PHONY : 01-climbStairs_70/fast
+
+#=============================================================================
+# Target rules for targets named 02-minCostClimbingStairs_746
+
+# Build rule for target.
+02-minCostClimbingStairs_746: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02-minCostClimbingStairs_746
+.PHONY : 02-minCostClimbingStairs_746
+
+# fast build rule for target.
+02-minCostClimbingStairs_746/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-minCostClimbingStairs_746.dir\build.make CMakeFiles/02-minCostClimbingStairs_746.dir/build
+.PHONY : 02-minCostClimbingStairs_746/fast
+
+#=============================================================================
+# Target rules for targets named 03-combinationSum4_377
+
+# Build rule for target.
+03-combinationSum4_377: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 03-combinationSum4_377
+.PHONY : 03-combinationSum4_377
+
+# fast build rule for target.
+03-combinationSum4_377/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-combinationSum4_377.dir\build.make CMakeFiles/03-combinationSum4_377.dir/build
+.PHONY : 03-combinationSum4_377/fast
+
+#=============================================================================
+# Target rules for targets named 04-countGoodStrings_2466
+
+# Build rule for target.
+04-countGoodStrings_2466: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 04-countGoodStrings_2466
+.PHONY : 04-countGoodStrings_2466
+
+# fast build rule for target.
+04-countGoodStrings_2466/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-countGoodStrings_2466.dir\build.make CMakeFiles/04-countGoodStrings_2466.dir/build
+.PHONY : 04-countGoodStrings_2466/fast
+
+#=============================================================================
+# Target rules for targets named 01-rob_198
+
+# Build rule for target.
+01-rob_198: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-rob_198
+.PHONY : 01-rob_198
+
+# fast build rule for target.
+01-rob_198/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-rob_198.dir\build.make CMakeFiles/01-rob_198.dir/build
+.PHONY : 01-rob_198/fast
+
+#=============================================================================
+# Target rules for targets named 02-deleteAndEarn_740
+
+# Build rule for target.
+02-deleteAndEarn_740: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02-deleteAndEarn_740
+.PHONY : 02-deleteAndEarn_740
+
+# fast build rule for target.
+02-deleteAndEarn_740/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-deleteAndEarn_740.dir\build.make CMakeFiles/02-deleteAndEarn_740.dir/build
+.PHONY : 02-deleteAndEarn_740/fast
+
+DP/elementary/climb-stairs/01-climbStairs_70.obj: DP/elementary/climb-stairs/01-climbStairs_70.cpp.obj
+.PHONY : DP/elementary/climb-stairs/01-climbStairs_70.obj
+
+# target to build an object file
+DP/elementary/climb-stairs/01-climbStairs_70.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-climbStairs_70.dir\build.make CMakeFiles/01-climbStairs_70.dir/DP/elementary/climb-stairs/01-climbStairs_70.cpp.obj
+.PHONY : DP/elementary/climb-stairs/01-climbStairs_70.cpp.obj
+
+DP/elementary/climb-stairs/01-climbStairs_70.i: DP/elementary/climb-stairs/01-climbStairs_70.cpp.i
+.PHONY : DP/elementary/climb-stairs/01-climbStairs_70.i
+
+# target to preprocess a source file
+DP/elementary/climb-stairs/01-climbStairs_70.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-climbStairs_70.dir\build.make CMakeFiles/01-climbStairs_70.dir/DP/elementary/climb-stairs/01-climbStairs_70.cpp.i
+.PHONY : DP/elementary/climb-stairs/01-climbStairs_70.cpp.i
+
+DP/elementary/climb-stairs/01-climbStairs_70.s: DP/elementary/climb-stairs/01-climbStairs_70.cpp.s
+.PHONY : DP/elementary/climb-stairs/01-climbStairs_70.s
+
+# target to generate assembly for a file
+DP/elementary/climb-stairs/01-climbStairs_70.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-climbStairs_70.dir\build.make CMakeFiles/01-climbStairs_70.dir/DP/elementary/climb-stairs/01-climbStairs_70.cpp.s
+.PHONY : DP/elementary/climb-stairs/01-climbStairs_70.cpp.s
+
+DP/elementary/climb-stairs/02-minCostClimbingStairs_746.obj: DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.obj
+.PHONY : DP/elementary/climb-stairs/02-minCostClimbingStairs_746.obj
+
+# target to build an object file
+DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-minCostClimbingStairs_746.dir\build.make CMakeFiles/02-minCostClimbingStairs_746.dir/DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.obj
+.PHONY : DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.obj
+
+DP/elementary/climb-stairs/02-minCostClimbingStairs_746.i: DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.i
+.PHONY : DP/elementary/climb-stairs/02-minCostClimbingStairs_746.i
+
+# target to preprocess a source file
+DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-minCostClimbingStairs_746.dir\build.make CMakeFiles/02-minCostClimbingStairs_746.dir/DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.i
+.PHONY : DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.i
+
+DP/elementary/climb-stairs/02-minCostClimbingStairs_746.s: DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.s
+.PHONY : DP/elementary/climb-stairs/02-minCostClimbingStairs_746.s
+
+# target to generate assembly for a file
+DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-minCostClimbingStairs_746.dir\build.make CMakeFiles/02-minCostClimbingStairs_746.dir/DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.s
+.PHONY : DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp.s
+
+DP/elementary/climb-stairs/03-combinationSum4_377.obj: DP/elementary/climb-stairs/03-combinationSum4_377.cpp.obj
+.PHONY : DP/elementary/climb-stairs/03-combinationSum4_377.obj
+
+# target to build an object file
+DP/elementary/climb-stairs/03-combinationSum4_377.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-combinationSum4_377.dir\build.make CMakeFiles/03-combinationSum4_377.dir/DP/elementary/climb-stairs/03-combinationSum4_377.cpp.obj
+.PHONY : DP/elementary/climb-stairs/03-combinationSum4_377.cpp.obj
+
+DP/elementary/climb-stairs/03-combinationSum4_377.i: DP/elementary/climb-stairs/03-combinationSum4_377.cpp.i
+.PHONY : DP/elementary/climb-stairs/03-combinationSum4_377.i
+
+# target to preprocess a source file
+DP/elementary/climb-stairs/03-combinationSum4_377.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-combinationSum4_377.dir\build.make CMakeFiles/03-combinationSum4_377.dir/DP/elementary/climb-stairs/03-combinationSum4_377.cpp.i
+.PHONY : DP/elementary/climb-stairs/03-combinationSum4_377.cpp.i
+
+DP/elementary/climb-stairs/03-combinationSum4_377.s: DP/elementary/climb-stairs/03-combinationSum4_377.cpp.s
+.PHONY : DP/elementary/climb-stairs/03-combinationSum4_377.s
+
+# target to generate assembly for a file
+DP/elementary/climb-stairs/03-combinationSum4_377.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-combinationSum4_377.dir\build.make CMakeFiles/03-combinationSum4_377.dir/DP/elementary/climb-stairs/03-combinationSum4_377.cpp.s
+.PHONY : DP/elementary/climb-stairs/03-combinationSum4_377.cpp.s
+
+DP/elementary/climb-stairs/04-countGoodStrings_2466.obj: DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.obj
+.PHONY : DP/elementary/climb-stairs/04-countGoodStrings_2466.obj
+
+# target to build an object file
+DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-countGoodStrings_2466.dir\build.make CMakeFiles/04-countGoodStrings_2466.dir/DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.obj
+.PHONY : DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.obj
+
+DP/elementary/climb-stairs/04-countGoodStrings_2466.i: DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.i
+.PHONY : DP/elementary/climb-stairs/04-countGoodStrings_2466.i
+
+# target to preprocess a source file
+DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-countGoodStrings_2466.dir\build.make CMakeFiles/04-countGoodStrings_2466.dir/DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.i
+.PHONY : DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.i
+
+DP/elementary/climb-stairs/04-countGoodStrings_2466.s: DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.s
+.PHONY : DP/elementary/climb-stairs/04-countGoodStrings_2466.s
+
+# target to generate assembly for a file
+DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-countGoodStrings_2466.dir\build.make CMakeFiles/04-countGoodStrings_2466.dir/DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.s
+.PHONY : DP/elementary/climb-stairs/04-countGoodStrings_2466.cpp.s
+
+DP/elementary/rob/01-rob_198.obj: DP/elementary/rob/01-rob_198.cpp.obj
+.PHONY : DP/elementary/rob/01-rob_198.obj
+
+# target to build an object file
+DP/elementary/rob/01-rob_198.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-rob_198.dir\build.make CMakeFiles/01-rob_198.dir/DP/elementary/rob/01-rob_198.cpp.obj
+.PHONY : DP/elementary/rob/01-rob_198.cpp.obj
+
+DP/elementary/rob/01-rob_198.i: DP/elementary/rob/01-rob_198.cpp.i
+.PHONY : DP/elementary/rob/01-rob_198.i
+
+# target to preprocess a source file
+DP/elementary/rob/01-rob_198.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-rob_198.dir\build.make CMakeFiles/01-rob_198.dir/DP/elementary/rob/01-rob_198.cpp.i
+.PHONY : DP/elementary/rob/01-rob_198.cpp.i
+
+DP/elementary/rob/01-rob_198.s: DP/elementary/rob/01-rob_198.cpp.s
+.PHONY : DP/elementary/rob/01-rob_198.s
+
+# target to generate assembly for a file
+DP/elementary/rob/01-rob_198.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-rob_198.dir\build.make CMakeFiles/01-rob_198.dir/DP/elementary/rob/01-rob_198.cpp.s
+.PHONY : DP/elementary/rob/01-rob_198.cpp.s
+
+DP/elementary/rob/02-deleteAndEarn_740.obj: DP/elementary/rob/02-deleteAndEarn_740.cpp.obj
+.PHONY : DP/elementary/rob/02-deleteAndEarn_740.obj
+
+# target to build an object file
+DP/elementary/rob/02-deleteAndEarn_740.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-deleteAndEarn_740.dir\build.make CMakeFiles/02-deleteAndEarn_740.dir/DP/elementary/rob/02-deleteAndEarn_740.cpp.obj
+.PHONY : DP/elementary/rob/02-deleteAndEarn_740.cpp.obj
+
+DP/elementary/rob/02-deleteAndEarn_740.i: DP/elementary/rob/02-deleteAndEarn_740.cpp.i
+.PHONY : DP/elementary/rob/02-deleteAndEarn_740.i
+
+# target to preprocess a source file
+DP/elementary/rob/02-deleteAndEarn_740.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-deleteAndEarn_740.dir\build.make CMakeFiles/02-deleteAndEarn_740.dir/DP/elementary/rob/02-deleteAndEarn_740.cpp.i
+.PHONY : DP/elementary/rob/02-deleteAndEarn_740.cpp.i
+
+DP/elementary/rob/02-deleteAndEarn_740.s: DP/elementary/rob/02-deleteAndEarn_740.cpp.s
+.PHONY : DP/elementary/rob/02-deleteAndEarn_740.s
+
+# target to generate assembly for a file
+DP/elementary/rob/02-deleteAndEarn_740.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-deleteAndEarn_740.dir\build.make CMakeFiles/02-deleteAndEarn_740.dir/DP/elementary/rob/02-deleteAndEarn_740.cpp.s
+.PHONY : DP/elementary/rob/02-deleteAndEarn_740.cpp.s
+
 basic_of_programming/LinkList/01-mergeTwoLists.obj: basic_of_programming/LinkList/01-mergeTwoLists.cpp.obj
 .PHONY : basic_of_programming/LinkList/01-mergeTwoLists.obj
 
@@ -1872,6 +2107,54 @@ graph_theoretic_algorithm/08-countCompleteComponents.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\08-countCompleteComponents.dir\build.make CMakeFiles/08-countCompleteComponents.dir/graph_theoretic_algorithm/08-countCompleteComponents.cpp.s
 .PHONY : graph_theoretic_algorithm/08-countCompleteComponents.cpp.s
 
+graph_theoretic_algorithm/09-getAncestors_2192.obj: graph_theoretic_algorithm/09-getAncestors_2192.cpp.obj
+.PHONY : graph_theoretic_algorithm/09-getAncestors_2192.obj
+
+# target to build an object file
+graph_theoretic_algorithm/09-getAncestors_2192.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-getAncestors_2192.dir\build.make CMakeFiles/09-getAncestors_2192.dir/graph_theoretic_algorithm/09-getAncestors_2192.cpp.obj
+.PHONY : graph_theoretic_algorithm/09-getAncestors_2192.cpp.obj
+
+graph_theoretic_algorithm/09-getAncestors_2192.i: graph_theoretic_algorithm/09-getAncestors_2192.cpp.i
+.PHONY : graph_theoretic_algorithm/09-getAncestors_2192.i
+
+# target to preprocess a source file
+graph_theoretic_algorithm/09-getAncestors_2192.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-getAncestors_2192.dir\build.make CMakeFiles/09-getAncestors_2192.dir/graph_theoretic_algorithm/09-getAncestors_2192.cpp.i
+.PHONY : graph_theoretic_algorithm/09-getAncestors_2192.cpp.i
+
+graph_theoretic_algorithm/09-getAncestors_2192.s: graph_theoretic_algorithm/09-getAncestors_2192.cpp.s
+.PHONY : graph_theoretic_algorithm/09-getAncestors_2192.s
+
+# target to generate assembly for a file
+graph_theoretic_algorithm/09-getAncestors_2192.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09-getAncestors_2192.dir\build.make CMakeFiles/09-getAncestors_2192.dir/graph_theoretic_algorithm/09-getAncestors_2192.cpp.s
+.PHONY : graph_theoretic_algorithm/09-getAncestors_2192.cpp.s
+
+graph_theoretic_algorithm/10-minMalwareSpread_924.obj: graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.obj
+.PHONY : graph_theoretic_algorithm/10-minMalwareSpread_924.obj
+
+# target to build an object file
+graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.obj
+.PHONY : graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.obj
+
+graph_theoretic_algorithm/10-minMalwareSpread_924.i: graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.i
+.PHONY : graph_theoretic_algorithm/10-minMalwareSpread_924.i
+
+# target to preprocess a source file
+graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.i
+.PHONY : graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.i
+
+graph_theoretic_algorithm/10-minMalwareSpread_924.s: graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.s
+.PHONY : graph_theoretic_algorithm/10-minMalwareSpread_924.s
+
+# target to generate assembly for a file
+graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.s
+.PHONY : graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -2529,6 +2812,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 01-calPoints
+	@echo ... 01-climbStairs_70
 	@echo ... 01-countOdds
 	@echo ... 01-dailyTemperatures
 	@echo ... 01-findCircleNum
@@ -2539,17 +2823,21 @@ help:
 	@echo ... 01-mergeAlternately
 	@echo ... 01-mergeTwoLists
 	@echo ... 01-numIslands
+	@echo ... 01-rob_198
 	@echo ... 02-average
+	@echo ... 02-deleteAndEarn_740
 	@echo ... 02-diagonalSum
 	@echo ... 02-finalPrices
 	@echo ... 02-findTheDifference
 	@echo ... 02-fundMaxAverage
 	@echo ... 02-judgeCircle
 	@echo ... 02-maximumLengthSubstring
+	@echo ... 02-minCostClimbingStairs_746
 	@echo ... 02-reverseList
 	@echo ... 02-toLowerCase
 	@echo ... 02-validPath
 	@echo ... 03-allPathsSourceTarget
+	@echo ... 03-combinationSum4_377
 	@echo ... 03-lemonadeChange
 	@echo ... 03-longestSubarray
 	@echo ... 03-numOfSubarrays
@@ -2557,6 +2845,7 @@ help:
 	@echo ... 03-strStr
 	@echo ... 03-tictactoe
 	@echo ... 04-canVisitAllRooms
+	@echo ... 04-countGoodStrings_2466
 	@echo ... 04-equalSubstring
 	@echo ... 04-getAverages
 	@echo ... 04-isAnagram
@@ -2583,6 +2872,7 @@ help:
 	@echo ... 08-hasAllCodes
 	@echo ... 08-maxSubarrayLength
 	@echo ... 09-canMakeArithmeticProgression
+	@echo ... 09-getAncestors_2192
 	@echo ... 09-maxSum
 	@echo ... 09-maximumBeauty
 	@echo ... 10-isMonotonic
@@ -2593,6 +2883,24 @@ help:
 	@echo ... 11-romanToInt
 	@echo ... 12-maxFreq
 	@echo ... LeeTCode_C__
+	@echo ... DP/elementary/climb-stairs/01-climbStairs_70.obj
+	@echo ... DP/elementary/climb-stairs/01-climbStairs_70.i
+	@echo ... DP/elementary/climb-stairs/01-climbStairs_70.s
+	@echo ... DP/elementary/climb-stairs/02-minCostClimbingStairs_746.obj
+	@echo ... DP/elementary/climb-stairs/02-minCostClimbingStairs_746.i
+	@echo ... DP/elementary/climb-stairs/02-minCostClimbingStairs_746.s
+	@echo ... DP/elementary/climb-stairs/03-combinationSum4_377.obj
+	@echo ... DP/elementary/climb-stairs/03-combinationSum4_377.i
+	@echo ... DP/elementary/climb-stairs/03-combinationSum4_377.s
+	@echo ... DP/elementary/climb-stairs/04-countGoodStrings_2466.obj
+	@echo ... DP/elementary/climb-stairs/04-countGoodStrings_2466.i
+	@echo ... DP/elementary/climb-stairs/04-countGoodStrings_2466.s
+	@echo ... DP/elementary/rob/01-rob_198.obj
+	@echo ... DP/elementary/rob/01-rob_198.i
+	@echo ... DP/elementary/rob/01-rob_198.s
+	@echo ... DP/elementary/rob/02-deleteAndEarn_740.obj
+	@echo ... DP/elementary/rob/02-deleteAndEarn_740.i
+	@echo ... DP/elementary/rob/02-deleteAndEarn_740.s
 	@echo ... basic_of_programming/LinkList/01-mergeTwoLists.obj
 	@echo ... basic_of_programming/LinkList/01-mergeTwoLists.i
 	@echo ... basic_of_programming/LinkList/01-mergeTwoLists.s
@@ -2707,6 +3015,12 @@ help:
 	@echo ... graph_theoretic_algorithm/08-countCompleteComponents.obj
 	@echo ... graph_theoretic_algorithm/08-countCompleteComponents.i
 	@echo ... graph_theoretic_algorithm/08-countCompleteComponents.s
+	@echo ... graph_theoretic_algorithm/09-getAncestors_2192.obj
+	@echo ... graph_theoretic_algorithm/09-getAncestors_2192.i
+	@echo ... graph_theoretic_algorithm/09-getAncestors_2192.s
+	@echo ... graph_theoretic_algorithm/10-minMalwareSpread_924.obj
+	@echo ... graph_theoretic_algorithm/10-minMalwareSpread_924.i
+	@echo ... graph_theoretic_algorithm/10-minMalwareSpread_924.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
