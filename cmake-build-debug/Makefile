@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus
+CMAKE_SOURCE_DIR = D:\07-learning-resources\08-C++_Learning\01-LeetCode_Cplusplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug
+CMAKE_BINARY_DIR = D:\07-learning-resources\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-learning-resources\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles D:\07-learning-resources\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-我的学习资源\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\07-learning-resources\08-C++_Learning\01-LeetCode_Cplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -818,6 +818,32 @@ LeeTCode_C__/fast:
 .PHONY : 11-longestOnes/fast
 
 #=============================================================================
+# Target rules for targets named 12-minOperations_1658
+
+# Build rule for target.
+12-minOperations_1658: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12-minOperations_1658
+.PHONY : 12-minOperations_1658
+
+# fast build rule for target.
+12-minOperations_1658/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-minOperations_1658.dir\build.make CMakeFiles/12-minOperations_1658.dir/build
+.PHONY : 12-minOperations_1658/fast
+
+#=============================================================================
+# Target rules for targets named 13-maxFrequency_1838
+
+# Build rule for target.
+13-maxFrequency_1838: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 13-maxFrequency_1838
+.PHONY : 13-maxFrequency_1838
+
+# fast build rule for target.
+13-maxFrequency_1838/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-maxFrequency_1838.dir\build.make CMakeFiles/13-maxFrequency_1838.dir/build
+.PHONY : 13-maxFrequency_1838/fast
+
+#=============================================================================
 # Target rules for targets named 01-numIslands
 
 # Build rule for target.
@@ -974,6 +1000,19 @@ LeeTCode_C__/fast:
 .PHONY : 09-getAncestors_2192/fast
 
 #=============================================================================
+# Target rules for targets named 10-minMalwareSpread_924
+
+# Build rule for target.
+10-minMalwareSpread_924: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-minMalwareSpread_924
+.PHONY : 10-minMalwareSpread_924
+
+# fast build rule for target.
+10-minMalwareSpread_924/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-minMalwareSpread_924.dir\build.make CMakeFiles/10-minMalwareSpread_924.dir/build
+.PHONY : 10-minMalwareSpread_924/fast
+
+#=============================================================================
 # Target rules for targets named 01-climbStairs_70
 
 # Build rule for target.
@@ -1050,6 +1089,58 @@ LeeTCode_C__/fast:
 02-deleteAndEarn_740/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-deleteAndEarn_740.dir\build.make CMakeFiles/02-deleteAndEarn_740.dir/build
 .PHONY : 02-deleteAndEarn_740/fast
+
+#=============================================================================
+# Target rules for targets named 01-minimumBoxes_3074
+
+# Build rule for target.
+01-minimumBoxes_3074: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-minimumBoxes_3074
+.PHONY : 01-minimumBoxes_3074
+
+# fast build rule for target.
+01-minimumBoxes_3074/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-minimumBoxes_3074.dir\build.make CMakeFiles/01-minimumBoxes_3074.dir/build
+.PHONY : 01-minimumBoxes_3074/fast
+
+#=============================================================================
+# Target rules for targets named 02-maximumBags_2279
+
+# Build rule for target.
+02-maximumBags_2279: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02-maximumBags_2279
+.PHONY : 02-maximumBags_2279
+
+# fast build rule for target.
+02-maximumBags_2279/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumBags_2279.dir\build.make CMakeFiles/02-maximumBags_2279.dir/build
+.PHONY : 02-maximumBags_2279/fast
+
+#=============================================================================
+# Target rules for targets named 03-maxIceCream_1833
+
+# Build rule for target.
+03-maxIceCream_1833: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 03-maxIceCream_1833
+.PHONY : 03-maxIceCream_1833
+
+# fast build rule for target.
+03-maxIceCream_1833/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-maxIceCream_1833.dir\build.make CMakeFiles/03-maxIceCream_1833.dir/build
+.PHONY : 03-maxIceCream_1833/fast
+
+#=============================================================================
+# Target rules for targets named 04-largestSumAfterKNegations_1005
+
+# Build rule for target.
+04-largestSumAfterKNegations_1005: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 04-largestSumAfterKNegations_1005
+.PHONY : 04-largestSumAfterKNegations_1005
+
+# fast build rule for target.
+04-largestSumAfterKNegations_1005/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-largestSumAfterKNegations_1005.dir\build.make CMakeFiles/04-largestSumAfterKNegations_1005.dir/build
+.PHONY : 04-largestSumAfterKNegations_1005/fast
 
 DP/elementary/climb-stairs/01-climbStairs_70.obj: DP/elementary/climb-stairs/01-climbStairs_70.cpp.obj
 .PHONY : DP/elementary/climb-stairs/01-climbStairs_70.obj
@@ -2136,7 +2227,7 @@ graph_theoretic_algorithm/10-minMalwareSpread_924.obj: graph_theoretic_algorithm
 
 # target to build an object file
 graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-minMalwareSpread_924.dir\build.make CMakeFiles/10-minMalwareSpread_924.dir/graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.obj
 .PHONY : graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.obj
 
 graph_theoretic_algorithm/10-minMalwareSpread_924.i: graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.i
@@ -2144,7 +2235,7 @@ graph_theoretic_algorithm/10-minMalwareSpread_924.i: graph_theoretic_algorithm/1
 
 # target to preprocess a source file
 graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-minMalwareSpread_924.dir\build.make CMakeFiles/10-minMalwareSpread_924.dir/graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.i
 .PHONY : graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.i
 
 graph_theoretic_algorithm/10-minMalwareSpread_924.s: graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.s
@@ -2152,8 +2243,104 @@ graph_theoretic_algorithm/10-minMalwareSpread_924.s: graph_theoretic_algorithm/1
 
 # target to generate assembly for a file
 graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-findCircleNum.dir\build.make CMakeFiles/01-findCircleNum.dir/graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10-minMalwareSpread_924.dir\build.make CMakeFiles/10-minMalwareSpread_924.dir/graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.s
 .PHONY : graph_theoretic_algorithm/10-minMalwareSpread_924.cpp.s
+
+greedy_algorithm/01-minimumBoxes_3074.obj: greedy_algorithm/01-minimumBoxes_3074.cpp.obj
+.PHONY : greedy_algorithm/01-minimumBoxes_3074.obj
+
+# target to build an object file
+greedy_algorithm/01-minimumBoxes_3074.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-minimumBoxes_3074.dir\build.make CMakeFiles/01-minimumBoxes_3074.dir/greedy_algorithm/01-minimumBoxes_3074.cpp.obj
+.PHONY : greedy_algorithm/01-minimumBoxes_3074.cpp.obj
+
+greedy_algorithm/01-minimumBoxes_3074.i: greedy_algorithm/01-minimumBoxes_3074.cpp.i
+.PHONY : greedy_algorithm/01-minimumBoxes_3074.i
+
+# target to preprocess a source file
+greedy_algorithm/01-minimumBoxes_3074.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-minimumBoxes_3074.dir\build.make CMakeFiles/01-minimumBoxes_3074.dir/greedy_algorithm/01-minimumBoxes_3074.cpp.i
+.PHONY : greedy_algorithm/01-minimumBoxes_3074.cpp.i
+
+greedy_algorithm/01-minimumBoxes_3074.s: greedy_algorithm/01-minimumBoxes_3074.cpp.s
+.PHONY : greedy_algorithm/01-minimumBoxes_3074.s
+
+# target to generate assembly for a file
+greedy_algorithm/01-minimumBoxes_3074.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-minimumBoxes_3074.dir\build.make CMakeFiles/01-minimumBoxes_3074.dir/greedy_algorithm/01-minimumBoxes_3074.cpp.s
+.PHONY : greedy_algorithm/01-minimumBoxes_3074.cpp.s
+
+greedy_algorithm/02-maximumBags_2279.obj: greedy_algorithm/02-maximumBags_2279.cpp.obj
+.PHONY : greedy_algorithm/02-maximumBags_2279.obj
+
+# target to build an object file
+greedy_algorithm/02-maximumBags_2279.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumBags_2279.dir\build.make CMakeFiles/02-maximumBags_2279.dir/greedy_algorithm/02-maximumBags_2279.cpp.obj
+.PHONY : greedy_algorithm/02-maximumBags_2279.cpp.obj
+
+greedy_algorithm/02-maximumBags_2279.i: greedy_algorithm/02-maximumBags_2279.cpp.i
+.PHONY : greedy_algorithm/02-maximumBags_2279.i
+
+# target to preprocess a source file
+greedy_algorithm/02-maximumBags_2279.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumBags_2279.dir\build.make CMakeFiles/02-maximumBags_2279.dir/greedy_algorithm/02-maximumBags_2279.cpp.i
+.PHONY : greedy_algorithm/02-maximumBags_2279.cpp.i
+
+greedy_algorithm/02-maximumBags_2279.s: greedy_algorithm/02-maximumBags_2279.cpp.s
+.PHONY : greedy_algorithm/02-maximumBags_2279.s
+
+# target to generate assembly for a file
+greedy_algorithm/02-maximumBags_2279.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-maximumBags_2279.dir\build.make CMakeFiles/02-maximumBags_2279.dir/greedy_algorithm/02-maximumBags_2279.cpp.s
+.PHONY : greedy_algorithm/02-maximumBags_2279.cpp.s
+
+greedy_algorithm/03-maxIceCream_1833.obj: greedy_algorithm/03-maxIceCream_1833.cpp.obj
+.PHONY : greedy_algorithm/03-maxIceCream_1833.obj
+
+# target to build an object file
+greedy_algorithm/03-maxIceCream_1833.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-maxIceCream_1833.dir\build.make CMakeFiles/03-maxIceCream_1833.dir/greedy_algorithm/03-maxIceCream_1833.cpp.obj
+.PHONY : greedy_algorithm/03-maxIceCream_1833.cpp.obj
+
+greedy_algorithm/03-maxIceCream_1833.i: greedy_algorithm/03-maxIceCream_1833.cpp.i
+.PHONY : greedy_algorithm/03-maxIceCream_1833.i
+
+# target to preprocess a source file
+greedy_algorithm/03-maxIceCream_1833.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-maxIceCream_1833.dir\build.make CMakeFiles/03-maxIceCream_1833.dir/greedy_algorithm/03-maxIceCream_1833.cpp.i
+.PHONY : greedy_algorithm/03-maxIceCream_1833.cpp.i
+
+greedy_algorithm/03-maxIceCream_1833.s: greedy_algorithm/03-maxIceCream_1833.cpp.s
+.PHONY : greedy_algorithm/03-maxIceCream_1833.s
+
+# target to generate assembly for a file
+greedy_algorithm/03-maxIceCream_1833.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-maxIceCream_1833.dir\build.make CMakeFiles/03-maxIceCream_1833.dir/greedy_algorithm/03-maxIceCream_1833.cpp.s
+.PHONY : greedy_algorithm/03-maxIceCream_1833.cpp.s
+
+greedy_algorithm/04-largestSumAfterKNegations_1005.obj: greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.obj
+.PHONY : greedy_algorithm/04-largestSumAfterKNegations_1005.obj
+
+# target to build an object file
+greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-largestSumAfterKNegations_1005.dir\build.make CMakeFiles/04-largestSumAfterKNegations_1005.dir/greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.obj
+.PHONY : greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.obj
+
+greedy_algorithm/04-largestSumAfterKNegations_1005.i: greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.i
+.PHONY : greedy_algorithm/04-largestSumAfterKNegations_1005.i
+
+# target to preprocess a source file
+greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-largestSumAfterKNegations_1005.dir\build.make CMakeFiles/04-largestSumAfterKNegations_1005.dir/greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.i
+.PHONY : greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.i
+
+greedy_algorithm/04-largestSumAfterKNegations_1005.s: greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.s
+.PHONY : greedy_algorithm/04-largestSumAfterKNegations_1005.s
+
+# target to generate assembly for a file
+greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04-largestSumAfterKNegations_1005.dir\build.make CMakeFiles/04-largestSumAfterKNegations_1005.dir/greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.s
+.PHONY : greedy_algorithm/04-largestSumAfterKNegations_1005.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -2779,6 +2966,54 @@ slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11-longestOnes.dir\build.make CMakeFiles/11-longestOnes.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.s
 .PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp.s
 
+slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-minOperations_1658.dir\build.make CMakeFiles/12-minOperations_1658.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-minOperations_1658.dir\build.make CMakeFiles/12-minOperations_1658.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12-minOperations_1658.dir\build.make CMakeFiles/12-minOperations_1658.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp.s
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.obj: slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.obj
+
+# target to build an object file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-maxFrequency_1838.dir\build.make CMakeFiles/13-maxFrequency_1838.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.obj
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.obj
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.i: slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.i
+
+# target to preprocess a source file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-maxFrequency_1838.dir\build.make CMakeFiles/13-maxFrequency_1838.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.i
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.i
+
+slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.s: slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.s
+
+# target to generate assembly for a file
+slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13-maxFrequency_1838.dir\build.make CMakeFiles/13-maxFrequency_1838.dir/slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.s
+.PHONY : slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp.s
+
 web_graph/DFS/01-numIslands.obj: web_graph/DFS/01-numIslands.cpp.obj
 .PHONY : web_graph/DFS/01-numIslands.obj
 
@@ -2822,6 +3057,7 @@ help:
 	@echo ... 01-maximumWealth
 	@echo ... 01-mergeAlternately
 	@echo ... 01-mergeTwoLists
+	@echo ... 01-minimumBoxes_3074
 	@echo ... 01-numIslands
 	@echo ... 01-rob_198
 	@echo ... 02-average
@@ -2831,6 +3067,7 @@ help:
 	@echo ... 02-findTheDifference
 	@echo ... 02-fundMaxAverage
 	@echo ... 02-judgeCircle
+	@echo ... 02-maximumBags_2279
 	@echo ... 02-maximumLengthSubstring
 	@echo ... 02-minCostClimbingStairs_746
 	@echo ... 02-reverseList
@@ -2840,6 +3077,7 @@ help:
 	@echo ... 03-combinationSum4_377
 	@echo ... 03-lemonadeChange
 	@echo ... 03-longestSubarray
+	@echo ... 03-maxIceCream_1833
 	@echo ... 03-numOfSubarrays
 	@echo ... 03-spiralOrder
 	@echo ... 03-strStr
@@ -2851,6 +3089,7 @@ help:
 	@echo ... 04-isAnagram
 	@echo ... 04-isRobotBounded
 	@echo ... 04-largestPerimeter
+	@echo ... 04-largestSumAfterKNegations_1005
 	@echo ... 04-setZeroes
 	@echo ... 05-checkStraightLine
 	@echo ... 05-countPairs
@@ -2878,10 +3117,13 @@ help:
 	@echo ... 10-isMonotonic
 	@echo ... 10-maxConsecutiveAnswers
 	@echo ... 10-maximumSubarraySum
+	@echo ... 10-minMalwareSpread_924
 	@echo ... 11-longestOnes
 	@echo ... 11-maxScore
 	@echo ... 11-romanToInt
 	@echo ... 12-maxFreq
+	@echo ... 12-minOperations_1658
+	@echo ... 13-maxFrequency_1838
 	@echo ... LeeTCode_C__
 	@echo ... DP/elementary/climb-stairs/01-climbStairs_70.obj
 	@echo ... DP/elementary/climb-stairs/01-climbStairs_70.i
@@ -3021,6 +3263,18 @@ help:
 	@echo ... graph_theoretic_algorithm/10-minMalwareSpread_924.obj
 	@echo ... graph_theoretic_algorithm/10-minMalwareSpread_924.i
 	@echo ... graph_theoretic_algorithm/10-minMalwareSpread_924.s
+	@echo ... greedy_algorithm/01-minimumBoxes_3074.obj
+	@echo ... greedy_algorithm/01-minimumBoxes_3074.i
+	@echo ... greedy_algorithm/01-minimumBoxes_3074.s
+	@echo ... greedy_algorithm/02-maximumBags_2279.obj
+	@echo ... greedy_algorithm/02-maximumBags_2279.i
+	@echo ... greedy_algorithm/02-maximumBags_2279.s
+	@echo ... greedy_algorithm/03-maxIceCream_1833.obj
+	@echo ... greedy_algorithm/03-maxIceCream_1833.i
+	@echo ... greedy_algorithm/03-maxIceCream_1833.s
+	@echo ... greedy_algorithm/04-largestSumAfterKNegations_1005.obj
+	@echo ... greedy_algorithm/04-largestSumAfterKNegations_1005.i
+	@echo ... greedy_algorithm/04-largestSumAfterKNegations_1005.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -3099,6 +3353,12 @@ help:
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.obj
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.i
 	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.s
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.obj
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.i
+	@echo ... slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.s
 	@echo ... web_graph/DFS/01-numIslands.obj
 	@echo ... web_graph/DFS/01-numIslands.i
 	@echo ... web_graph/DFS/01-numIslands.s

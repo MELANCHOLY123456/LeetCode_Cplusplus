@@ -65,14 +65,15 @@ add_executable(08-maxSubarrayLength slidingWindow_doublePointers/indefinite-leng
 add_executable(09-maximumBeauty slidingWindow_doublePointers/indefinite-length_slidingWindow/09-maximumBeauty.cpp)
 add_executable(10-maxConsecutiveAnswers slidingWindow_doublePointers/indefinite-length_slidingWindow/10-maxConsecutiveAnswers.cpp)
 add_executable(11-longestOnes slidingWindow_doublePointers/indefinite-length_slidingWindow/11-longestOnes.cpp)
+add_executable(12-minOperations_1658 slidingWindow_doublePointers/indefinite-length_slidingWindow/12-minOperations_1658.cpp)
+add_executable(13-maxFrequency_1838 slidingWindow_doublePointers/indefinite-length_slidingWindow/13-maxFrequency_1838.cpp)
 
 add_executable(01-numIslands web_graph/DFS/01-numIslands.cpp)
 
 add_executable(01-dailyTemperatures monotonic_stack/01-dailyTemperatures.cpp)
 add_executable(02-finalPrices monotonic_stack/02-finalPrices.cpp)
 
-add_executable(01-findCircleNum graph_theoretic_algorithm/01-findCircleNum.cpp
-        graph_theoretic_algorithm/10-minMalwareSpread_924.cpp)
+add_executable(01-findCircleNum graph_theoretic_algorithm/01-findCircleNum.cpp)
 add_executable(02-validPath graph_theoretic_algorithm/02-validPath.cpp)
 add_executable(03-allPathsSourceTarget graph_theoretic_algorithm/03-allPathsSourceTarget.cpp)
 add_executable(04-canVisitAllRooms graph_theoretic_algorithm/04-canVisitAllRooms.cpp)
@@ -81,6 +82,7 @@ add_executable(06-makeConnected graph_theoretic_algorithm/06-makeConnected.cpp)
 add_executable(07-minScore graph_theoretic_algorithm/07-minScore.cpp)
 add_executable(08-countCompleteComponents graph_theoretic_algorithm/08-countCompleteComponents.cpp)
 add_executable(09-getAncestors_2192 graph_theoretic_algorithm/09-getAncestors_2192.cpp)
+add_executable(10-minMalwareSpread_924 graph_theoretic_algorithm/10-minMalwareSpread_924.cpp)
 
 add_executable(01-climbStairs_70 DP/elementary/climb-stairs/01-climbStairs_70.cpp)
 add_executable(02-minCostClimbingStairs_746 DP/elementary/climb-stairs/02-minCostClimbingStairs_746.cpp)
@@ -89,3 +91,8 @@ add_executable(04-countGoodStrings_2466 DP/elementary/climb-stairs/04-countGoodS
 
 add_executable(01-rob_198 DP/elementary/rob/01-rob_198.cpp)
 add_executable(02-deleteAndEarn_740 DP/elementary/rob/02-deleteAndEarn_740.cpp)
+
+add_executable(01-minimumBoxes_3074 greedy_algorithm/01-minimumBoxes_3074.cpp)
+add_executable(02-maximumBags_2279 greedy_algorithm/02-maximumBags_2279.cpp)
+add_executable(03-maxIceCream_1833 greedy_algorithm/03-maxIceCream_1833.cpp)
+add_executable(04-largestSumAfterKNegations_1005 greedy_algorithm/04-largestSumAfterKNegations_1005.cpp)
